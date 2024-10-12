@@ -1,0 +1,298 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 2em;
+    color: red;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* List Styles */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Figure and Image Styles */
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figure img {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+figcaption {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-top: 40px;
+}
+
+/* Additional Styles */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+footer:first-of-type {
+    margin-top: 30px;
+}
+
+footer + footer {
+    margin-top: 5px;
+}
+
+/* Button Container Style */
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #1f5a7a;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.5);
+}
+
+/* Additional Button Styles */
+.button1 {
+    background-color: #e74c3c;
+}
+
+.button1:hover {
+    background-color: #c0392b;
+}
+
+.button1:active {
+    background-color: #962d22;
+}
+
+.button2 {
+    background-color: #2ecc71;
+}
+
+.button2:hover {
+    background-color: #27ae60;
+}
+
+.button2:active {
+    background-color: #1f8e4d;
+}
+
+.button3 {
+    background-color: #9b59b6;
+}
+
+.button3:hover {
+    background-color: #8e44ad;
+}
+
+.button3:active {
+    background-color: #6f3687;
+}
+
+/* General Navigation Styles */
+nav {
+    display: flex;
+    justify-content: center; /* Centers the navigation links */
+    background-color: lightgrey; /* Dark background for the nav bar */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Space below the nav bar */
+}
+
+/* Navigation Links (Buttons) */
+nav a {
+    color: white; /* White text color */
+    text-decoration: none; /* Removes underline */
+    padding: 10px 20px; /* Adds padding around the text */
+    margin: 0 10px; /* Spacing between the links */
+    background-color: #444; /* Slightly lighter background color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+/* Hover Effect */
+nav a:hover {
+    background-color: #555; /* Darker background color on hover */
+    transform: scale(1.05); /* Slightly enlarges the link */
+}
+
+/* Active/Focus State */
+nav a:active,
+nav a:focus {
+    background-color: #222; /* Even darker background color */
+    outline: none; /* Removes default focus outline */
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5); /* Adds a white outline for focus */
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column; /* Stack the nav links vertically on small screens */
+        align-items: center;
+    }
+
+    nav a {
+        margin-bottom: 10px; /* Add space between vertically stacked links */
+    }
+}
+
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 2em;
+}
+
+/* Image Grid Styling */
+.image-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+/* Image Styling */
+.image-grid figure {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.image-grid img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Figcaption Styling */
+.image-grid figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+/* Hover Effect */
+.image-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #999;
+    font-size: 0.9em;
+}
+
+h2{
+    text-align: center;
+}
+
+/* Question for 1.1 PET PICTURES*/
+figure.pets {
+    text-align: center; /* Center the images and caption */
+    margin: 20px auto;  /* Add some margin around the figure */
+    padding: 10px;      /* Add padding inside the figure */
+    border: 1px solid #ccc; /* Add a subtle border around the figure */
+    max-width: 80%;    /* Limit the width of the figure */
+}
+
+/* Style each image inside the figure */
+figure.pets img {
+    width: 150px;       /* Set a consistent width for each image */
+    height: auto;       /* Maintain the aspect ratio of the images */
+    margin: 10px;       /* Add some space between the images */
+    border-radius: 10px; /* Optional: Add rounded corners to the images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style the figure caption */
+figure.pets figcaption {
+    margin-top: 10px;   /* Add space between the images and caption */
+    font-style: italic; 
+    color: #555;       
+    font-size: 16px;    
+}
+
+.halfMilMark {
+    stroke: red;
+    stroke-width: 2px;
+    stroke-dasharray: 5, 5;
+}
+
+.halfMilLabel {
+    fill: red;
+    font-size: 12px;
+    font-weight: bold;
+}
