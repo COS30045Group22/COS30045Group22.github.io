@@ -31,8 +31,16 @@ const legendContainer = d3.select("#chart")
     .style("width", "120px")                         // Fixed width for legend
     .style("display", "none");                       // Hidden by default
 
-// Function to update chart based on filters
-function updateChart(region, generation, data) {
+// Add event listener for the new gender dropdown
+d3.select("#gender-select").on("change", function() {
+    const selectedRegion = d3.select("#region-select").property("value");
+    const selectedGeneration = d3.select("#generation-select").property("value");
+    const selectedGender = d3.select(this).property("value");
+    updateChart(selectedRegion, selectedGeneration, selectedGender, data);
+});
+
+// Update the updateChart function to include gender filtering
+function updateChart(region, generation, gender, data) {
     // Clear previous lines
     svg.selectAll(".line").remove();
 
@@ -43,6 +51,9 @@ function updateChart(region, generation, data) {
     }
     if (generation !== "all") {
         filteredData = filteredData.filter(d => d.generation === generation);
+    }
+    if (gender !== "all") {
+        filteredData = filteredData.filter(d => d.sex.toLowerCase() === gender);
     }
 
     // Update scales with filtered data
@@ -103,7 +114,7 @@ function updateChart(region, generation, data) {
                     );
 
                     tooltip
-                        .html(`Region: ${region}<br>Generation: ${generation}<br>Year: ${closestDataPoint.year}<br>Rate: ${closestDataPoint.suicides_per_100k}<br>Gender: ${closestDataPoint.sex}`)
+                        .html(`Region: ${region}<br>Generation: ${generation}<br>Year: ${closestDataPoint.year}<br>Rate: ${closestDataPoint.suicides_per_100k.toFixed(2)}<br>Gender: ${closestDataPoint.sex}`)
                         .style("left", `${event.pageX + 5}px`)
                         .style("top", `${event.pageY + 5}px`);
                 })
@@ -114,7 +125,7 @@ function updateChart(region, generation, data) {
     });
 
     // Display legend if both filters are set to "all"
-    if (region === "all" && generation === "all") {
+    if (region === "all" && generation === "all" && gender === "all") {
         legendContainer.style("display", "block");
         legendContainer.html(""); // Clear previous legend content
 
@@ -144,18 +155,27 @@ d3.csv("generation.csv").then(data => {
     });
 
     // Set initial chart view with "All" filters
-    updateChart("all", "all", data);
+    updateChart("all", "all", "all", data);
 
     // Add event listeners for dropdowns
     d3.select("#region-select").on("change", function() {
         const selectedRegion = d3.select(this).property("value");
         const selectedGeneration = d3.select("#generation-select").property("value");
-        updateChart(selectedRegion, selectedGeneration, data);
+        const selectedGender = d3.select("#gender-select").property("value");
+        updateChart(selectedRegion, selectedGeneration, selectedGender, data);
     });
 
     d3.select("#generation-select").on("change", function() {
         const selectedRegion = d3.select("#region-select").property("value");
         const selectedGeneration = d3.select(this).property("value");
-        updateChart(selectedRegion, selectedGeneration, data);
+        const selectedGender = d3.select("#gender-select").property("value");
+        updateChart(selectedRegion, selectedGeneration, selectedGender, data);
+    });
+
+    d3.select("#gender-select").on("change", function() {
+        const selectedRegion = d3.select("#region-select").property("value");
+        const selectedGeneration = d3.select("#generation-select").property("value");
+        const selectedGender = d3.select(this).property("value");
+        updateChart(selectedRegion, selectedGeneration, selectedGender, data);
     });
 });
