@@ -1,0 +1,3548 @@
+RegionName,CountryName,Year,Sex,SuicideCount,DeathRatePer100K,IncomeLevel
+Europe,Albania,1992,Male,33,2.07638583,Low
+Europe,Albania,1992,Female,14,0.87456272,Low
+Europe,Albania,1993,Male,46,2.93723262,Low
+Europe,Albania,1993,Female,27,1.68602473,Low
+Europe,Albania,1994,Male,37,2.33261884,Low
+Europe,Albania,1994,Female,15,0.92833271,Low
+Europe,Albania,1995,Male,57,3.54521707,Low
+Europe,Albania,1995,Female,34,2.07178112,Low
+Europe,Albania,1996,Male,53,3.2635468,Low
+Europe,Albania,1996,Female,39,2.35081374,Low
+Europe,Albania,1997,Male,124,7.61249923,Low
+Europe,Albania,1997,Female,52,3.0671228,Low
+Europe,Albania,1998,Male,104,6.30417652,Low
+Europe,Albania,1998,Female,61,3.57834223,Low
+Europe,Albania,1999,Male,101,6.07701564,Lower-Middle
+Europe,Albania,1999,Female,53,3.09687975,Lower-Middle
+Europe,Albania,2000,Male,39,2.44974874,Lower-Middle
+Europe,Albania,2000,Female,18,1.1826544,Lower-Middle
+Europe,Albania,2001,Male,84,5.48860689,Lower-Middle
+Europe,Albania,2001,Female,35,2.27445231,Lower-Middle
+Europe,Albania,2002,Male,91,5.91792168,Lower-Middle
+Europe,Albania,2002,Female,42,2.71590121,Lower-Middle
+Europe,Albania,2003,Male,73,4.71966484,Lower-Middle
+Europe,Albania,2003,Female,51,3.27754228,Lower-Middle
+Europe,Albania,2004,Male,89,5.71107358,Lower-Middle
+Europe,Albania,2004,Female,57,3.63314885,Lower-Middle
+Europe,Albania,2005,Male,0,0.0,Lower-Middle
+Europe,Albania,2005,Female,0,0.0,Lower-Middle
+Europe,Albania,2006,Male,0,0.0,Lower-Middle
+Europe,Albania,2006,Female,0,0.0,Lower-Middle
+Europe,Albania,2007,Male,77,5.19001522,Lower-Middle
+Europe,Albania,2007,Female,47,3.16199577,Lower-Middle
+Europe,Albania,2008,Male,99,6.72248822,Upper-Middle
+Europe,Albania,2008,Female,61,4.13657198,Upper-Middle
+Europe,Albania,2009,Male,0,0.0,Upper-Middle
+Europe,Albania,2009,Female,0,0.0,Upper-Middle
+Europe,Albania,2010,Male,61,4.18477209,Upper-Middle
+Europe,Albania,2010,Female,35,2.4048983,Upper-Middle
+Asia,Armenia,1994,Male,76,4.18917429,Low
+Asia,Armenia,1994,Female,36,1.86267915,Low
+Asia,Armenia,1995,Male,95,5.21920668,Low
+Asia,Armenia,1995,Female,35,1.80430972,Low
+Asia,Armenia,1996,Male,63,3.4471438,Low
+Asia,Armenia,1996,Female,24,1.23329908,Low
+Asia,Armenia,1997,Male,62,3.37856248,Low
+Asia,Armenia,1997,Female,15,0.7688759,Low
+Asia,Armenia,1998,Male,48,2.60671228,Low
+Asia,Armenia,1998,Female,18,0.92151743,Low
+Asia,Armenia,1999,Male,49,2.6535254,Low
+Asia,Armenia,1999,Female,18,0.92109303,Low
+Asia,Armenia,2000,Male,47,2.54260211,Low
+Asia,Armenia,2000,Female,14,0.71651569,Low
+Asia,Armenia,2001,Male,48,2.59855704,Low
+Asia,Armenia,2001,Female,12,0.61411136,Low
+Asia,Armenia,2002,Male,62,4.01820376,Low
+Asia,Armenia,2002,Female,12,0.71915456,Low
+Asia,Armenia,2003,Male,50,3.23589409,Low
+Asia,Armenia,2003,Female,9,0.54018399,Low
+Asia,Armenia,2006,Male,61,4.38780736,Lower-Middle
+Asia,Armenia,2006,Female,17,1.0841249,Lower-Middle
+Asia,Armenia,2007,Male,51,3.70505711,Lower-Middle
+Asia,Armenia,2007,Female,20,1.28524958,Lower-Middle
+Asia,Armenia,2008,Male,44,2.81076344,Lower-Middle
+Asia,Armenia,2008,Female,19,1.13866548,Lower-Middle
+Asia,Armenia,2009,Male,43,3.18030166,Lower-Middle
+Asia,Armenia,2009,Female,10,0.65103277,Lower-Middle
+Asia,Armenia,2010,Male,54,4.01084116,Lower-Middle
+Asia,Armenia,2010,Female,19,1.24104893,Lower-Middle
+Asia,Armenia,2011,Male,51,3.78791255,Lower-Middle
+Asia,Armenia,2011,Female,16,1.04565049,Lower-Middle
+Asia,Armenia,2012,Male,59,4.06739466,Lower-Middle
+Asia,Armenia,2012,Female,20,1.27099768,Lower-Middle
+Asia,Armenia,2013,Male,43,2.97049128,Lower-Middle
+Asia,Armenia,2013,Female,24,1.52438347,Lower-Middle
+Asia,Armenia,2014,Male,43,2.98337014,Upper-Middle
+Asia,Armenia,2014,Female,15,0.95388537,Upper-Middle
+Asia,United Arab Emirates,2018,Male,121,1.81128045,High
+Asia,United Arab Emirates,2018,Female,15,0.50836963,High
+Asia,United Arab Emirates,2019,Male,50,0.73890104,High
+Asia,United Arab Emirates,2019,Female,7,0.23304436,High
+Asia,United Arab Emirates,2020,Male,155,2.26729209,High
+Asia,United Arab Emirates,2020,Female,25,0.81858489,High
+Europe,Austria,1991,Male,1299,34.90645259,High
+Europe,Austria,1991,Female,470,11.65236484,High
+Asia,Armenia,2015,Male,55,3.83517131,Lower-Middle
+Asia,Armenia,2015,Female,19,1.20981119,Lower-Middle
+Asia,Armenia,2016,Male,53,3.72215582,Lower-Middle
+Asia,Armenia,2016,Female,14,0.89259642,Lower-Middle
+Asia,Armenia,2017,Male,38,2.75711954,Upper-Middle
+Asia,Armenia,2017,Female,6,0.39096327,Upper-Middle
+Asia,Armenia,2018,Male,46,3.27410291,Upper-Middle
+Asia,Armenia,2018,Female,13,0.83118291,Upper-Middle
+Asia,Armenia,2019,Male,43,3.07281573,Upper-Middle
+Asia,Armenia,2019,Female,6,0.38384916,Upper-Middle
+Asia,Armenia,2020,Male,34,2.43946713,Upper-Middle
+Asia,Armenia,2020,Female,7,0.44600561,Upper-Middle
+Europe,Austria,1992,Male,1282,34.0062251,High
+Europe,Austria,1992,Female,477,11.71756684,High
+Asia,Armenia,2021,Male,42,3.00861107,Upper-Middle
+Asia,Armenia,2021,Female,11,0.69968546,Upper-Middle
+Asia,Armenia,2022,Male,36,2.5690962,Upper-Middle
+Asia,Armenia,2022,Female,11,0.70154046,Upper-Middle
+Europe,Austria,1993,Male,1244,32.67607321,High
+Europe,Austria,1993,Female,460,11.2234404,High
+Europe,Austria,1994,Male,1285,33.58559557,High
+Europe,Austria,1994,Female,491,11.94625984,High
+Europe,Austria,1995,Male,1333,34.76718635,High
+Europe,Austria,1995,Female,455,11.05925012,High
+Europe,Austria,1996,Male,1336,34.78728202,High
+Europe,Austria,1996,Female,443,10.75625976,High
+Europe,Austria,1997,Male,1175,30.54993523,High
+Europe,Austria,1997,Female,417,10.1167453,High
+Europe,Austria,1998,Male,1177,30.55423884,High
+Europe,Austria,1998,Female,382,9.2614525,High
+Europe,Austria,1999,Male,1126,29.15451895,High
+Europe,Austria,1999,Female,429,10.38704955,High
+Europe,Austria,2000,Male,1156,29.83443694,High
+Europe,Austria,2000,Female,432,10.44273069,High
+Europe,Austria,2001,Male,1081,27.76122776,High
+Europe,Austria,2001,Female,408,9.83518117,High
+Europe,Austria,2002,Male,1190,30.3653539,High
+Europe,Austria,2002,Female,363,8.71929421,High
+Europe,Austria,2003,Male,1068,27.10463837,High
+Europe,Austria,2003,Female,388,9.28682898,High
+Europe,Austria,2004,Male,1076,27.11897898,High
+Europe,Austria,2004,Female,346,8.23468373,High
+Europe,Austria,2005,Male,1049,26.23187275,High
+Europe,Austria,2005,Female,350,8.28142458,High
+Europe,Austria,2006,Male,1000,24.86006271,High
+Europe,Austria,2006,Female,297,6.9957545,High
+Europe,Austria,2007,Male,968,23.98088664,High
+Europe,Austria,2007,Female,317,7.4436892,High
+Europe,Austria,2008,Male,963,23.77651557,High
+Europe,Austria,2008,Female,304,7.11722776,High
+Europe,Austria,2009,Male,972,23.93384213,High
+Europe,Austria,2009,Female,306,7.14905165,High
+Europe,Austria,2010,Male,970,23.8225461,High
+Europe,Austria,2010,Female,294,6.85427166,High
+Europe,Austria,2011,Male,975,23.85503187,High
+Europe,Austria,2011,Female,313,7.27679196,High
+Europe,Austria,2012,Male,987,24.01792365,High
+Europe,Austria,2012,Female,289,6.69464984,High
+Europe,Austria,2013,Male,967,23.36486422,High
+Europe,Austria,2013,Female,324,7.46795521,High
+Europe,Austria,2014,Male,990,23.70377465,High
+Europe,Austria,2014,Female,324,7.41863203,High
+Europe,Austria,2015,Male,961,22.72363987,High
+Europe,Austria,2015,Female,290,6.59024557,High
+Europe,Austria,2016,Male,907,21.11677226,High
+Europe,Austria,2016,Female,297,6.68220298,High
+Asia,Armenia,1991,Male,54,3.08289564,Low
+Asia,Armenia,1991,Female,26,1.39769917,Low
+Asia,Armenia,1992,Male,64,3.58382798,Low
+Asia,Armenia,1992,Female,19,1.00010527,Low
+Europe,Austria,2017,Male,964,22.2903728,High
+Europe,Austria,2017,Female,260,5.81611763,High
+Asia,Armenia,1993,Male,71,3.92894693,Low
+Asia,Armenia,1993,Female,35,1.81893774,Low
+Europe,Austria,2018,Male,950,21.85541927,High
+Europe,Austria,2018,Female,259,5.76714239,High
+Europe,Austria,2019,Male,868,19.87502092,High
+Europe,Austria,2019,Female,245,5.43195577,High
+Europe,Austria,2020,Male,838,19.09701649,High
+Europe,Austria,2020,Female,234,5.16701721,High
+Europe,Austria,2021,Male,879,19.9390351,High
+Europe,Austria,2021,Female,220,4.84252761,High
+Asia,Azerbaijan,1992,Male,106,2.98314243,Low
+Asia,Azerbaijan,1992,Female,38,1.0235966,Low
+Asia,Azerbaijan,1993,Male,83,2.31043314,Low
+Asia,Azerbaijan,1993,Female,36,0.96254111,Low
+Asia,Azerbaijan,1994,Male,28,0.77173254,Low
+Asia,Azerbaijan,1994,Female,19,0.50480897,Low
+Asia,Azerbaijan,1995,Male,42,1.14744693,Low
+Asia,Azerbaijan,1995,Female,7,0.18498943,Low
+Asia,Azerbaijan,1996,Male,56,1.51819118,Low
+Asia,Azerbaijan,1996,Female,13,0.34215028,Low
+Asia,Azerbaijan,1997,Male,86,2.31475251,Low
+Asia,Azerbaijan,1997,Female,21,0.54960873,Low
+Asia,Azerbaijan,1998,Male,41,1.05311826,Low
+Asia,Azerbaijan,1998,Female,15,0.37314361,Low
+Asia,Azerbaijan,1999,Male,44,1.12256353,Low
+Asia,Azerbaijan,1999,Female,10,0.24611144,Low
+Asia,Azerbaijan,2000,Male,46,1.16858043,Low
+Asia,Azerbaijan,2000,Female,16,0.38908613,Low
+Asia,Azerbaijan,2001,Male,236,5.94211474,Low
+Asia,Azerbaijan,2001,Female,81,1.95673443,Low
+Asia,Azerbaijan,2002,Male,73,1.82231209,Low
+Asia,Azerbaijan,2002,Female,19,0.4560675,Low
+Asia,Azerbaijan,2003,Male,93,2.30155293,Low
+Asia,Azerbaijan,2003,Female,36,0.85850215,Low
+Asia,Azerbaijan,2004,Male,78,1.91124942,Lower-Middle
+Asia,Azerbaijan,2004,Female,30,0.70999195,Lower-Middle
+Asia,Azerbaijan,2007,Male,41,0.9689121,Lower-Middle
+Asia,Azerbaijan,2007,Female,14,0.32185758,Lower-Middle
+Europe,Belgium,1991,Male,1278,26.13496933,High
+Europe,Belgium,1991,Female,527,10.30403754,High
+Europe,Belgium,1992,Male,1313,26.73372155,High
+Europe,Belgium,1992,Female,565,11.00549301,High
+Europe,Belgium,1993,Male,1552,31.47306944,High
+Europe,Belgium,1993,Female,590,11.45052983,High
+Europe,Belgium,1994,Male,1543,31.1880988,High
+Europe,Belgium,1994,Female,588,11.37726868,High
+Europe,Belgium,1995,Male,1550,31.27080517,High
+Europe,Belgium,1995,Female,605,11.67931121,High
+Europe,Belgium,1996,Male,1458,29.3638852,High
+Europe,Belgium,1996,Female,555,10.69085252,High
+Europe,Belgium,1997,Male,1551,31.19607062,High
+Europe,Belgium,1997,Female,595,11.4457282,High
+Europe,Belgium,1998,Male,1463,29.32924635,High
+Europe,Belgium,1998,Female,557,10.68111167,High
+Europe,Belgium,1998,Unknown,2,,High
+Europe,Belgium,1999,Male,1361,27.22072952,High
+Europe,Belgium,1999,Female,496,9.4900023,High
+Europe,Belgium,2000,Male,1526,30.4468241,High
+Europe,Belgium,2000,Female,617,11.77653294,High
+Europe,Belgium,2001,Male,1582,31.45032935,High
+Europe,Belgium,2001,Female,583,11.09120739,High
+Europe,Belgium,2002,Male,1497,29.61666304,High
+Europe,Belgium,2002,Female,579,10.9696529,High
+Europe,Belgium,2003,Male,1537,30.27360186,High
+Europe,Belgium,2003,Female,554,10.45460155,High
+Europe,Belgium,2004,Male,1450,28.43555146,High
+Europe,Belgium,2004,Female,537,10.0904078,High
+Europe,Belgium,2005,Male,1477,28.80505066,High
+Europe,Belgium,2005,Female,552,10.31574399,High
+Europe,Belgium,2006,Male,1395,27.02118984,High
+Europe,Belgium,2006,Female,540,10.0272146,High
+Europe,Belgium,2007,Male,1320,25.3706664,High
+Europe,Belgium,2007,Female,537,9.90255663,High
+Europe,Belgium,2008,Male,1454,27.71381955,High
+Europe,Belgium,2008,Female,547,10.01190996,High
+Asia,Azerbaijan,1991,Male,102,2.91046054,Low
+Asia,Azerbaijan,1991,Female,32,0.87183958,Low
+Europe,Belgium,2009,Male,1459,27.57806729,High
+Europe,Belgium,2009,Female,554,10.06164666,High
+Europe,Belgium,2010,Male,1450,27.29555115,High
+Europe,Belgium,2010,Female,563,10.18509741,High
+Europe,Belgium,2011,Male,1488,27.5467916,High
+Europe,Belgium,2011,Female,600,10.71635244,High
+Europe,Belgium,2012,Male,1485,27.23881008,High
+Europe,Belgium,2012,Female,541,9.58698014,High
+Europe,Belgium,2013,Male,1363,24.79485577,High
+Europe,Belgium,2013,Female,532,9.36400785,High
+Europe,Belgium,2014,Male,1338,24.23306339,High
+Europe,Belgium,2014,Female,561,9.83192663,High
+Europe,Belgium,2015,Male,1315,23.73105193,High
+Europe,Belgium,2015,Female,552,9.64264396,High
+Europe,Belgium,2016,Male,1364,24.38519454,High
+Europe,Belgium,2016,Female,543,9.42920982,High
+Europe,Belgium,2017,Male,1235,22.04668578,High
+Europe,Belgium,2017,Female,490,8.48717199,High
+Europe,Belgium,2018,Male,1283,22.79053896,High
+Europe,Belgium,2018,Female,510,8.79683604,High
+Europe,Belgium,2019,Male,1266,22.35551556,High
+Europe,Belgium,2019,Female,463,7.94718947,High
+Europe,Belgium,2020,Male,1263,22.19349388,High
+Europe,Belgium,2020,Female,475,8.12276699,High
+Asia,Bahrain,1997,Male,0,0.0,Upper-Middle
+Asia,Bahrain,1997,Female,0,0.0,Upper-Middle
+Asia,Bahrain,1998,Male,0,0.0,Upper-Middle
+Asia,Bahrain,1998,Female,0,0.0,Upper-Middle
+Asia,Bahrain,1999,Male,14,3.84757026,Upper-Middle
+Asia,Bahrain,1999,Female,3,1.10021491,Upper-Middle
+Asia,Bahrain,2000,Male,28,7.34474392,High
+Asia,Bahrain,2000,Female,1,0.35287683,High
+Asia,Bahrain,2001,Male,20,4.96661195,High
+Asia,Bahrain,2001,Female,3,1.01742855,High
+Asia,Bahrain,2002,Male,18,4.20565661,High
+Asia,Bahrain,2002,Female,7,2.27905387,High
+Asia,Bahrain,2003,Male,29,6.33356484,High
+Asia,Bahrain,2003,Female,5,1.55845775,High
+Asia,Bahrain,2004,Male,35,7.09664207,High
+Asia,Bahrain,2004,Female,7,2.07927998,High
+Asia,Bahrain,2005,Male,35,6.56022852,High
+Asia,Bahrain,2005,Female,7,1.9700219,High
+Asia,Bahrain,2006,Male,17,2.92959999,High
+Asia,Bahrain,2006,Female,11,2.89368598,High
+Asia,Bahrain,2007,Male,34,5.37909147,High
+Asia,Bahrain,2007,Female,6,1.47339418,High
+Asia,Bahrain,2008,Male,35,5.1729999,High
+Asia,Bahrain,2008,Female,8,1.87394883,High
+Europe,Bulgaria,1991,Male,1001,22.60971698,Lower-Middle
+Europe,Bulgaria,1991,Female,383,8.4088963,Lower-Middle
+Asia,Bahrain,2009,Male,30,4.09837745,High
+Asia,Bahrain,2009,Female,6,1.34403183,High
+Europe,Bulgaria,1992,Male,1108,26.38534994,Lower-Middle
+Europe,Bulgaria,1992,Female,411,9.46808266,Lower-Middle
+Europe,Bulgaria,1993,Male,1023,24.58898183,Lower-Middle
+Europe,Bulgaria,1993,Female,447,10.36665971,Lower-Middle
+Asia,Bahrain,2010,Male,15,1.96278045,High
+Asia,Bahrain,2010,Female,4,0.86195193,High
+Europe,Bulgaria,1994,Male,1048,25.30911901,Lower-Middle
+Europe,Bulgaria,1994,Female,416,9.66812308,Lower-Middle
+Europe,Bulgaria,1995,Male,1020,24.77712731,Lower-Middle
+Europe,Bulgaria,1995,Female,413,9.62838625,Lower-Middle
+Asia,Bahrain,2011,Male,12,1.6183783,High
+Asia,Bahrain,2011,Female,6,1.32293506,High
+Europe,Bulgaria,1996,Male,1111,27.16115783,Lower-Middle
+Europe,Bulgaria,1996,Female,415,9.71350997,Lower-Middle
+Europe,Bulgaria,1997,Male,1002,24.67251059,Lower-Middle
+Europe,Bulgaria,1997,Female,463,10.89206738,Lower-Middle
+Asia,Bahrain,2012,Male,18,2.2331675,High
+Asia,Bahrain,2012,Female,1,0.20246522,High
+Europe,Bulgaria,1998,Male,1055,26.18190843,Lower-Middle
+Europe,Bulgaria,1998,Female,448,10.59778109,Lower-Middle
+Europe,Bulgaria,1999,Male,965,24.10932894,Lower-Middle
+Europe,Bulgaria,1999,Female,342,8.12737643,Lower-Middle
+Asia,Bahrain,2013,Male,5,0.61624242,High
+Asia,Bahrain,2013,Female,0,0.0,High
+Europe,Bulgaria,2000,Male,1001,25.15522862,Lower-Middle
+Europe,Bulgaria,2000,Female,382,9.11503073,Lower-Middle
+Europe,Bulgaria,2001,Male,951,24.67751855,Lower-Middle
+Europe,Bulgaria,2001,Female,363,8.94178749,Lower-Middle
+Asia,Bahrain,2014,Male,8,0.99195647,High
+Asia,Bahrain,2014,Female,1,0.19682134,High
+Europe,Bulgaria,2002,Male,981,25.62105596,Lower-Middle
+Europe,Bulgaria,2002,Female,336,8.31679463,Lower-Middle
+Europe,Bulgaria,2003,Male,800,21.03325331,Lower-Middle
+Europe,Bulgaria,2003,Female,292,7.26358041,Lower-Middle
+Europe,Bulgaria,2004,Male,746,19.73949686,Lower-Middle
+Europe,Bulgaria,2004,Female,267,6.67177086,Lower-Middle
+Europe,Bulgaria,2005,Male,727,19.35843433,Lower-Middle
+Europe,Bulgaria,2005,Female,255,6.39991005,Lower-Middle
+Europe,Bulgaria,2006,Male,752,20.14935171,Upper-Middle
+Europe,Bulgaria,2006,Female,225,5.67194956,Upper-Middle
+Europe,Bulgaria,2007,Male,663,17.86910276,Upper-Middle
+Europe,Bulgaria,2007,Female,239,6.05147705,Upper-Middle
+Europe,Bulgaria,2008,Male,694,18.8051164,Upper-Middle
+Europe,Bulgaria,2008,Female,245,6.22948402,Upper-Middle
+Europe,Bulgaria,2009,Male,662,18.03669241,Upper-Middle
+Europe,Bulgaria,2009,Female,206,5.26203531,Upper-Middle
+Europe,Bulgaria,2010,Male,649,17.80736221,Upper-Middle
+Europe,Bulgaria,2010,Female,210,5.3988337,Upper-Middle
+Europe,Bulgaria,2011,Male,605,16.81355133,Upper-Middle
+Europe,Bulgaria,2011,Female,158,4.13855462,Upper-Middle
+Europe,Bulgaria,2012,Male,673,18.92618507,Upper-Middle
+Europe,Bulgaria,2012,Female,199,5.30671195,Upper-Middle
+Europe,Bulgaria,2013,Male,573,16.20929395,Upper-Middle
+Europe,Bulgaria,2013,Female,148,3.96771566,Upper-Middle
+Europe,Bulgaria,2014,Male,552,15.71091909,Upper-Middle
+Europe,Bulgaria,2014,Female,172,4.63554696,Upper-Middle
+Europe,Bulgaria,2015,Male,520,14.90143845,Upper-Middle
+Europe,Bulgaria,2015,Female,159,4.31081812,Upper-Middle
+Europe,Bulgaria,2016,Male,508,14.66691381,Upper-Middle
+Europe,Bulgaria,2016,Female,159,4.33923068,Upper-Middle
+Europe,Bulgaria,2017,Male,533,15.51134773,Upper-Middle
+Europe,Bulgaria,2017,Female,165,4.53327465,Upper-Middle
+Europe,Bulgaria,2018,Male,497,14.57882023,Upper-Middle
+Europe,Bulgaria,2018,Female,145,4.00997571,Upper-Middle
+Europe,Bulgaria,2019,Male,450,13.30308704,Upper-Middle
+Europe,Bulgaria,2019,Female,123,3.42324024,Upper-Middle
+Europe,Bulgaria,2020,Male,465,13.84060181,Upper-Middle
+Europe,Bulgaria,2020,Female,123,3.44120003,Upper-Middle
+Europe,Bulgaria,2021,Male,432,12.97097474,High
+Europe,Bulgaria,2021,Female,127,3.5802589,High
+Europe,Belarus,1993,Male,2361,48.69245999,Lower-Middle
+Europe,Belarus,1993,Female,525,9.59675356,Lower-Middle
+Europe,Belarus,1994,Male,2582,53.47859406,Lower-Middle
+Europe,Belarus,1994,Female,571,10.41932776,Lower-Middle
+Europe,Belarus,1995,Male,2691,56.06950869,Lower-Middle
+Europe,Belarus,1995,Female,515,9.39540993,Lower-Middle
+Europe,Belarus,1996,Male,3086,64.49859967,Lower-Middle
+Europe,Belarus,1996,Female,546,9.9897541,Lower-Middle
+Europe,Belarus,1997,Male,2979,62.46330622,Lower-Middle
+Europe,Belarus,1997,Female,562,10.31041315,Lower-Middle
+Europe,Belarus,1998,Male,3016,63.44131258,Lower-Middle
+Europe,Belarus,1998,Female,550,10.11494253,Lower-Middle
+Europe,Belarus,1999,Male,2877,61.06076363,Lower-Middle
+Europe,Belarus,1999,Female,531,9.97464074,Lower-Middle
+Europe,Belarus,2000,Male,2985,63.57197849,Lower-Middle
+Europe,Belarus,2000,Female,506,9.53010014,Lower-Middle
+Europe,Belarus,2001,Male,2822,60.33658492,Lower-Middle
+Europe,Belarus,2001,Female,492,9.29425615,Lower-Middle
+Europe,Belarus,2002,Male,2789,59.95130381,Lower-Middle
+Europe,Belarus,2002,Female,511,9.69150847,Lower-Middle
+Europe,Belarus,2003,Male,2927,63.30067953,Lower-Middle
+Europe,Belarus,2003,Female,540,10.2859827,Lower-Middle
+Europe,Belarus,2007,Male,2207,48.7387765,Upper-Middle
+Europe,Belarus,2007,Female,456,8.81347782,Upper-Middle
+Europe,Belarus,2008,Male,2190,48.48869162,Upper-Middle
+Europe,Belarus,2008,Female,471,9.12026434,Upper-Middle
+Europe,Belarus,2009,Male,2238,49.64369888,Upper-Middle
+Europe,Belarus,2009,Female,505,9.78683119,Upper-Middle
+Europe,Belarus,2010,Male,2072,46.94979295,Upper-Middle
+Europe,Belarus,2010,Female,390,7.68116016,Upper-Middle
+Europe,Belarus,2011,Male,1794,40.7428461,Upper-Middle
+Europe,Belarus,2011,Female,380,7.49515034,Upper-Middle
+Europe,Belarus,2013,Male,1569,35.66420548,Upper-Middle
+Europe,Belarus,2013,Female,334,6.59215557,Upper-Middle
+Europe,Belarus,2014,Male,1466,33.27882205,Upper-Middle
+Europe,Belarus,2014,Female,276,5.44453118,Upper-Middle
+Europe,Belarus,2018,Male,1460,33.04184093,Upper-Middle
+Europe,Belarus,2018,Female,347,6.85112853,Upper-Middle
+Europe,Bosnia and Herzegovina,1991,Male,457,20.2687719,Low
+Europe,Bosnia and Herzegovina,1991,Female,74,3.26898441,Low
+Europe,Bosnia and Herzegovina,2014,Male,243,12.97045938,Upper-Middle
+Europe,Bosnia and Herzegovina,2014,Female,70,3.58266094,Upper-Middle
+Europe,Belarus,1991,Male,1727,35.9686758,Low
+Europe,Belarus,1991,Female,443,8.1561263,Low
+Europe,Belarus,1992,Male,1956,40.4382882,Low
+Europe,Belarus,1992,Female,472,8.64342221,Low
+Asia,Brunei Darussalam,1996,Male,11,6.94900692,High
+Asia,Brunei Darussalam,1996,Female,1,0.68341489,High
+Asia,Brunei Darussalam,1997,Male,9,5.59371018,High
+Asia,Brunei Darussalam,1997,Female,2,1.32391588,High
+Asia,Brunei Darussalam,1998,Male,8,4.89829907,High
+Asia,Brunei Darussalam,1998,Female,0,0.0,High
+Asia,Brunei Darussalam,1999,Male,2,1.20569813,High
+Asia,Brunei Darussalam,1999,Female,0,0.0,High
+Asia,Brunei Darussalam,2000,Male,3,1.77777778,High
+Asia,Brunei Darussalam,2000,Female,2,1.21642663,High
+Asia,Brunei Darussalam,2001,Male,3,1.77542107,High
+Asia,Brunei Darussalam,2001,Female,1,0.61023982,High
+Asia,Brunei Darussalam,2002,Male,1,0.55370986,High
+Asia,Brunei Darussalam,2002,Female,0,0.0,High
+Asia,Brunei Darussalam,2003,Male,4,2.19178082,High
+Asia,Brunei Darussalam,2003,Female,1,0.59844405,High
+Asia,Brunei Darussalam,2004,Male,2,1.05596621,High
+Asia,Brunei Darussalam,2004,Female,1,0.58719906,High
+Asia,Brunei Darussalam,2005,Male,6,3.07219662,High
+Asia,Brunei Darussalam,2005,Female,1,0.57208238,High
+Asia,Brunei Darussalam,2006,Male,6,2.95130349,High
+Asia,Brunei Darussalam,2006,Female,4,2.22593211,High
+Asia,Brunei Darussalam,2007,Male,9,4.67777899,High
+Asia,Brunei Darussalam,2007,Female,1,0.54774112,High
+Asia,Brunei Darussalam,2008,Male,6,3.07504651,High
+Asia,Brunei Darussalam,2008,Female,3,1.62778962,High
+Asia,Brunei Darussalam,2009,Male,0,0.0,High
+Asia,Brunei Darussalam,2009,Female,2,1.07499718,High
+Asia,Brunei Darussalam,2010,Male,5,2.28206298,High
+Asia,Brunei Darussalam,2010,Female,0,0.0,High
+Asia,Brunei Darussalam,2011,Male,5,2.23914017,High
+Asia,Brunei Darussalam,2011,Female,0,0.0,High
+Asia,Brunei Darussalam,2012,Male,8,3.87034349,High
+Asia,Brunei Darussalam,2012,Female,0,0.0,High
+Asia,Brunei Darussalam,2013,Male,2,0.95239456,High
+Asia,Brunei Darussalam,2013,Female,2,1.02871662,High
+Asia,Brunei Darussalam,2014,Male,3,1.40830525,High
+Asia,Brunei Darussalam,2014,Female,2,1.01648743,High
+Asia,Brunei Darussalam,2015,Male,5,2.31665956,High
+Asia,Brunei Darussalam,2015,Female,2,1.00459098,High
+Asia,Brunei Darussalam,2016,Male,7,3.22830579,High
+Asia,Brunei Darussalam,2016,Female,0,0.0,High
+Asia,Brunei Darussalam,2017,Male,11,4.92390331,High
+Asia,Brunei Darussalam,2017,Female,0,0.0,High
+Asia,Brunei Darussalam,2018,Male,10,4.28449015,High
+Asia,Brunei Darussalam,2018,Female,3,1.4354067,High
+Asia,Brunei Darussalam,2019,Male,8,3.55584002,High
+Asia,Brunei Darussalam,2019,Female,0,0.0,High
+Europe,Switzerland,1991,Male,1140,34.33528101,High
+Europe,Switzerland,1991,Female,404,11.63560957,High
+Europe,Switzerland,1992,Male,1051,31.30025612,High
+Europe,Switzerland,1992,Female,381,10.83124858,High
+Europe,Switzerland,1993,Male,1010,29.80318097,High
+Europe,Switzerland,1993,Female,406,11.438553,High
+Europe,Switzerland,1994,Male,1057,30.94171716,High
+Europe,Switzerland,1994,Female,437,12.21455125,High
+Europe,Switzerland,1995,Male,1018,29.60507183,High
+Europe,Switzerland,1995,Female,401,11.13239499,High
+Europe,Switzerland,1996,Male,1010,29.24823352,High
+Europe,Switzerland,1996,Female,422,11.66196872,High
+Europe,Switzerland,1997,Male,963,27.82111285,High
+Europe,Switzerland,1997,Female,378,10.42039972,High
+Europe,Switzerland,1998,Male,1009,28.93779922,High
+Europe,Switzerland,1998,Female,362,9.93114316,High
+Europe,Switzerland,1999,Male,929,26.50433499,High
+Europe,Switzerland,1999,Female,367,10.02280119,High
+Europe,Switzerland,2000,Male,981,27.813746,High
+Europe,Switzerland,2000,Female,399,10.83647541,High
+Europe,Switzerland,2001,Male,945,26.58866574,High
+Europe,Switzerland,2001,Female,393,10.60387303,High
+Europe,Switzerland,2002,Male,980,27.41236505,High
+Europe,Switzerland,2002,Female,466,12.46381215,High
+Europe,Switzerland,2003,Male,848,23.63245952,High
+Europe,Switzerland,2003,Female,421,11.22452054,High
+Europe,Switzerland,2004,Male,857,23.70600351,High
+Europe,Switzerland,2004,Female,427,11.31273268,High
+Europe,Switzerland,2005,Male,899,24.6937318,High
+Europe,Switzerland,2005,Female,400,10.53597562,High
+Europe,Switzerland,2006,Male,863,23.54108683,High
+Europe,Switzerland,2006,Female,446,11.68149641,High
+Europe,Switzerland,2007,Male,920,24.84346591,High
+Europe,Switzerland,2007,Female,440,11.43471945,High
+Europe,Switzerland,2008,Male,861,22.91816671,High
+Europe,Switzerland,2008,Female,453,11.64275704,High
+Europe,Switzerland,2009,Male,827,21.71389592,High
+Europe,Switzerland,2009,Female,278,7.06442425,High
+Europe,Switzerland,2010,Male,724,18.80017491,High
+Europe,Switzerland,2010,Female,282,7.09633552,High
+Europe,Switzerland,2011,Male,757,19.41105525,High
+Europe,Switzerland,2011,Female,277,6.90332614,High
+Europe,Switzerland,2012,Male,752,19.0602269,High
+Europe,Switzerland,2012,Female,286,7.05916182,High
+Europe,Switzerland,2013,Male,786,19.67307898,High
+Europe,Switzerland,2013,Female,285,6.96134232,High
+Europe,Switzerland,2014,Male,756,18.6298807,High
+Europe,Switzerland,2014,Female,276,6.65379944,High
+Europe,Switzerland,2015,Male,793,19.35243294,High
+Europe,Switzerland,2015,Female,280,6.6910076,High
+Europe,Switzerland,2016,Male,759,18.3003838,High
+Europe,Switzerland,2016,Female,259,6.12889516,High
+Europe,Switzerland,2017,Male,773,18.44896915,High
+Europe,Switzerland,2017,Female,270,6.33519518,High
+Europe,Switzerland,2018,Male,714,16.91230567,High
+Europe,Switzerland,2018,Female,290,6.75588945,High
+Europe,Switzerland,2019,Male,742,17.44654116,High
+Europe,Switzerland,2019,Female,276,6.38550694,High
+Europe,Switzerland,2020,Male,696,16.20999206,High
+Europe,Switzerland,2020,Female,276,6.3288672,High
+Europe,Switzerland,2021,Male,723,16.71503546,High
+Europe,Switzerland,2021,Female,285,6.49195783,High
+Europe,Croatia,1997,Male,693,31.53727132,Upper-Middle
+Europe,Croatia,1997,Female,256,10.77894737,Upper-Middle
+Europe,Croatia,1998,Male,745,34.43971894,Upper-Middle
+Europe,Croatia,1998,Female,284,12.1471343,Upper-Middle
+Europe,Croatia,1999,Male,716,32.71647247,Upper-Middle
+Europe,Croatia,1999,Female,273,11.5418763,Upper-Middle
+Europe,Croatia,2000,Male,692,32.86474164,Upper-Middle
+Europe,Croatia,2000,Female,234,10.2820986,Upper-Middle
+Europe,Croatia,2001,Male,657,30.75986704,Upper-Middle
+Europe,Croatia,2001,Female,225,9.77597803,Upper-Middle
+Europe,Croatia,2002,Male,645,30.16132803,Upper-Middle
+Europe,Croatia,2002,Female,230,9.97960689,Upper-Middle
+Europe,Croatia,2003,Male,672,31.43565514,Upper-Middle
+Europe,Croatia,2003,Female,193,8.37637255,Upper-Middle
+Europe,Croatia,2004,Male,645,30.18391127,Upper-Middle
+Europe,Croatia,2004,Female,226,9.81541802,Upper-Middle
+Europe,Croatia,2005,Male,652,30.48665017,Upper-Middle
+Europe,Croatia,2005,Female,223,9.68173993,Upper-Middle
+Europe,Croatia,2006,Male,575,26.88254991,Upper-Middle
+Europe,Croatia,2006,Female,223,9.69106788,Upper-Middle
+Europe,Croatia,2007,Male,578,27.03481411,High
+Europe,Croatia,2007,Female,198,8.61619549,High
+Europe,Croatia,2008,Male,611,28.57781632,High
+Europe,Croatia,2008,Female,184,8.01224131,High
+Europe,Croatia,2009,Male,618,28.92945566,High
+Europe,Croatia,2009,Female,172,7.50159082,High
+Europe,Croatia,2010,Male,585,27.44144418,High
+Europe,Croatia,2010,Female,192,8.39906403,High
+Europe,Croatia,2011,Male,520,24.46845804,High
+Europe,Croatia,2011,Female,182,7.99085705,High
+Europe,Croatia,2012,Male,596,28.95029439,High
+Europe,Croatia,2012,Female,180,8.149011,High
+Europe,Croatia,2013,Male,546,26.58502241,High
+Europe,Croatia,2013,Female,146,6.63063417,High
+Europe,Croatia,2014,Male,536,26.20000675,High
+Europe,Croatia,2014,Female,186,8.48312588,High
+Asia,Cyprus,1999,Male,1,0.21436227,High
+Asia,Cyprus,1999,Female,0,0.0,High
+Asia,Cyprus,2000,Male,7,1.47236064,High
+Asia,Cyprus,2000,Female,0,0.0,High
+Asia,Cyprus,2004,Male,5,1.39245512,High
+Asia,Cyprus,2004,Female,2,0.53609099,High
+Asia,Cyprus,2005,Male,12,3.29546297,High
+Asia,Cyprus,2005,Female,5,1.3203098,High
+Asia,Cyprus,2006,Male,12,3.24112337,High
+Asia,Cyprus,2006,Female,7,1.81806848,High
+Asia,Cyprus,2007,Male,15,3.96453067,High
+Asia,Cyprus,2007,Female,4,1.01695001,High
+Asia,Cyprus,2008,Male,31,7.99931877,High
+Asia,Cyprus,2008,Female,10,2.47759634,High
+Asia,Cyprus,2009,Male,26,6.54544173,High
+Asia,Cyprus,2009,Female,7,1.68421458,High
+Asia,Cyprus,2010,Male,30,7.37595488,High
+Asia,Cyprus,2010,Female,8,1.87035188,High
+Asia,Cyprus,2011,Male,25,6.05253601,High
+Asia,Cyprus,2011,Female,5,1.14701524,High
+Asia,Cyprus,2012,Male,34,8.09504536,High
+Asia,Cyprus,2012,Female,2,0.45051945,High
+Asia,Cyprus,2013,Male,40,9.54237171,High
+Asia,Cyprus,2013,Female,5,1.12931313,High
+Asia,Cyprus,2014,Male,31,7.48129074,High
+Asia,Cyprus,2014,Female,13,2.96263209,High
+Europe,Czechia,1992,Male,1485,29.64545237,Lower-Middle
+Europe,Czechia,1992,Female,506,9.53170327,Lower-Middle
+Europe,Czechia,1993,Male,1412,28.14430935,Lower-Middle
+Europe,Czechia,1993,Female,505,9.50373563,Lower-Middle
+Europe,Czechia,1994,Male,1341,26.70569961,Upper-Middle
+Europe,Czechia,1994,Female,531,9.99096862,Upper-Middle
+Europe,Czechia,1995,Male,1284,25.57667025,Upper-Middle
+Europe,Czechia,1995,Female,449,8.45478854,Upper-Middle
+Europe,Czechia,1996,Male,1206,24.04929507,Upper-Middle
+Europe,Czechia,1996,Female,362,6.8292867,Upper-Middle
+Europe,Czechia,1997,Male,1311,26.16505339,Upper-Middle
+Europe,Czechia,1997,Female,355,6.70684476,Upper-Middle
+Europe,Czechia,1998,Male,1268,25.32201698,Upper-Middle
+Europe,Czechia,1998,Female,345,6.5248227,Upper-Middle
+Europe,Czechia,1999,Male,1285,25.68549797,Upper-Middle
+Europe,Czechia,1999,Female,325,6.1553485,Upper-Middle
+Europe,Czechia,2000,Male,1298,25.96349988,Upper-Middle
+Europe,Czechia,2000,Female,351,6.65632881,Upper-Middle
+Europe,Czechia,2001,Male,1294,25.79501574,Upper-Middle
+Europe,Czechia,2001,Female,329,6.24168921,Upper-Middle
+Europe,Czechia,2002,Male,1216,24.49342323,Upper-Middle
+Europe,Czechia,2002,Female,318,6.07313429,Upper-Middle
+Europe,Czechia,2003,Male,1365,27.47480017,Upper-Middle
+Europe,Czechia,2003,Female,354,6.76416491,Upper-Middle
+Europe,Czechia,2004,Male,1286,25.86624777,Upper-Middle
+Europe,Czechia,2004,Female,297,5.67314328,Upper-Middle
+Europe,Czechia,2005,Male,1273,25.50366738,High
+Europe,Czechia,2005,Female,292,5.56969916,High
+Europe,Czechia,2006,Male,1142,22.78058823,High
+Europe,Czechia,2006,Female,258,4.91091262,High
+Europe,Czechia,2007,Male,1149,22.7610343,High
+Europe,Czechia,2007,Female,230,4.36053015,High
+Europe,Czechia,2008,Male,1123,21.96219608,High
+Europe,Czechia,2008,Female,256,4.81532477,High
+Europe,Czechia,2009,Male,1230,23.88113486,High
+Europe,Czechia,2009,Female,234,4.38121597,High
+Europe,Czechia,2010,Male,1245,24.12425094,High
+Europe,Czechia,2010,Female,257,4.79794043,High
+Europe,Czechia,2011,Male,1337,25.94600553,High
+Europe,Czechia,2011,Female,253,4.73458001,High
+Europe,Czechia,2012,Male,1380,26.73945482,High
+Europe,Czechia,2012,Female,278,5.19784241,High
+Europe,Czechia,2013,Male,1294,25.06966325,High
+Europe,Czechia,2013,Female,283,5.29060766,High
+Europe,Czechia,2014,Male,1196,23.13728419,High
+Europe,Czechia,2014,Female,293,5.47087116,High
+Europe,Denmark,1991,Male,762,30.0,High
+Europe,Denmark,1991,Female,394,15.07210895,High
+Europe,Denmark,1992,Male,742,29.10831274,High
+Europe,Denmark,1992,Female,396,15.1081607,High
+Europe,Denmark,1993,Male,749,29.26581487,High
+Europe,Denmark,1993,Female,410,15.58935361,High
+Europe,Denmark,1994,Male,680,26.48284457,High
+Europe,Denmark,1994,Female,319,12.09570394,High
+Europe,Denmark,1995,Male,625,24.22668424,High
+Europe,Denmark,1995,Female,299,11.29154079,High
+Europe,Denmark,1996,Male,631,24.28791378,High
+Europe,Denmark,1996,Female,261,9.79913647,High
+Europe,Denmark,1997,Male,560,21.45511666,High
+Europe,Denmark,1997,Female,257,9.61035076,High
+Europe,Denmark,1998,Male,547,20.88663179,High
+Europe,Denmark,1998,Female,216,8.05219012,High
+Europe,Denmark,1999,Male,563,21.41962258,High
+Europe,Denmark,1999,Female,199,7.39590267,High
+Europe,Denmark,2000,Male,533,20.20563498,High
+Europe,Denmark,2000,Female,195,7.2236509,High
+Europe,Denmark,2001,Male,507,19.15195737,High
+Europe,Denmark,2001,Female,220,8.12457785,High
+Europe,Denmark,2002,Male,503,18.92869602,High
+Europe,Denmark,2002,Female,185,6.80919602,High
+Europe,Denmark,2003,Male,480,18.01446111,High
+Europe,Denmark,2003,Female,153,5.61952922,High
+Europe,Denmark,2004,Male,469,17.55300615,High
+Europe,Denmark,2004,Female,192,7.03484815,High
+Europe,Denmark,2005,Male,457,17.05314873,High
+Europe,Denmark,2005,Female,174,6.35936788,High
+Europe,Denmark,2006,Male,472,17.54530089,High
+Europe,Denmark,2006,Female,178,6.48596336,High
+Europe,Denmark,2007,Male,401,14.83594991,High
+Europe,Denmark,2007,Female,180,6.53471148,High
+Europe,Denmark,2008,Male,418,15.36755666,High
+Europe,Denmark,2008,Female,185,6.68109784,High
+Europe,Denmark,2009,Male,477,17.43431885,High
+Europe,Denmark,2009,Female,145,5.20934751,High
+Europe,Denmark,2010,Male,405,14.73699915,High
+Europe,Denmark,2010,Female,158,5.65166971,High
+Europe,Denmark,2011,Male,437,15.83253023,High
+Europe,Denmark,2011,Female,152,5.41558177,High
+Europe,Denmark,2012,Male,494,17.82616101,High
+Europe,Denmark,2012,Female,167,5.93065677,High
+Europe,Denmark,2013,Male,450,16.17157103,High
+Europe,Denmark,2013,Female,160,5.66146626,High
+Europe,Denmark,2014,Male,469,16.75062815,High
+Europe,Denmark,2014,Female,160,5.63415198,High
+Asia,Cyprus,2015,Male,30,7.3179299,High
+Asia,Cyprus,2015,Female,9,2.0777302,High
+Asia,Cyprus,2016,Male,27,6.52757295,High
+Asia,Cyprus,2016,Female,5,1.1462553,High
+Asia,Cyprus,2017,Male,29,6.88005922,High
+Asia,Cyprus,2017,Female,5,1.12936159,High
+Asia,Cyprus,2018,Male,34,7.94706321,High
+Asia,Cyprus,2018,Female,7,1.56226287,High
+Asia,Cyprus,2019,Male,34,7.88374719,High
+Asia,Cyprus,2019,Female,4,0.89024404,High
+Asia,Cyprus,2020,Male,24,5.48383411,High
+Asia,Cyprus,2020,Female,7,1.52719387,High
+Asia,Cyprus,2021,Male,14,3.1740058,High
+Asia,Cyprus,2021,Female,9,1.94123661,High
+Europe,Czechia,2015,Male,1133,21.87156507,High
+Europe,Czechia,2015,Female,254,4.73642009,High
+Europe,Czechia,2016,Male,1060,20.41204603,High
+Europe,Czechia,2016,Female,258,4.8024374,High
+Europe,Czechia,2017,Male,1108,21.27669789,High
+Europe,Czechia,2017,Female,289,5.36979991,High
+Europe,Czechia,2018,Male,1102,21.06924305,High
+Europe,Czechia,2018,Female,250,4.63301259,High
+Europe,Czechia,2019,Male,949,18.05258801,High
+Europe,Czechia,2019,Female,242,4.47116468,High
+Europe,Czechia,2020,Male,1009,19.13100854,High
+Europe,Czechia,2020,Female,215,3.9624069,High
+Europe,Czechia,2021,Male,966,18.67043322,High
+Europe,Czechia,2021,Female,255,4.78702974,High
+Europe,Germany,1991,Male,9656,24.97820615,High
+Europe,Germany,1991,Female,4354,10.53558725,High
+Europe,Germany,1992,Male,9326,23.87596582,High
+Europe,Germany,1992,Female,4132,9.94840409,High
+Europe,Germany,1993,Male,8960,22.7219127,High
+Europe,Germany,1993,Female,3730,8.93500919,High
+Europe,Germany,1994,Male,9130,23.06977026,High
+Europe,Germany,1994,Female,3588,8.57421427,High
+Europe,Germany,1995,Male,9222,23.21109461,High
+Europe,Germany,1995,Female,3666,8.74314333,High
+Europe,Germany,1996,Male,8728,21.88143212,High
+Europe,Germany,1996,Female,3497,8.32460484,High
+Europe,Germany,1997,Male,8835,22.09352048,High
+Europe,Germany,1997,Female,3421,8.13311588,High
+Europe,Germany,1998,Male,8581,21.4566304,High
+Europe,Germany,1998,Female,3073,7.31027888,High
+Europe,Germany,1999,Male,8082,20.18078306,High
+Europe,Germany,1999,Female,3078,7.32184231,High
+Europe,Germany,2000,Male,8136,20.28120529,High
+Europe,Germany,2000,Female,2937,6.98094715,High
+Europe,Germany,2001,Male,8196,20.38077434,High
+Europe,Germany,2001,Female,2971,7.05275085,High
+Europe,Germany,2002,Male,8117,20.13622777,High
+Europe,Germany,2002,Female,3059,7.25364881,High
+Europe,Germany,2003,Male,8182,20.27797329,High
+Europe,Germany,2003,Female,2973,7.04987241,High
+Europe,Germany,2004,Male,7946,19.69264456,High
+Europe,Germany,2004,Female,2795,6.63089337,High
+Europe,Germany,2005,Male,7531,18.6646574,High
+Europe,Germany,2005,Female,2739,6.50356575,High
+Europe,Germany,2006,Male,7231,17.93500326,High
+Europe,Germany,2006,Female,2544,6.05022788,High
+Europe,Germany,2007,Male,7012,17.40476272,High
+Europe,Germany,2007,Female,2397,5.71056661,High
+Europe,Germany,2008,Male,7045,17.50806657,High
+Europe,Germany,2008,Female,2414,5.76392533,High
+Europe,Germany,2009,Male,7206,17.95517784,High
+Europe,Germany,2009,Female,2373,5.68498976,High
+Europe,Germany,2010,Male,7471,18.63098263,High
+Europe,Germany,2010,Female,2559,6.1429367,High
+Europe,Germany,2011,Male,7651,19.05462701,High
+Europe,Germany,2011,Female,2502,6.01063277,High
+Europe,Germany,2012,Male,7289,18.0984532,High
+Europe,Germany,2012,Female,2607,6.26032747,High
+Europe,Germany,2013,Male,7456,18.89072478,High
+Europe,Germany,2013,Female,2635,6.39928114,High
+Europe,Germany,2014,Male,7629,19.21839404,High
+Europe,Germany,2014,Female,2588,6.2684452,High
+Europe,Germany,2015,Male,7403,18.42697871,High
+Europe,Germany,2015,Female,2685,6.46803714,High
+Europe,Germany,2016,Male,7385,18.1871372,High
+Europe,Germany,2016,Female,2467,5.90996613,High
+Europe,Germany,2017,Male,6988,17.13991018,High
+Europe,Germany,2017,Female,2254,5.38118806,High
+Europe,Germany,2018,Male,7120,17.4061306,High
+Europe,Germany,2018,Female,2289,5.44991514,High
+Europe,Germany,2019,Male,6850,16.70644019,High
+Europe,Germany,2019,Female,2201,5.22916998,High
+Europe,Germany,2020,Male,6952,16.9428466,High
+Europe,Germany,2020,Female,2269,5.38586366,High
+Europe,Denmark,2015,Male,390,13.8173663,High
+Europe,Denmark,2015,Female,174,6.09283591,High
+Europe,Denmark,2016,Male,433,15.20562714,High
+Europe,Denmark,2016,Female,144,5.00679568,High
+Europe,Denmark,2017,Male,418,14.58232455,High
+Europe,Denmark,2017,Female,165,5.70269074,High
+Europe,Denmark,2018,Male,426,14.78582934,High
+Europe,Denmark,2018,Female,158,5.43369856,High
+Europe,Denmark,2019,Male,452,15.62124697,High
+Europe,Denmark,2019,Female,152,5.20549371,High
+Europe,Denmark,2020,Male,412,14.21969428,High
+Europe,Denmark,2020,Female,167,5.70493918,High
+Europe,Denmark,2021,Male,384,13.19341443,High
+Europe,Denmark,2021,Female,144,4.89873898,High
+Europe,Czechia,1991,Male,1393,27.83995523,Lower-Middle
+Europe,Czechia,1991,Female,511,9.63224067,Lower-Middle
+Europe,Estonia,2000,Male,289,44.38812733,Upper-Middle
+Europe,Estonia,2000,Female,88,11.79766996,Upper-Middle
+Europe,Estonia,2001,Male,315,48.70995925,Upper-Middle
+Europe,Estonia,2001,Female,86,11.59920694,Upper-Middle
+Europe,Estonia,2002,Male,299,46.56269223,Upper-Middle
+Europe,Estonia,2002,Female,72,9.76661851,Upper-Middle
+Europe,Estonia,2003,Male,276,43.27918209,Upper-Middle
+Europe,Estonia,2003,Female,66,9.00409277,Upper-Middle
+Europe,Estonia,2004,Male,264,41.66798194,Upper-Middle
+Europe,Estonia,2004,Female,59,8.09361153,Upper-Middle
+Europe,Estonia,2005,Male,220,34.9306151,Upper-Middle
+Europe,Estonia,2005,Female,53,7.3107986,Upper-Middle
+Europe,Estonia,2006,Male,191,30.50655252,High
+Europe,Estonia,2006,Female,56,7.77006167,High
+Europe,Estonia,2007,Male,207,33.21805971,High
+Europe,Estonia,2007,Female,46,6.41092645,High
+Europe,Estonia,2008,Male,189,30.40124822,High
+Europe,Estonia,2008,Female,53,7.40839105,High
+Europe,Estonia,2009,Male,220,35.42330854,High
+Europe,Estonia,2009,Female,49,6.86798747,High
+Europe,Estonia,2010,Male,181,29.18178154,High
+Europe,Estonia,2010,Female,42,5.90530423,High
+Europe,Estonia,2011,Male,178,28.75982156,High
+Europe,Estonia,2011,Female,40,5.64557105,High
+Europe,Estonia,2012,Male,190,30.61365885,High
+Europe,Estonia,2012,Female,47,6.63219805,High
+Europe,Estonia,2013,Male,171,27.78035003,High
+Europe,Estonia,2013,Female,47,6.69082958,High
+Europe,Estonia,2014,Male,193,31.39977939,High
+Europe,Estonia,2014,Female,48,6.85821078,High
+Europe,Finland,1991,Male,1190,48.8786659,High
+Europe,Finland,1991,Female,303,11.74828429,High
+Europe,Finland,1992,Male,1156,47.17982206,High
+Europe,Finland,1992,Female,295,11.38205108,High
+Europe,Finland,1993,Male,1106,44.89182936,High
+Europe,Finland,1993,Female,291,11.18069697,High
+Europe,Finland,1994,Male,1080,43.62050164,High
+Europe,Finland,1994,Female,307,11.751646,High
+Europe,Finland,1995,Male,1080,43.4310532,High
+Europe,Finland,1995,Female,308,11.75079165,High
+Europe,Finland,1996,Male,965,38.66031008,High
+Europe,Finland,1996,Female,282,10.72896058,High
+Europe,Finland,1997,Male,1038,41.44043437,High
+Europe,Finland,1997,Female,284,10.77798862,High
+Europe,Finland,1998,Male,962,38.28723145,High
+Europe,Finland,1998,Female,266,10.07228188,High
+Europe,Finland,1999,Male,954,37.86388924,High
+Europe,Finland,1999,Female,253,9.56187706,High
+Europe,Finland,2000,Male,873,34.55805278,High
+Europe,Finland,2000,Female,292,11.01876397,High
+Europe,Finland,2001,Male,933,36.82697519,High
+Europe,Finland,2001,Female,271,10.20892893,High
+Europe,Finland,2002,Male,824,32.42489839,High
+Europe,Finland,2002,Female,271,10.19049073,High
+Europe,Finland,2003,Male,815,31.97451455,High
+Europe,Finland,2003,Female,260,9.75936045,High
+Europe,Finland,2004,Male,812,31.74994184,High
+Europe,Finland,2004,Female,252,9.43577439,High
+Europe,Finland,2005,Male,724,28.20177827,High
+Europe,Finland,2005,Female,270,10.07883139,High
+Europe,Finland,2006,Male,803,31.14762111,High
+Europe,Finland,2006,Female,259,9.63462095,High
+Europe,Finland,2007,Male,751,28.99317251,High
+Europe,Finland,2007,Female,244,9.04221119,High
+Europe,Finland,2008,Male,801,30.75777008,High
+Europe,Finland,2008,Female,232,8.56347993,High
+Europe,Finland,2009,Male,761,29.06399426,High
+Europe,Finland,2009,Female,273,10.03488132,High
+Europe,Finland,2010,Male,718,27.28230959,High
+Europe,Finland,2010,Female,236,8.6395935,High
+Europe,Finland,2011,Male,710,26.83828046,High
+Europe,Finland,2011,Female,202,7.36474482,High
+Europe,Finland,2012,Male,655,24.62796729,High
+Europe,Finland,2012,Female,218,7.91462947,High
+Europe,Finland,2013,Male,666,24.91123036,High
+Europe,Finland,2013,Female,221,7.99138232,High
+Europe,Finland,2014,Male,599,22.29987676,High
+Europe,Finland,2014,Female,190,6.84586499,High
+Europe,France,1991,Male,8221,29.58950456,High
+Europe,France,1991,Female,3281,11.20870186,High
+Europe,France,1992,Male,8442,30.21269134,High
+Europe,France,1992,Female,3202,10.87942593,High
+Europe,France,1993,Male,8861,31.55739165,High
+Europe,France,1993,Female,3390,11.46222874,High
+Europe,France,1994,Male,8872,31.46634888,High
+Europe,France,1994,Female,3169,10.66848907,High
+Europe,France,1995,Male,8605,30.39701576,High
+Europe,France,1995,Female,3214,10.77424373,High
+Europe,France,1996,Male,8174,28.75850107,High
+Europe,France,1996,Female,3105,10.36662115,High
+Europe,France,1997,Male,8099,28.37950537,High
+Europe,France,1997,Female,3040,10.10917241,High
+Europe,France,1998,Male,7771,27.11652674,High
+Europe,France,1998,Female,2763,9.15058222,High
+Europe,France,1999,Male,7427,26.08730991,High
+Europe,France,1999,Female,2841,9.42198025,High
+Europe,France,2000,Male,7975,27.87791007,High
+Europe,France,2000,Female,2874,9.48864867,High
+Europe,France,2001,Male,7660,26.63864902,High
+Europe,France,2001,Female,2789,9.16307363,High
+Europe,France,2002,Male,7728,26.65785982,High
+Europe,France,2002,Female,2915,9.49861674,High
+Europe,France,2003,Male,8038,27.5030547,High
+Europe,France,2003,Female,2833,9.15968639,High
+Europe,France,2004,Male,7855,26.65713503,High
+Europe,France,2004,Female,2949,9.4590404,High
+Europe,France,2005,Male,7829,26.41478164,High
+Europe,France,2005,Female,2884,9.19724887,High
+Europe,France,2006,Male,7593,25.4661303,High
+Europe,France,2006,Female,2830,8.90453206,High
+Europe,France,2007,Male,7419,24.72963318,High
+Europe,France,2007,Female,2708,8.47234089,High
+Europe,France,2008,Male,7619,25.2549954,High
+Europe,France,2008,Female,2734,8.50744686,High
+Europe,France,2009,Male,7765,25.60765329,High
+Europe,France,2009,Female,2734,8.46624864,High
+Europe,France,2010,Male,7641,25.06739754,High
+Europe,France,2010,Female,2738,8.43746148,High
+Europe,France,2011,Male,7790,25.43193647,High
+Europe,France,2011,Female,2618,8.03223522,High
+Europe,France,2012,Male,7326,23.80088967,High
+Europe,France,2012,Female,2417,7.3826966,High
+Europe,France,2013,Male,7225,23.37758962,High
+Europe,France,2013,Female,2375,7.22409123,High
+Europe,France,2014,Male,6661,21.42824376,High
+Europe,France,2014,Female,2220,6.71824544,High
+Asia,Georgia,1995,Male,106,4.73446782,Low
+Asia,Georgia,1995,Female,32,1.28233385,Low
+Asia,Georgia,1996,Male,124,5.68285976,Low
+Asia,Georgia,1996,Female,38,1.56092752,Low
+Asia,Georgia,1997,Male,141,6.58632287,Low
+Asia,Georgia,1997,Female,35,1.46391451,Low
+Asia,Georgia,1998,Male,118,5.56879587,Low
+Asia,Georgia,1998,Female,30,1.26667793,Low
+Asia,Georgia,1999,Male,147,6.99500357,Low
+Asia,Georgia,1999,Female,42,1.78647384,Low
+Asia,Georgia,2000,Male,102,4.89372931,Low
+Asia,Georgia,2000,Female,29,1.24250214,Low
+Asia,Georgia,2001,Male,73,3.52870091,Low
+Asia,Georgia,2001,Female,27,1.16494801,Low
+Asia,Georgia,2004,Male,147,7.22571766,Lower-Middle
+Asia,Georgia,2004,Female,28,1.22594628,Lower-Middle
+Asia,Georgia,2005,Male,70,3.39756346,Lower-Middle
+Asia,Georgia,2005,Female,18,0.78223458,Lower-Middle
+Asia,Georgia,2006,Male,59,2.83422203,Lower-Middle
+Asia,Georgia,2006,Female,13,0.56123991,Lower-Middle
+Asia,Georgia,2007,Male,84,4.04050121,Lower-Middle
+Asia,Georgia,2007,Female,20,0.86600706,Lower-Middle
+Asia,Georgia,2009,Male,149,7.1126811,Lower-Middle
+Asia,Georgia,2009,Female,39,1.68390147,Lower-Middle
+Asia,Georgia,2010,Male,97,4.5597706,Lower-Middle
+Asia,Georgia,2010,Female,16,0.68320594,Lower-Middle
+Asia,Georgia,2011,Male,84,3.93332085,Upper-Middle
+Asia,Georgia,2011,Female,15,0.63889599,Upper-Middle
+Asia,Georgia,2012,Male,91,4.24975482,Upper-Middle
+Asia,Georgia,2012,Female,14,0.59589682,Upper-Middle
+Asia,Georgia,2013,Male,135,6.30811644,Upper-Middle
+Asia,Georgia,2013,Female,23,0.97993268,Upper-Middle
+Asia,Georgia,2014,Male,158,8.89289132,Upper-Middle
+Asia,Georgia,2014,Female,37,1.89714403,Upper-Middle
+Europe,Greece,2006,Male,326,5.90562164,High
+Europe,Greece,2006,Female,68,1.20816528,High
+Europe,Greece,2007,Male,268,4.83491123,High
+Europe,Greece,2007,Female,60,1.06197867,High
+Europe,Greece,2008,Male,308,5.53431174,High
+Europe,Greece,2008,Female,65,1.14602329,High
+Europe,Greece,2009,Male,333,5.96016249,High
+Europe,Greece,2009,Female,58,1.01832011,High
+Europe,Greece,2010,Male,336,6.00129349,High
+Europe,Greece,2010,Female,41,0.71819399,High
+Europe,Greece,2011,Male,393,7.02399436,High
+Europe,Greece,2011,Female,84,1.4724138,High
+Europe,Greece,2012,Male,417,7.67735802,High
+Europe,Greece,2012,Female,91,1.60742539,High
+Europe,Spain,1991,Male,2139,11.16609766,High
+Europe,Spain,1991,Female,777,3.91067357,High
+Europe,Spain,1992,Male,2104,11.01611054,High
+Europe,Spain,1992,Female,682,3.42603384,High
+Europe,Greece,2013,Male,425,7.95917412,High
+Europe,Greece,2013,Female,108,1.91983242,High
+Europe,Spain,1993,Male,2283,11.92927087,High
+Europe,Spain,1993,Female,754,3.77977071,High
+Europe,Spain,1994,Male,2429,12.67388106,High
+Europe,Spain,1994,Female,742,3.7129518,High
+Europe,Greece,2014,Male,450,8.50533483,High
+Europe,Greece,2014,Female,115,2.05299512,High
+Europe,Spain,1995,Male,2408,12.54787525,High
+Europe,Spain,1995,Female,749,3.74140825,High
+Europe,Spain,1996,Male,2451,12.75565964,High
+Europe,Spain,1996,Female,869,4.3330192,High
+Europe,Spain,1997,Male,2526,13.13210608,High
+Europe,Spain,1997,Female,847,4.21644763,High
+Europe,Spain,1998,Male,2499,12.97979536,High
+Europe,Spain,1998,Female,762,3.78761519,High
+Europe,Spain,1999,Male,2411,12.43805221,High
+Europe,Spain,1999,Female,809,3.99662308,High
+Europe,Spain,2000,Male,2575,13.09076726,High
+Europe,Spain,2000,Female,819,3.99450777,High
+Europe,Spain,2001,Male,2430,12.21032266,High
+Europe,Spain,2001,Female,759,3.66433725,High
+Europe,Spain,2002,Male,2555,12.6073195,High
+Europe,Spain,2002,Female,817,3.88160137,High
+Europe,Spain,2003,Male,2650,12.84774233,High
+Europe,Spain,2003,Female,828,3.87307122,High
+Europe,Spain,2004,Male,2651,12.63122586,High
+Europe,Spain,2004,Female,857,3.94856617,High
+Europe,Spain,2005,Male,2570,12.0277263,High
+Europe,Spain,2005,Female,829,3.76289785,High
+Europe,Spain,2006,Male,2512,11.56259229,High
+Europe,Spain,2006,Female,735,3.28961914,High
+Europe,Spain,2007,Male,2463,11.11698581,High
+Europe,Spain,2007,Female,801,3.52579493,High
+Europe,Spain,2008,Male,2676,11.88680668,High
+Europe,Spain,2008,Female,781,3.383731,High
+Europe,Spain,2009,Male,2666,11.75958607,High
+Europe,Spain,2009,Female,763,3.28050544,High
+Europe,Spain,2010,Male,2468,10.87335846,High
+Europe,Spain,2010,Female,690,2.95185246,High
+Europe,Spain,2011,Male,2435,10.73456851,High
+Europe,Spain,2011,Female,745,3.17813389,High
+Europe,Spain,2012,Male,2724,11.81485805,High
+Europe,Spain,2012,Female,815,3.43726904,High
+Europe,Spain,2013,Male,2913,12.70180356,High
+Europe,Spain,2013,Female,960,4.0575693,High
+Europe,Spain,2014,Male,2938,12.86334573,High
+Europe,Spain,2014,Female,973,4.12025644,High
+Europe,Spain,2015,Male,2681,11.75832635,High
+Europe,Spain,2015,Female,923,3.90947917,High
+Europe,Spain,2016,Male,2662,11.67265201,High
+Europe,Spain,2016,Female,907,3.83590708,High
+Europe,Spain,2017,Male,2718,11.90551906,High
+Europe,Spain,2017,Female,962,4.0585371,High
+Europe,Spain,2018,Male,2619,11.43086496,High
+Europe,Spain,2018,Female,922,3.87115779,High
+Europe,Spain,2019,Male,2772,12.00421083,High
+Europe,Spain,2019,Female,901,3.75206192,High
+Europe,Spain,2020,Male,2931,12.62884078,High
+Europe,Spain,2020,Female,1016,4.20757892,High
+Europe,Spain,2021,Male,2982,12.85828343,High
+Europe,Spain,2021,Female,1023,4.23777488,High
+Europe,Estonia,1993,Male,457,65.78824248,Low
+Europe,Estonia,1993,Female,122,15.26001438,Low
+Europe,Estonia,1994,Male,497,73.23556803,Low
+Europe,Estonia,1994,Female,118,15.05328608,Low
+Europe,Estonia,1995,Male,467,70.19284243,Lower-Middle
+Europe,Estonia,1995,Female,128,16.59484212,Lower-Middle
+Europe,Estonia,1996,Male,439,67.08199437,Lower-Middle
+Europe,Estonia,1996,Female,112,14.71417067,Lower-Middle
+Europe,Estonia,1997,Male,434,67.15719271,Lower-Middle
+Europe,Estonia,1997,Female,91,12.08034091,Lower-Middle
+Europe,Estonia,1998,Male,401,62.69259211,Upper-Middle
+Europe,Estonia,1998,Female,81,10.85024386,Upper-Middle
+Europe,Estonia,1999,Male,376,59.26075362,Upper-Middle
+Europe,Estonia,1999,Female,93,12.54772859,Upper-Middle
+Europe,Estonia,2015,Male,159,25.8306,High
+Europe,Estonia,2015,Female,36,5.14977992,High
+Europe,Estonia,2016,Male,146,23.65816863,High
+Europe,Estonia,2016,Female,37,5.29580279,High
+Europe,Estonia,2017,Male,172,27.73424147,High
+Europe,Estonia,2017,Female,54,7.72292436,High
+Europe,Estonia,2018,Male,150,24.05226075,High
+Europe,Estonia,2018,Female,46,6.57827938,High
+Europe,Estonia,2019,Male,150,23.93772362,High
+Europe,Estonia,2019,Female,43,6.1514428,High
+Europe,Estonia,2020,Male,164,26.09570121,High
+Europe,Estonia,2020,Female,46,6.58947432,High
+Europe,Estonia,2021,Male,149,23.69272602,High
+Europe,Estonia,2021,Female,37,5.31377863,High
+Europe,Estonia,2022,Male,147,23.40373027,High
+Europe,Estonia,2022,Female,46,6.63015278,High
+Europe,Finland,2015,Male,558,20.68493836,High
+Europe,Finland,2015,Female,173,6.21516767,High
+Europe,Finland,2016,Male,615,22.71964494,High
+Europe,Finland,2016,Female,172,6.16842527,High
+Europe,Finland,2017,Male,611,22.498563,High
+Europe,Finland,2017,Female,213,7.6276162,High
+Europe,Finland,2018,Male,618,22.71047706,High
+Europe,Finland,2018,Female,192,6.87109609,High
+Europe,Finland,2019,Male,567,20.80141582,High
+Europe,Finland,2019,Female,179,6.40239328,High
+Europe,Finland,2020,Male,529,19.36994583,High
+Europe,Finland,2020,Female,188,6.71786658,High
+Europe,Finland,2021,Male,524,19.13488064,High
+Europe,Finland,2021,Female,223,7.95700364,High
+Asia,"China, Hong Kong SAR",1991,Male,459,15.5995106,High
+Asia,"China, Hong Kong SAR",1991,Female,289,10.27592092,High
+Asia,"China, Hong Kong SAR",1992,Male,427,14.39649359,High
+Asia,"China, Hong Kong SAR",1992,Female,305,10.71867862,High
+Asia,"China, Hong Kong SAR",1993,Male,357,11.83765502,High
+Asia,"China, Hong Kong SAR",1993,Female,252,8.68007716,High
+Asia,"China, Hong Kong SAR",1994,Male,414,13.40716992,High
+Asia,"China, Hong Kong SAR",1994,Female,337,11.33344544,High
+Asia,"China, Hong Kong SAR",1995,Male,440,14.26579775,High
+Asia,"China, Hong Kong SAR",1995,Female,284,9.24539358,High
+Asia,"China, Hong Kong SAR",1996,Male,501,15.55900621,High
+Asia,"China, Hong Kong SAR",1996,Female,287,8.92551703,High
+Asia,"China, Hong Kong SAR",1997,Male,382,11.80688632,High
+Asia,"China, Hong Kong SAR",1997,Female,260,7.99041151,High
+Asia,"China, Hong Kong SAR",1998,Male,545,16.76974676,High
+Asia,"China, Hong Kong SAR",1998,Female,302,9.16874127,High
+Asia,"China, Hong Kong SAR",1999,Male,546,16.72435446,High
+Asia,"China, Hong Kong SAR",1999,Female,326,9.75522174,High
+Europe,France,2015,Male,6857,21.95591923,High
+Europe,France,2015,Female,2103,6.3300596,High
+Asia,"China, Hong Kong SAR",2000,Male,541,16.51152144,High
+Asia,"China, Hong Kong SAR",2000,Female,349,10.29954257,High
+Europe,France,2016,Male,6454,20.60096007,High
+Europe,France,2016,Female,1985,5.95399622,High
+Europe,France,2017,Male,6168,19.61704962,High
+Europe,France,2017,Female,2052,6.13284807,High
+Asia,"China, Hong Kong SAR",2001,Male,611,18.61669714,High
+Asia,"China, Hong Kong SAR",2001,Female,390,11.36264313,High
+Europe,France,2018,Male,6552,20.83323563,High
+Europe,France,2018,Female,2148,6.4079882,High
+Europe,France,2019,Male,6515,20.6664697,High
+Europe,France,2019,Female,2121,6.31151627,High
+Asia,"China, Hong Kong SAR",2002,Male,684,20.85620198,High
+Asia,"China, Hong Kong SAR",2002,Female,356,10.27565305,High
+Europe,Estonia,1991,Male,319,43.68953314,Low
+Europe,Estonia,1991,Female,108,12.99385679,Low
+Europe,France,2020,Male,6599,20.89005434,High
+Europe,France,2020,Female,2211,6.5638855,High
+Europe,Estonia,1992,Male,376,52.58520622,Low
+Europe,Estonia,1992,Female,121,14.79107304,Low
+Asia,"China, Hong Kong SAR",2003,Male,734,22.52155503,High
+Asia,"China, Hong Kong SAR",2003,Female,369,10.62879857,High
+Asia,"China, Hong Kong SAR",2004,Male,837,25.62140321,High
+Asia,"China, Hong Kong SAR",2004,Female,441,12.5401655,High
+Asia,"China, Hong Kong SAR",2005,Male,718,21.99754902,High
+Asia,"China, Hong Kong SAR",2005,Female,431,12.14358165,High
+Asia,"China, Hong Kong SAR",2006,Male,630,19.26546589,High
+Asia,"China, Hong Kong SAR",2006,Female,412,11.48592138,High
+Asia,"China, Hong Kong SAR",2007,Male,578,17.60102317,High
+Asia,"China, Hong Kong SAR",2007,Female,344,9.47032265,High
+Asia,"China, Hong Kong SAR",2008,Male,535,16.2604097,High
+Asia,"China, Hong Kong SAR",2008,Female,343,9.3521649,High
+Asia,"China, Hong Kong SAR",2009,Male,627,19.08792012,High
+Asia,"China, Hong Kong SAR",2009,Female,398,10.79175705,High
+Asia,"China, Hong Kong SAR",2010,Male,629,19.09358589,High
+Asia,"China, Hong Kong SAR",2010,Female,379,10.16113033,High
+Asia,"China, Hong Kong SAR",2011,Male,506,15.3194066,High
+Asia,"China, Hong Kong SAR",2011,Female,315,8.35854163,High
+Asia,"China, Hong Kong SAR",2012,Male,513,15.41790641,High
+Asia,"China, Hong Kong SAR",2012,Female,310,8.1092393,High
+Asia,"China, Hong Kong SAR",2013,Male,619,18.58914682,High
+Asia,"China, Hong Kong SAR",2013,Female,380,9.87269421,High
+Asia,"China, Hong Kong SAR",2014,Male,563,16.83360742,High
+Asia,"China, Hong Kong SAR",2014,Female,363,9.34362934,High
+Europe,Hungary,1993,Male,2715,54.73924964,Lower-Middle
+Europe,Hungary,1993,Female,979,18.13754297,Lower-Middle
+Europe,Hungary,1994,Male,2727,55.11847947,Upper-Middle
+Europe,Hungary,1994,Female,898,16.64247824,Upper-Middle
+Europe,Hungary,1995,Male,2478,50.20848272,Upper-Middle
+Europe,Hungary,1995,Female,891,16.51975028,Upper-Middle
+Europe,Hungary,1996,Male,2522,51.23320269,Upper-Middle
+Europe,Hungary,1996,Female,916,16.99869485,Upper-Middle
+Europe,Hungary,1997,Male,2388,48.64673264,Upper-Middle
+Europe,Hungary,1997,Female,826,15.34852106,Upper-Middle
+Europe,Hungary,1998,Male,2469,50.45901559,Upper-Middle
+Europe,Hungary,1998,Female,778,14.47848605,Upper-Middle
+Europe,Hungary,1999,Male,2550,53.07315416,Upper-Middle
+Europe,Hungary,1999,Female,778,14.78295749,Upper-Middle
+Europe,Hungary,2000,Male,2463,51.5088776,Upper-Middle
+Europe,Hungary,2000,Female,806,15.37428272,Upper-Middle
+Europe,Hungary,2001,Male,2282,47.10986549,Upper-Middle
+Europe,Hungary,2001,Female,697,13.04369225,Upper-Middle
+Europe,Hungary,2002,Male,2195,45.4666159,Upper-Middle
+Europe,Hungary,2002,Female,648,12.15557105,Upper-Middle
+Europe,Hungary,2003,Male,2161,44.91524508,Upper-Middle
+Europe,Hungary,2003,Female,640,12.03399529,Upper-Middle
+Europe,United Kingdom of Great Britain and Northern Ireland,1991,Male,3494,12.38005493,High
+Europe,United Kingdom of Great Britain and Northern Ireland,1991,Female,1053,3.56136497,High
+Europe,United Kingdom of Great Britain and Northern Ireland,1992,Male,3557,12.55241702,High
+Europe,United Kingdom of Great Britain and Northern Ireland,1992,Female,1071,3.61216017,High
+Europe,Hungary,2004,Male,2087,43.4917249,Upper-Middle
+Europe,Hungary,2004,Female,655,12.33863003,Upper-Middle
+Europe,United Kingdom of Great Britain and Northern Ireland,1993,Male,3433,12.06792106,High
+Europe,United Kingdom of Great Britain and Northern Ireland,1993,Female,1029,3.46201894,High
+Europe,United Kingdom of Great Britain and Northern Ireland,1994,Male,3390,11.86873307,High
+Europe,United Kingdom of Great Britain and Northern Ireland,1994,Female,990,3.32130417,High
+Europe,Hungary,2005,Male,2028,42.34839827,Upper-Middle
+Europe,Hungary,2005,Female,593,11.19244244,Upper-Middle
+Europe,United Kingdom of Great Britain and Northern Ireland,1995,Male,3354,11.68834441,High
+Europe,United Kingdom of Great Britain and Northern Ireland,1995,Female,961,3.21581746,High
+Europe,United Kingdom of Great Britain and Northern Ireland,1996,Male,3185,11.0510388,High
+Europe,United Kingdom of Great Britain and Northern Ireland,1996,Female,980,3.272047,High
+Europe,Hungary,2006,Male,1861,38.9181629,Upper-Middle
+Europe,Hungary,2006,Female,600,11.34313923,Upper-Middle
+Europe,United Kingdom of Great Britain and Northern Ireland,1997,Male,3197,11.04332209,High
+Europe,United Kingdom of Great Britain and Northern Ireland,1997,Female,946,3.15069536,High
+Europe,United Kingdom of Great Britain and Northern Ireland,1998,Male,3407,11.71475107,High
+Europe,United Kingdom of Great Britain and Northern Ireland,1998,Female,982,3.26131225,High
+Europe,Hungary,2007,Male,1879,39.35639002,High
+Europe,Hungary,2007,Female,571,10.81140442,High
+Europe,United Kingdom of Great Britain and Northern Ireland,1999,Male,3443,11.77104682,High
+Europe,United Kingdom of Great Britain and Northern Ireland,1999,Female,1005,3.32738322,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2000,Male,3311,11.25951384,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2000,Female,979,3.23126241,High
+Europe,Hungary,2008,Male,1911,40.09394277,High
+Europe,Hungary,2008,Female,566,10.73620388,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2001,Male,3199,11.10393642,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2001,Female,929,3.07196357,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2002,Male,3164,10.92376411,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2002,Female,953,3.13908936,High
+Europe,Hungary,2009,Male,1902,39.95819306,High
+Europe,Hungary,2009,Female,559,10.62197558,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2003,Male,3050,10.47794007,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2003,Female,929,3.0510448,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2004,Male,3162,10.79993278,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2004,Female,1021,3.34010711,High
+Europe,Hungary,2010,Male,1945,40.94391189,High
+Europe,Hungary,2010,Female,547,10.41979586,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2005,Male,3054,10.35358265,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2005,Female,993,3.23017726,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2006,Male,3186,10.72945222,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2006,Female,936,3.02977511,High
+Europe,Hungary,2011,Male,1847,38.98423175,High
+Europe,Hungary,2011,Female,575,10.98604219,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2007,Male,3025,10.11160978,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2007,Female,872,2.80753739,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2008,Male,3300,10.94478829,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2008,Female,959,3.07058634,High
+Europe,Hungary,2012,Male,1803,38.19664791,High
+Europe,Hungary,2012,Female,547,10.51912558,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2009,Male,3313,10.90735138,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2009,Female,933,2.96964035,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2010,Male,3225,10.52433922,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2010,Female,963,3.04566476,High
+Europe,Hungary,2013,Male,1588,33.71784702,High
+Europe,Hungary,2013,Female,505,9.74262211,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2011,Male,3433,11.08921622,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2011,Female,960,3.01290295,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2012,Male,3512,11.21504686,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2012,Female,932,2.87743504,High
+Europe,Hungary,2014,Male,1480,31.49214239,High
+Europe,Hungary,2014,Female,447,8.65125067,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2013,Male,3831,12.14922598,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2013,Female,993,3.04855763,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2014,Male,3717,11.69097627,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2014,Female,1071,3.26494528,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2015,Male,3732,11.63543126,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2015,Female,1178,3.56585136,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2016,Male,3677,11.35659097,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2016,Female,1111,3.33930661,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2017,Male,3593,11.02762858,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2017,Female,1082,3.23386383,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2018,Male,3953,12.40584908,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2018,Female,1222,3.73815686,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2019,Male,4364,13.23297258,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2019,Female,1322,3.90909399,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2020,Male,4188,12.6359618,High
+Europe,United Kingdom of Great Britain and Northern Ireland,2020,Female,1339,3.94577474,High
+Europe,Iceland,1997,Male,26,19.1487638,High
+Europe,Iceland,1997,Female,7,5.17996685,High
+Europe,Iceland,1998,Male,23,16.77705482,High
+Europe,Iceland,1998,Female,7,5.12062735,High
+Europe,Iceland,1999,Male,24,17.29318432,High
+Europe,Iceland,1999,Female,7,5.05776692,High
+Europe,Iceland,2000,Male,42,29.8469279,High
+Europe,Iceland,2000,Female,8,5.69654505,High
+Asia,Georgia,2015,Male,144,8.08794517,Upper-Middle
+Asia,Georgia,2015,Female,51,2.62231223,Upper-Middle
+Asia,Georgia,2016,Male,131,7.34032756,Upper-Middle
+Asia,Georgia,2016,Female,32,1.64707039,Upper-Middle
+Asia,Georgia,2017,Male,120,6.70922365,Upper-Middle
+Asia,Georgia,2017,Female,30,1.54685342,Upper-Middle
+Asia,Georgia,2018,Male,205,11.44465616,Upper-Middle
+Asia,Georgia,2018,Female,45,2.32519747,Upper-Middle
+Europe,Iceland,2001,Male,28,19.61374924,High
+Europe,Iceland,2001,Female,8,5.62204403,High
+Asia,Georgia,2019,Male,223,12.45400257,Upper-Middle
+Asia,Georgia,2019,Female,38,1.96934864,Upper-Middle
+Asia,Georgia,2020,Male,171,9.53575378,Upper-Middle
+Asia,Georgia,2020,Female,31,1.6066634,Upper-Middle
+Asia,Georgia,2021,Male,154,8.63660045,Upper-Middle
+Asia,Georgia,2021,Female,24,1.24642885,Upper-Middle
+Asia,Georgia,2022,Male,169,8.94060686,Upper-Middle
+Asia,Georgia,2022,Female,26,1.25091654,Upper-Middle
+Europe,Iceland,2002,Male,20,13.90240512,High
+Europe,Iceland,2002,Female,10,6.95899067,High
+Europe,Iceland,2003,Male,20,13.82045843,High
+Europe,Iceland,2003,Female,6,4.15055444,High
+Europe,Iceland,2004,Male,26,17.72360716,High
+Europe,Iceland,2004,Female,9,6.16903146,High
+Europe,Iceland,2005,Male,24,16.16716852,High
+Europe,Iceland,2005,Female,9,6.10521317,High
+Europe,Iceland,2006,Male,22,14.25914043,High
+Europe,Iceland,2006,Female,10,6.66457843,High
+Europe,Iceland,2007,Male,30,18.88383921,High
+Europe,Iceland,2007,Female,7,4.58926113,High
+Europe,Iceland,2008,Male,27,16.54655096,High
+Europe,Iceland,2008,Female,11,7.04320043,High
+Europe,Iceland,2009,Male,29,17.95132097,High
+Europe,Iceland,2009,Female,7,4.43886416,High
+Europe,Iceland,2010,Male,36,22.50407886,High
+Europe,Iceland,2010,Female,10,6.32631113,High
+Europe,Iceland,2011,Male,22,13.73411992,High
+Europe,Iceland,2011,Female,5,3.14804963,High
+Europe,Iceland,2012,Male,26,16.15900461,High
+Europe,Iceland,2012,Female,11,6.88295842,High
+Europe,Iceland,2013,Male,35,21.5546441,High
+Europe,Iceland,2013,Female,14,8.67485408,High
+Europe,Iceland,2014,Male,33,20.09107956,High
+Europe,Iceland,2014,Female,11,6.74294366,High
+Asia,Iran (Islamic Republic of),2013,Male,1619,4.18995252,Upper-Middle
+Asia,Iran (Islamic Republic of),2013,Female,823,2.17483754,Upper-Middle
+Asia,Iran (Islamic Republic of),2013,Unknown,1,,Upper-Middle
+Asia,Iran (Islamic Republic of),2014,Male,1695,4.32572279,Upper-Middle
+Asia,Iran (Islamic Republic of),2014,Female,793,2.0714931,Upper-Middle
+Asia,Iran (Islamic Republic of),2014,Unknown,2,,Upper-Middle
+Asia,Iraq,2008,Male,1,0.00697456,Upper-Middle
+Asia,Iraq,2008,Female,2,0.01423698,Upper-Middle
+Europe,Ireland,1991,Male,282,16.08303867,High
+Europe,Ireland,1991,Female,63,3.55470293,High
+Europe,Ireland,1992,Male,304,17.19748826,High
+Europe,Ireland,1992,Female,58,3.24838981,High
+Europe,Ireland,1993,Male,259,14.57676722,High
+Europe,Ireland,1993,Female,67,3.73279848,High
+Europe,Ireland,1994,Male,304,17.04704761,High
+Europe,Ireland,1994,Female,90,4.99278819,High
+Europe,Ireland,1995,Male,320,17.89308879,High
+Europe,Ireland,1995,Female,83,4.57829996,High
+Europe,Ireland,1996,Male,345,19.16453727,High
+Europe,Ireland,1996,Female,63,3.45035325,High
+Europe,Ireland,1997,Male,376,20.66622183,High
+Europe,Ireland,1997,Female,90,4.87826295,High
+Europe,Ireland,1998,Male,425,23.11215814,High
+Europe,Ireland,1998,Female,73,3.91584054,High
+Europe,Ireland,1999,Male,342,18.40081825,High
+Europe,Ireland,1999,Female,82,4.35467442,High
+Europe,Ireland,2000,Male,381,20.23424995,High
+Europe,Ireland,2000,Female,82,4.30087224,High
+Europe,Ireland,2001,Male,409,21.37860091,High
+Europe,Ireland,2001,Female,79,4.0846505,High
+Europe,Ireland,2002,Male,368,18.90899225,High
+Europe,Ireland,2002,Female,81,4.10950773,High
+Europe,Ireland,2003,Male,358,18.10633985,High
+Europe,Ireland,2003,Female,96,4.79603368,High
+Europe,Ireland,2004,Male,390,19.39180343,High
+Europe,Ireland,2004,Female,74,3.64065012,High
+Europe,Ireland,2005,Male,363,17.63032844,High
+Europe,Ireland,2005,Female,88,4.24757574,High
+Europe,Ireland,2006,Male,372,17.53748283,High
+Europe,Ireland,2006,Female,80,3.77597339,High
+Europe,Ireland,2007,Male,362,16.67342201,High
+Europe,Ireland,2007,Female,96,4.42823628,High
+Europe,Ireland,2008,Male,386,17.49570313,High
+Europe,Ireland,2008,Female,120,5.41559991,High
+Europe,Ireland,2009,Male,422,19.02903235,High
+Europe,Ireland,2009,Female,105,4.6840685,High
+Europe,Ireland,2010,Male,386,17.05744115,High
+Europe,Ireland,2010,Female,100,4.36416705,High
+Europe,Ireland,2011,Male,458,20.17171503,High
+Europe,Ireland,2011,Female,96,4.16597595,High
+Europe,Ireland,2012,Male,446,19.65093593,High
+Europe,Ireland,2012,Female,96,4.14544465,High
+Europe,Ireland,2013,Male,391,17.19553567,High
+Europe,Ireland,2013,Female,96,4.13921776,High
+Europe,Ireland,2014,Male,399,17.42034015,High
+Europe,Ireland,2014,Female,87,3.72363602,High
+Asia,Israel,1997,Male,301,10.46810879,High
+Asia,Israel,1997,Female,78,2.64093448,High
+Asia,Israel,1998,Male,239,8.11379685,High
+Asia,Israel,1998,Female,79,2.61148392,High
+Asia,Israel,1999,Male,297,9.82890426,High
+Asia,Israel,1999,Female,71,2.28773965,High
+Asia,Israel,2000,Male,307,9.89549455,High
+Asia,Israel,2000,Female,87,2.730025,High
+Asia,Israel,2001,Male,323,10.16825791,High
+Asia,Israel,2001,Female,75,2.29885762,High
+Asia,Israel,2002,Male,291,8.97667037,High
+Asia,Israel,2002,Female,91,2.73419384,High
+Asia,Israel,2003,Male,345,10.4486926,High
+Asia,Israel,2003,Female,72,2.12520968,High
+Asia,Israel,2004,Male,320,9.51823456,High
+Asia,Israel,2004,Female,91,2.63997717,High
+Europe,Greece,1991,Male,297,5.87744518,Upper-Middle
+Europe,Greece,1991,Female,84,1.61443272,Upper-Middle
+Europe,Greece,1992,Male,279,5.45146642,Upper-Middle
+Europe,Greece,1992,Female,72,1.37092224,Upper-Middle
+Asia,Israel,2005,Male,304,8.88075599,High
+Asia,Israel,2005,Female,121,3.4502468,High
+Europe,Greece,1993,Male,308,5.95519374,Upper-Middle
+Europe,Greece,1993,Female,104,1.96464471,Upper-Middle
+Europe,Greece,1994,Male,281,5.38286231,Upper-Middle
+Europe,Greece,1994,Female,74,1.38764891,Upper-Middle
+Asia,Israel,2006,Male,279,8.00458815,High
+Asia,Israel,2006,Female,88,2.46622532,High
+Europe,Greece,1995,Male,306,5.81300034,High
+Europe,Greece,1995,Female,64,1.19173354,High
+Europe,Greece,1996,Male,294,5.5436867,High
+Europe,Greece,1996,Female,62,1.14691203,High
+Asia,Israel,2007,Male,263,7.41008719,High
+Asia,Israel,2007,Female,63,1.73510748,High
+Europe,Greece,1997,Male,319,5.97626617,High
+Europe,Greece,1997,Female,55,1.01126178,High
+Europe,Greece,1998,Male,315,5.86939752,High
+Europe,Greece,1998,Female,88,1.60933708,High
+Asia,Israel,2008,Male,294,8.13474907,High
+Asia,Israel,2008,Female,60,1.62396056,High
+Europe,Greece,1999,Male,296,5.49177245,High
+Europe,Greece,1999,Female,85,1.54750119,High
+Europe,Greece,2000,Male,298,5.51234979,High
+Europe,Greece,2000,Female,84,1.52410978,High
+Asia,Israel,2009,Male,310,8.37524558,High
+Asia,Israel,2009,Female,94,2.48402494,High
+Europe,Greece,2001,Male,286,5.27573753,High
+Europe,Greece,2001,Female,48,0.86816389,High
+Europe,Greece,2002,Male,257,4.72484489,High
+Europe,Greece,2002,Female,66,1.18956921,High
+Asia,Georgia,1991,Male,123,4.7541744,Lower-Middle
+Asia,Georgia,1991,Female,51,1.77505525,Lower-Middle
+Asia,Israel,2010,Male,394,10.44726768,High
+Asia,Israel,2010,Female,86,2.23246734,High
+Asia,Georgia,1992,Male,151,5.89728569,Low
+Asia,Georgia,1992,Female,53,1.86219739,Low
+Europe,Greece,2003,Male,306,5.60799458,High
+Europe,Greece,2003,Female,69,1.23943872,High
+Asia,Georgia,1994,Male,90,3.91244811,Low
+Asia,Georgia,1994,Female,33,1.28820705,Low
+Europe,Greece,2004,Male,285,5.20497654,High
+Europe,Greece,2004,Female,68,1.21728415,High
+Asia,Israel,2011,Male,322,8.38296945,High
+Asia,Israel,2011,Female,87,2.21672373,High
+Europe,Greece,2005,Male,321,5.83915369,High
+Europe,Greece,2005,Female,79,1.40906442,High
+Asia,Israel,2012,Male,349,8.9118704,High
+Asia,Israel,2012,Female,81,2.0278389,High
+Asia,Israel,2013,Male,291,7.29077203,High
+Asia,Israel,2013,Female,81,1.99109686,High
+Asia,Israel,2014,Male,294,7.22310895,High
+Asia,Israel,2014,Female,88,2.12283596,High
+Europe,Italy,1991,Male,3206,11.52801999,High
+Europe,Italy,1991,Female,1247,4.23556105,High
+Europe,Italy,1992,Male,3339,12.11803906,High
+Europe,Italy,1992,Female,1204,4.1206121,High
+Europe,Greece,2015,Male,422,8.04369518,High
+Europe,Greece,2015,Female,107,1.91941369,High
+Europe,Greece,2016,Male,404,7.73538993,High
+Europe,Greece,2016,Female,81,1.45860795,High
+Europe,Italy,1993,Male,3516,12.75204142,High
+Europe,Italy,1993,Female,1181,4.0377181,High
+Europe,Greece,2017,Male,420,8.05263355,High
+Europe,Greece,2017,Female,103,1.85953606,High
+Europe,Greece,2018,Male,446,8.56181148,High
+Europe,Greece,2018,Female,121,2.19055274,High
+Europe,Italy,1994,Male,3411,12.36927631,High
+Europe,Italy,1994,Female,1125,3.84405099,High
+Europe,Greece,2019,Male,438,8.40388858,High
+Europe,Greece,2019,Female,92,1.66978935,High
+Europe,Greece,2020,Male,376,7.22277834,High
+Europe,Greece,2020,Female,88,1.60208679,High
+Europe,Italy,1995,Male,3430,12.44152709,High
+Europe,Italy,1995,Female,1139,3.89063258,High
+Europe,Italy,1996,Male,3458,12.54703596,High
+Europe,Italy,1996,Female,1231,4.20367463,High
+Europe,Italy,1997,Male,3547,12.86693902,High
+Europe,Italy,1997,Female,1147,3.9133949,High
+Europe,Italy,1998,Male,3448,12.50563171,High
+Europe,Italy,1998,Female,1056,3.60006533,High
+Europe,Italy,1999,Male,3105,11.26479607,High
+Europe,Italy,1999,Female,1010,3.44177057,High
+Europe,Italy,2000,Male,3062,11.10910036,High
+Europe,Italy,2000,Female,1046,3.56260526,High
+Europe,Italy,2001,Male,3050,11.06021157,High
+Europe,Italy,2001,Female,980,3.33510684,High
+Europe,Italy,2002,Male,3145,11.36333561,High
+Europe,Italy,2002,Female,924,3.1342567,High
+Europe,Italy,2003,Male,3078,11.0253757,High
+Europe,Italy,2003,Female,997,3.35834498,High
+Europe,Italy,2004,Male,3048,10.90717571,High
+Europe,Italy,2004,Female,940,3.16068155,High
+Europe,Italy,2005,Male,2804,9.98170472,High
+Europe,Italy,2005,Female,939,3.14277117,High
+Europe,Italy,2006,Male,2842,9.9291944,High
+Europe,Italy,2006,Female,859,2.83322237,High
+Europe,Italy,2007,Male,2893,10.03326132,High
+Europe,Italy,2007,Female,864,2.82896593,High
+Europe,Italy,2008,Male,2999,10.32319447,High
+Europe,Italy,2008,Female,907,2.94661392,High
+Europe,Italy,2009,Male,3094,10.58866945,High
+Europe,Italy,2009,Female,881,2.84443262,High
+Europe,Italy,2010,Male,3128,10.65745782,High
+Europe,Italy,2010,Female,861,2.76555006,High
+Europe,Italy,2011,Male,3293,11.46550457,High
+Europe,Italy,2011,Female,863,2.81487748,High
+Europe,Italy,2012,Male,3325,11.54189173,High
+Europe,Italy,2012,Female,933,3.03596076,High
+Europe,Italy,2013,Male,3323,11.38517415,High
+Europe,Italy,2013,Female,968,3.11786693,High
+Europe,Italy,2014,Male,3215,10.90086328,High
+Europe,Italy,2014,Female,932,2.97801037,High
+Asia,Japan,1991,Male,12477,20.64873811,High
+Asia,Japan,1991,Female,7398,11.80337285,High
+Asia,Japan,1992,Male,13516,22.30473456,High
+Asia,Japan,1992,Female,7377,11.73205681,High
+Asia,Japan,1993,Male,13540,22.2954059,High
+Asia,Japan,1993,Female,6976,11.06300649,High
+Asia,Japan,1994,Male,14058,23.10688867,High
+Asia,Japan,1994,Female,6865,10.85718804,High
+Asia,Japan,1995,Male,14236,23.36865881,High
+Asia,Japan,1995,Female,7190,11.34430844,High
+Asia,Japan,1996,Male,14856,24.30827129,High
+Asia,Japan,1996,Female,7287,11.45862817,High
+Asia,Japan,1997,Male,15906,25.98595001,High
+Asia,Japan,1997,Female,7596,11.91473342,High
+Asia,Japan,1998,Male,22351,36.45512225,High
+Asia,Japan,1998,Female,9407,14.71200013,High
+Asia,Japan,1999,Male,22407,36.5184654,High
+Asia,Japan,1999,Female,9014,14.06810875,High
+Asia,Japan,2000,Male,21659,35.22475644,High
+Asia,Japan,2000,Female,8597,13.40670546,High
+Asia,Japan,2001,Male,21092,34.24303921,High
+Asia,Japan,2001,Female,8292,12.89319422,High
+Asia,Japan,2002,Male,21678,35.19670082,High
+Asia,Japan,2002,Female,8275,12.84598786,High
+Asia,Japan,2003,Male,23401,37.97630639,High
+Asia,Japan,2003,Female,8717,13.51053937,High
+Asia,Japan,2004,Male,21960,35.6510869,High
+Asia,Japan,2004,Female,8295,12.84473281,High
+Asia,Japan,2005,Male,22239,36.09178912,High
+Asia,Japan,2005,Female,8318,12.8787509,High
+Asia,"China, Hong Kong SAR",2015,Male,628,18.65937723,High
+Asia,"China, Hong Kong SAR",2015,Female,363,9.24675854,High
+Asia,"China, Hong Kong SAR",2016,Male,617,18.27931504,High
+Asia,"China, Hong Kong SAR",2016,Female,314,7.92689084,High
+Asia,Japan,2006,Male,21420,34.79080042,High
+Asia,Japan,2006,Female,8503,13.16539188,High
+Asia,"China, Hong Kong SAR",2017,Male,531,15.65217391,High
+Asia,"China, Hong Kong SAR",2017,Female,314,7.85157031,High
+Asia,Japan,2007,Male,22008,35.77896636,High
+Asia,Japan,2007,Female,8821,13.66029671,High
+Asia,Japan,2008,Male,21549,35.08237822,High
+Asia,Japan,2008,Female,8687,13.46341615,High
+Asia,Japan,2009,Male,22191,36.17763576,High
+Asia,Japan,2009,Female,8523,13.21784712,High
+Asia,Japan,2010,Male,21035,34.1634075,High
+Asia,Japan,2010,Female,8529,13.16000597,High
+Asia,Japan,2011,Male,19908,32.39548924,High
+Asia,Japan,2011,Female,8997,13.89991812,High
+Asia,Japan,2012,Male,18490,30.14936081,High
+Asia,Japan,2012,Female,7953,12.30543091,High
+Asia,Japan,2013,Male,18165,29.68816396,High
+Asia,Japan,2013,Female,7915,12.26789423,High
+Asia,Japan,2014,Male,16881,27.65518258,High
+Asia,Japan,2014,Female,7548,11.72213508,High
+Asia,Kazakhstan,1994,Male,3262,39.66487919,Lower-Middle
+Asia,Kazakhstan,1994,Female,783,9.02500029,Lower-Middle
+Asia,Kazakhstan,1995,Male,3927,48.86577156,Lower-Middle
+Asia,Kazakhstan,1995,Female,801,9.41987228,Lower-Middle
+Asia,Kazakhstan,1996,Male,4016,51.89904499,Lower-Middle
+Asia,Kazakhstan,1996,Female,780,9.53218947,Lower-Middle
+Asia,Kazakhstan,1997,Male,3902,50.96789362,Lower-Middle
+Asia,Kazakhstan,1997,Female,764,9.43734173,Lower-Middle
+Asia,Kazakhstan,1998,Male,3601,49.57938071,Lower-Middle
+Asia,Kazakhstan,1998,Female,729,9.33430646,Lower-Middle
+Asia,Kazakhstan,1999,Male,3340,46.44823942,Lower-Middle
+Asia,Kazakhstan,1999,Female,664,8.58313621,Lower-Middle
+Asia,Kazakhstan,2000,Male,3703,51.69928413,Lower-Middle
+Asia,Kazakhstan,2000,Female,748,9.70616027,Lower-Middle
+Asia,Kazakhstan,2001,Male,3746,52.33547402,Lower-Middle
+Asia,Kazakhstan,2001,Female,658,8.54151768,Lower-Middle
+Asia,Kazakhstan,2002,Male,3590,50.1774661,Lower-Middle
+Asia,Kazakhstan,2002,Female,681,8.84458429,Lower-Middle
+Asia,Kazakhstan,2003,Male,3662,51.00574783,Lower-Middle
+Asia,Kazakhstan,2003,Female,688,8.90103869,Lower-Middle
+Asia,Kazakhstan,2004,Male,3718,51.43913359,Lower-Middle
+Asia,Kazakhstan,2004,Female,694,8.91455069,Lower-Middle
+Asia,Kazakhstan,2005,Male,3283,45.0290309,Lower-Middle
+Asia,Kazakhstan,2005,Female,636,8.09554062,Lower-Middle
+Asia,Kazakhstan,2006,Male,3410,46.28729725,Upper-Middle
+Asia,Kazakhstan,2006,Female,676,8.51272602,Upper-Middle
+Asia,Kazakhstan,2007,Male,3444,46.22558812,Upper-Middle
+Asia,Kazakhstan,2007,Female,724,9.01195491,Upper-Middle
+Asia,Kazakhstan,2008,Male,3241,42.97808847,Upper-Middle
+Asia,Kazakhstan,2008,Female,768,9.44307266,Upper-Middle
+Asia,Kazakhstan,2009,Male,3128,40.81549037,Upper-Middle
+Asia,Kazakhstan,2009,Female,718,8.69125024,Upper-Middle
+Asia,Kazakhstan,2010,Male,2971,37.76364963,Upper-Middle
+Asia,Kazakhstan,2010,Female,646,7.63960642,Upper-Middle
+Asia,Kazakhstan,2011,Male,2796,35.06177695,Upper-Middle
+Asia,Kazakhstan,2011,Female,609,7.10263719,Upper-Middle
+Asia,Kazakhstan,2012,Male,2678,33.06126717,High
+Asia,Kazakhstan,2012,Female,563,6.47773093,High
+Asia,Kazakhstan,2013,Male,2839,34.52994576,High
+Asia,Kazakhstan,2013,Female,675,7.65876883,High
+Asia,Kazakhstan,2014,Male,2560,30.66048922,High
+Asia,Kazakhstan,2014,Female,563,6.29781952,High
+Asia,Republic of Korea,1991,Male,2139,9.82301129,Upper-Middle
+Asia,Republic of Korea,1991,Female,930,4.32701032,Upper-Middle
+Asia,Republic of Korea,1992,Male,2467,11.22450372,Upper-Middle
+Asia,Republic of Korea,1992,Female,1066,4.91590845,Upper-Middle
+Europe,Croatia,1991,Male,778,33.54171158,Low
+Europe,Croatia,1991,Female,327,13.25711506,Low
+Europe,Croatia,1992,Male,858,37.03543834,Low
+Europe,Croatia,1992,Female,298,12.08679781,Low
+Asia,Republic of Korea,1993,Male,2848,12.84190212,Upper-Middle
+Asia,Republic of Korea,1993,Female,1276,5.83215639,Upper-Middle
+Europe,Croatia,1993,Male,776,33.52775978,Low
+Europe,Croatia,1993,Female,312,12.66130996,Low
+Europe,Croatia,1994,Male,801,34.61987293,Low
+Europe,Croatia,1994,Female,287,11.65103723,Low
+Asia,Republic of Korea,1994,Male,2862,12.79031833,Upper-Middle
+Asia,Republic of Korea,1994,Female,1350,6.11501667,Upper-Middle
+Europe,Croatia,1995,Male,688,29.74749222,Upper-Middle
+Europe,Croatia,1995,Female,242,9.82461838,Upper-Middle
+Europe,Croatia,1996,Male,739,34.22088446,Upper-Middle
+Europe,Croatia,1996,Female,263,11.26772632,Upper-Middle
+Asia,Republic of Korea,1995,Male,3379,14.74830977,High
+Asia,Republic of Korea,1995,Female,1551,6.83597193,High
+Asia,Republic of Korea,1996,Male,4106,17.74278578,High
+Asia,Republic of Korea,1996,Female,1853,8.08467751,High
+Asia,Republic of Korea,1997,Male,4235,18.14178436,High
+Asia,Republic of Korea,1997,Female,1892,8.1795701,High
+Asia,Republic of Korea,1998,Male,6275,26.67987551,Upper-Middle
+Asia,Republic of Korea,1998,Female,2424,10.39553644,Upper-Middle
+Asia,Republic of Korea,1999,Male,5005,21.13678307,Upper-Middle
+Asia,Republic of Korea,1999,Female,2130,9.07000511,Upper-Middle
+Asia,Republic of Korea,2000,Male,4528,18.97476273,High
+Asia,Republic of Korea,2000,Female,1994,8.4238656,High
+Asia,Republic of Korea,2001,Male,4889,20.34347475,Upper-Middle
+Asia,Republic of Korea,2001,Female,2081,8.72727883,Upper-Middle
+Asia,Republic of Korea,2002,Male,5976,24.74398095,High
+Asia,Republic of Korea,2002,Female,2691,11.22446434,High
+Asia,Republic of Korea,2003,Male,7571,31.23972568,High
+Asia,Republic of Korea,2003,Female,3407,14.15265712,High
+Asia,Republic of Korea,2004,Male,7932,32.61967446,High
+Asia,Republic of Korea,2004,Female,3638,15.05252599,High
+Europe,Croatia,2015,Male,542,26.71740674,High
+Europe,Croatia,2015,Female,197,9.05762118,High
+Europe,Croatia,2016,Male,515,25.56038032,High
+Europe,Croatia,2016,Female,168,7.77953538,High
+Asia,Republic of Korea,2005,Male,8076,33.0852635,High
+Asia,Republic of Korea,2005,Female,4022,16.56959119,High
+Europe,Croatia,2017,Male,476,23.91549991,High
+Europe,Croatia,2017,Female,159,7.45013331,High
+Europe,Croatia,2018,Male,514,25.68457641,High
+Europe,Croatia,2018,Female,165,7.65588069,High
+Asia,Republic of Korea,2006,Male,7272,29.67361593,High
+Asia,Republic of Korea,2006,Female,3469,14.22863801,High
+Europe,Croatia,2019,Male,462,23.44363683,High
+Europe,Croatia,2019,Female,120,5.72910226,High
+Europe,Croatia,2020,Male,428,21.75150431,High
+Europe,Croatia,2020,Female,128,6.15384615,High
+Asia,Republic of Korea,2007,Male,7789,31.63157825,High
+Asia,Republic of Korea,2007,Female,4464,18.21577838,High
+Europe,Croatia,2021,Male,454,24.30465402,High
+Europe,Croatia,2021,Female,129,6.41463611,High
+Asia,Republic of Korea,2008,Male,8261,33.36824188,High
+Asia,Republic of Korea,2008,Female,4600,18.66309363,High
+Asia,Republic of Korea,2009,Male,9938,39.94948147,High
+Asia,Republic of Korea,2009,Female,5480,22.11430692,High
+Asia,Republic of Korea,2010,Male,10329,41.35377502,High
+Asia,Republic of Korea,2010,Female,5238,21.03390772,High
+Asia,Republic of Korea,2011,Male,10866,43.32227119,High
+Asia,Republic of Korea,2011,Female,5040,20.13608799,High
+Asia,Republic of Korea,2012,Male,9625,38.21340861,High
+Asia,Republic of Korea,2012,Female,4538,18.03812101,High
+Asia,Republic of Korea,2013,Male,10060,39.78969524,High
+Asia,Republic of Korea,2013,Female,4368,17.28119932,High
+Asia,Republic of Korea,2014,Male,9737,38.37319109,High
+Asia,Republic of Korea,2014,Female,4100,16.14893445,High
+Asia,Kuwait,1994,Male,18,1.81068303,High
+Asia,Kuwait,1994,Female,12,1.91693291,High
+Asia,Kuwait,1995,Male,21,2.02156334,High
+Asia,Kuwait,1995,Female,5,0.76722418,High
+Asia,Kuwait,1996,Male,20,1.8547714,High
+Asia,Kuwait,1996,Female,11,1.62794139,High
+Asia,Kuwait,1997,Male,16,1.43884892,High
+Asia,Kuwait,1997,Female,17,2.43797505,High
+Asia,Kuwait,1998,Male,20,1.63029213,High
+Asia,Kuwait,1998,Female,15,1.87422922,High
+Asia,Kuwait,1999,Male,34,2.65874257,High
+Asia,Kuwait,1999,Female,13,1.5692902,High
+Asia,Kuwait,2000,Male,21,1.57544467,High
+Asia,Kuwait,2000,Female,14,1.63415668,High
+Asia,Kuwait,2001,Male,26,1.91937304,High
+Asia,Kuwait,2001,Female,8,0.90042331,High
+Europe,Hungary,1991,Male,2880,57.85709378,Lower-Middle
+Europe,Hungary,1991,Female,1113,20.62785023,Lower-Middle
+Europe,Hungary,1992,Male,2939,59.12256798,Lower-Middle
+Europe,Hungary,1992,Female,1061,19.65429193,Lower-Middle
+Asia,Kuwait,2002,Male,35,2.45606969,High
+Asia,Kuwait,2002,Female,13,1.38550801,High
+Asia,Kuwait,2003,Male,30,2.35177359,High
+Asia,Kuwait,2003,Female,15,1.69301563,High
+Asia,Kuwait,2004,Male,31,2.38335221,High
+Asia,Kuwait,2004,Female,17,1.88928984,High
+Asia,Kuwait,2005,Male,43,3.20781812,High
+Asia,Kuwait,2005,Female,13,1.39826894,High
+Asia,Kuwait,2006,Male,36,2.5783773,High
+Asia,Kuwait,2006,Female,12,1.22770438,High
+Asia,Kuwait,2007,Male,39,1.87219531,High
+Asia,Kuwait,2007,Female,18,1.44575991,High
+Asia,Kuwait,2008,Male,34,1.50358317,High
+Asia,Kuwait,2008,Female,20,1.45015596,High
+Europe,Hungary,2015,Male,1391,29.64526489,High
+Europe,Hungary,2015,Female,479,9.29938366,High
+Europe,Hungary,2016,Male,1317,28.12957546,High
+Europe,Hungary,2016,Female,446,8.69036916,High
+Europe,Hungary,2017,Male,1241,26.55427852,High
+Europe,Hungary,2017,Female,393,7.68400629,High
+Europe,Hungary,2018,Male,1276,27.30163947,High
+Europe,Hungary,2018,Female,380,7.44827565,High
+Europe,Hungary,2019,Male,1158,24.75254932,High
+Europe,Hungary,2019,Female,392,7.69708665,High
+Asia,Kuwait,2009,Male,40,1.86991209,High
+Asia,Kuwait,2009,Female,22,1.68736631,High
+Europe,Hungary,2022,Male,1257,27.46860723,High
+Europe,Hungary,2022,Female,390,7.7532957,High
+Asia,Kuwait,2010,Male,26,1.2098476,High
+Asia,Kuwait,2010,Female,14,0.98771982,High
+Asia,Kuwait,2011,Male,26,1.19065664,High
+Asia,Kuwait,2011,Female,15,1.03566842,High
+Asia,Kuwait,2012,Male,39,1.7081641,High
+Asia,Kuwait,2012,Female,22,1.4440528,High
+Asia,Kuwait,2013,Male,29,1.2392188,High
+Asia,Kuwait,2013,Female,15,0.96665367,High
+Asia,Kuwait,2014,Male,52,2.13421942,High
+Asia,Kuwait,2014,Female,19,1.1853094,High
+Asia,Kyrgyzstan,1996,Male,394,17.57046022,Low
+Asia,Kyrgyzstan,1996,Female,88,3.82459038,Low
+Asia,Kyrgyzstan,1997,Male,409,17.9875099,Low
+Asia,Kyrgyzstan,1997,Female,87,3.73262399,Low
+Asia,Kyrgyzstan,1998,Male,424,18.38841183,Low
+Asia,Kyrgyzstan,1998,Female,88,3.72676068,Low
+Asia,Kyrgyzstan,1999,Male,460,19.26459503,Low
+Asia,Kyrgyzstan,1999,Female,99,4.04246631,Low
+Asia,Kyrgyzstan,2000,Male,415,17.1930502,Low
+Asia,Kyrgyzstan,2000,Female,97,3.92111842,Low
+Asia,Kyrgyzstan,2001,Male,484,19.88656441,Low
+Asia,Kyrgyzstan,2001,Female,78,3.12845434,Low
+Asia,Kyrgyzstan,2002,Male,468,19.07542087,Low
+Asia,Kyrgyzstan,2002,Female,100,3.98086636,Low
+Asia,Kyrgyzstan,2003,Male,398,16.06951073,Low
+Asia,Kyrgyzstan,2003,Female,82,3.23585772,Low
+Asia,Kyrgyzstan,2004,Male,365,14.57496022,Low
+Asia,Kyrgyzstan,2004,Female,75,2.92885003,Low
+Asia,Kyrgyzstan,2005,Male,386,15.26598608,Low
+Asia,Kyrgyzstan,2005,Female,84,3.24668674,Low
+Asia,Kyrgyzstan,2006,Male,368,14.4153856,Low
+Asia,Kyrgyzstan,2006,Female,97,3.71451395,Low
+Asia,Kyrgyzstan,2007,Male,369,14.3376139,Low
+Asia,Kyrgyzstan,2007,Female,116,4.4049685,Low
+Asia,Kyrgyzstan,2008,Male,379,14.60254493,Low
+Asia,Kyrgyzstan,2008,Female,94,3.54089108,Low
+Asia,Kyrgyzstan,2009,Male,362,13.62613206,Low
+Asia,Kyrgyzstan,2009,Female,96,3.52084653,Low
+Asia,Kyrgyzstan,2010,Male,395,14.68821384,Low
+Asia,Kyrgyzstan,2010,Female,105,3.80610056,Low
+Asia,Kyrgyzstan,2011,Male,363,13.33228536,Lower-Middle
+Asia,Kyrgyzstan,2011,Female,108,3.86813942,Lower-Middle
+Asia,Kyrgyzstan,2012,Male,402,14.51122617,Lower-Middle
+Asia,Kyrgyzstan,2012,Female,122,4.29995044,Lower-Middle
+Asia,Kyrgyzstan,2013,Male,349,12.34230844,Lower-Middle
+Asia,Kyrgyzstan,2013,Female,97,3.35387147,Lower-Middle
+Asia,Kyrgyzstan,2014,Male,358,12.4014552,Lower-Middle
+Asia,Kyrgyzstan,2014,Female,103,3.4926407,Lower-Middle
+Europe,Latvia,1997,Male,706,61.75107146,Lower-Middle
+Europe,Latvia,1997,Female,180,13.5767084,Lower-Middle
+Europe,Latvia,1998,Male,678,59.77254695,Lower-Middle
+Europe,Latvia,1998,Female,161,12.2461398,Lower-Middle
+Europe,Latvia,1999,Male,593,52.64559659,Lower-Middle
+Europe,Latvia,1999,Female,171,13.09943312,Lower-Middle
+Europe,Latvia,2000,Male,618,56.70109714,Lower-Middle
+Europe,Latvia,2000,Female,152,11.89708396,Lower-Middle
+Europe,Latvia,2001,Male,571,53.13575394,Lower-Middle
+Europe,Latvia,2001,Female,137,10.85093508,Lower-Middle
+Europe,Latvia,2002,Male,521,49.12605595,Upper-Middle
+Europe,Latvia,2002,Female,149,11.92347212,Upper-Middle
+Europe,Latvia,2003,Male,482,45.92024359,Upper-Middle
+Europe,Latvia,2003,Female,122,9.85214514,Upper-Middle
+Europe,Latvia,2004,Male,457,44.01480516,Upper-Middle
+Europe,Latvia,2004,Female,106,8.6542269,Upper-Middle
+Europe,Latvia,2005,Male,445,43.32654389,Upper-Middle
+Europe,Latvia,2005,Female,119,9.82079119,Upper-Middle
+Europe,Latvia,2006,Male,407,39.98329936,Upper-Middle
+Europe,Latvia,2006,Female,80,6.66426753,Upper-Middle
+Europe,Latvia,2007,Male,358,35.43095121,High
+Europe,Latvia,2007,Female,95,7.9838038,High
+Europe,Latvia,2008,Male,427,42.70661953,High
+Europe,Latvia,2008,Female,100,8.49273489,High
+Europe,Latvia,2009,Male,416,42.37162975,High
+Europe,Latvia,2009,Female,100,8.62158154,High
+Europe,Latvia,2010,Male,376,39.18973146,Upper-Middle
+Europe,Latvia,2010,Female,62,5.44758022,Upper-Middle
+Europe,Latvia,2011,Male,365,38.77307131,High
+Europe,Latvia,2011,Female,75,6.70640435,High
+Europe,Latvia,2012,Male,371,39.86264043,High
+Europe,Latvia,2012,Female,73,6.61457762,High
+Europe,Latvia,2013,Male,322,34.93116283,High
+Europe,Latvia,2013,Female,61,5.59205159,High
+Europe,Latvia,2014,Male,311,34.02156814,High
+Europe,Latvia,2014,Female,71,6.57616871,High
+Europe,Lithuania,1997,Male,1348,80.29793632,Lower-Middle
+Europe,Lithuania,1997,Female,284,14.97582248,Lower-Middle
+Europe,Lithuania,1998,Male,1286,77.2554259,Lower-Middle
+Europe,Lithuania,1998,Female,268,14.21958865,Lower-Middle
+Europe,Lithuania,1999,Male,1287,77.95601391,Lower-Middle
+Europe,Lithuania,1999,Female,265,14.14610632,Lower-Middle
+Europe,Lithuania,2000,Male,1317,80.42178386,Lower-Middle
+Europe,Lithuania,2000,Female,314,16.86431211,Lower-Middle
+Europe,Lithuania,2001,Male,1257,77.48535669,Lower-Middle
+Europe,Lithuania,2001,Female,278,15.03860269,Lower-Middle
+Europe,Lithuania,2002,Male,1309,81.43960839,Upper-Middle
+Europe,Lithuania,2002,Female,243,13.23716145,Upper-Middle
+Europe,Lithuania,2003,Male,1199,75.28768183,Upper-Middle
+Europe,Lithuania,2003,Female,256,14.0454447,Upper-Middle
+Europe,Lithuania,2004,Male,1124,71.44941235,Upper-Middle
+Europe,Lithuania,2004,Female,257,14.24664095,Upper-Middle
+Europe,Lithuania,2005,Male,1084,70.14528616,Upper-Middle
+Europe,Lithuania,2005,Female,235,13.22331535,Upper-Middle
+Europe,Lithuania,2006,Male,853,56.20609517,Upper-Middle
+Europe,Lithuania,2006,Female,196,11.18542699,Upper-Middle
+Europe,Lithuania,2007,Male,848,56.64257799,High
+Europe,Lithuania,2007,Female,177,10.20651175,High
+Europe,Lithuania,2008,Male,918,62.01085393,High
+Europe,Lithuania,2008,Female,193,11.23500665,High
+Europe,Lithuania,2009,Male,952,65.12625738,Upper-Middle
+Europe,Lithuania,2009,Female,186,10.93384436,Upper-Middle
+Europe,Lithuania,2010,Male,829,58.02433102,Upper-Middle
+Europe,Lithuania,2010,Female,189,11.3270577,Upper-Middle
+Europe,Lithuania,2011,Male,817,58.55090453,High
+Europe,Lithuania,2011,Female,201,12.31053414,High
+Europe,Lithuania,2012,Male,753,54.71584456,High
+Europe,Lithuania,2012,Female,174,10.79691134,High
+Europe,Lithuania,2013,Male,887,65.10364103,High
+Europe,Lithuania,2013,Female,198,12.4118788,High
+Europe,Lithuania,2014,Male,769,56.91549123,High
+Europe,Lithuania,2014,Female,161,10.18187613,High
+Europe,Luxembourg,1991,Male,54,28.45100105,High
+Europe,Luxembourg,1991,Female,23,11.65737456,High
+Europe,Luxembourg,1992,Male,29,15.04929943,High
+Europe,Luxembourg,1992,Female,30,15.01501502,High
+Europe,Luxembourg,1993,Male,48,24.55242967,High
+Europe,Luxembourg,1993,Female,16,7.89733465,High
+Europe,Luxembourg,1994,Male,61,30.76147252,High
+Europe,Luxembourg,1994,Female,13,6.32603406,High
+Europe,Luxembourg,1995,Male,45,22.3769269,High
+Europe,Luxembourg,1995,Female,18,8.62895494,High
+Europe,Luxembourg,1996,Male,53,25.98039216,High
+Europe,Luxembourg,1996,Female,19,8.97920605,High
+Europe,Luxembourg,1997,Male,60,29.01353965,High
+Europe,Luxembourg,1997,Female,21,9.80392157,High
+Europe,Luxembourg,1998,Male,48,22.8875506,High
+Europe,Luxembourg,1998,Female,16,7.38198059,High
+Europe,Luxembourg,1999,Male,49,23.00933991,High
+Europe,Luxembourg,1999,Female,21,9.56693667,High
+Europe,Luxembourg,2000,Male,47,21.74114164,High
+Europe,Luxembourg,2000,Female,15,6.73763644,High
+Europe,Luxembourg,2001,Male,50,22.96928547,High
+Europe,Luxembourg,2001,Female,23,10.26245103,High
+Europe,Luxembourg,2002,Male,63,28.64665039,High
+Europe,Luxembourg,2002,Female,22,9.72319823,High
+Europe,Luxembourg,2003,Male,40,17.9481657,High
+Europe,Luxembourg,2003,Female,8,3.4968703,High
+Europe,Luxembourg,2004,Male,45,19.87298952,High
+Europe,Luxembourg,2004,Female,17,7.33802391,High
+Europe,Luxembourg,2005,Male,39,16.94657484,High
+Europe,Luxembourg,2005,Female,10,4.25472168,High
+Europe,Luxembourg,2006,Male,47,20.08950516,High
+Europe,Luxembourg,2006,Female,18,7.54094103,High
+Europe,Luxembourg,2007,Male,53,22.29645024,High
+Europe,Luxembourg,2007,Female,25,10.31778787,High
+Europe,Luxembourg,2008,Male,35,14.44925628,High
+Europe,Luxembourg,2008,Female,8,3.2463053,High
+Europe,Luxembourg,2009,Male,36,14.56746761,High
+Europe,Luxembourg,2009,Female,12,4.78722768,High
+Europe,Luxembourg,2010,Male,43,17.06227333,High
+Europe,Luxembourg,2010,Female,11,4.31460533,High
+Europe,Luxembourg,2011,Male,37,14.32886686,High
+Europe,Luxembourg,2011,Female,18,6.91967032,High
+Europe,Luxembourg,2012,Male,39,14.71009792,High
+Europe,Luxembourg,2012,Female,12,4.51404432,High
+Europe,Luxembourg,2013,Male,24,8.83115927,High
+Europe,Luxembourg,2013,Female,16,5.89112465,High
+Europe,Luxembourg,2014,Male,52,18.6685048,High
+Europe,Luxembourg,2014,Female,15,5.400054,High
+Asia,Maldives,2000,Male,0,0.0,Lower-Middle
+Asia,Maldives,2000,Female,0,0.0,Lower-Middle
+Asia,Maldives,2001,Male,2,1.37444764,Lower-Middle
+Asia,Maldives,2001,Female,1,0.71024745,Lower-Middle
+Asia,Maldives,2002,Male,2,1.32900079,Lower-Middle
+Asia,Maldives,2002,Female,1,0.6959136,Lower-Middle
+Asia,Maldives,2003,Male,3,1.9233235,Lower-Middle
+Asia,Maldives,2003,Female,1,0.68165861,Lower-Middle
+Asia,Maldives,2004,Male,0,0.0,Upper-Middle
+Asia,Maldives,2004,Female,1,0.66794913,Upper-Middle
+Asia,Maldives,2005,Male,1,0.59898891,Lower-Middle
+Asia,Maldives,2005,Female,0,0.0,Lower-Middle
+Asia,Maldives,2007,Male,3,1.69614184,Upper-Middle
+Asia,Maldives,2007,Female,2,1.26342388,Upper-Middle
+Asia,Maldives,2008,Male,0,0.0,Upper-Middle
+Asia,Maldives,2008,Female,0,0.0,Upper-Middle
+Asia,Maldives,2010,Male,1,0.50326873,Upper-Middle
+Asia,Maldives,2010,Female,0,0.0,Upper-Middle
+Asia,Maldives,2011,Male,2,0.95126209,Upper-Middle
+Asia,Maldives,2011,Female,0,0.0,Upper-Middle
+Asia,Maldives,2012,Male,1,0.4471632,Upper-Middle
+Asia,Maldives,2012,Female,0,0.0,Upper-Middle
+Asia,Maldives,2013,Male,5,2.0956716,Upper-Middle
+Asia,Maldives,2013,Female,0,0.0,Upper-Middle
+Asia,Maldives,2014,Male,1,0.39266193,Upper-Middle
+Asia,Maldives,2014,Female,0,0.0,Upper-Middle
+Europe,Malta,1991,Male,9,5.09337861,Upper-Middle
+Europe,Malta,1991,Female,1,0.55248619,Upper-Middle
+Europe,Malta,1992,Male,12,6.71892497,Upper-Middle
+Europe,Malta,1992,Female,6,3.28407225,Upper-Middle
+Europe,Malta,1993,Male,9,4.99168053,Upper-Middle
+Europe,Malta,1993,Female,7,3.79609544,Upper-Middle
+Europe,Malta,1994,Male,12,6.59340659,Upper-Middle
+Europe,Malta,1994,Female,3,1.61377084,Upper-Middle
+Europe,Malta,1995,Male,11,5.9912854,Upper-Middle
+Europe,Malta,1995,Female,6,3.20512821,Upper-Middle
+Europe,Malta,1996,Male,9,4.87012987,Upper-Middle
+Europe,Malta,1996,Female,1,0.53134963,Upper-Middle
+Europe,Malta,1997,Male,11,5.91397849,Upper-Middle
+Europe,Malta,1997,Female,4,2.1141649,Upper-Middle
+Europe,Malta,1998,Male,11,5.87606838,Upper-Middle
+Europe,Malta,1998,Female,1,0.52548607,Upper-Middle
+Europe,Malta,1999,Male,22,11.69590643,Upper-Middle
+Europe,Malta,1999,Female,5,2.61506276,Upper-Middle
+Europe,Malta,2000,Male,17,8.89409746,Upper-Middle
+Europe,Malta,2000,Female,6,3.08212317,Upper-Middle
+Europe,Malta,2001,Male,23,11.82361227,Upper-Middle
+Europe,Malta,2001,Female,7,3.52641283,Upper-Middle
+Europe,Malta,2002,Male,11,5.60941157,Upper-Middle
+Europe,Malta,2002,Female,8,4.00262172,Upper-Middle
+Europe,Malta,2003,Male,17,8.60898981,High
+Europe,Malta,2003,Female,3,1.49169128,High
+Europe,Malta,2004,Male,14,7.04087226,High
+Europe,Malta,2004,Female,10,4.94002806,High
+Europe,Malta,2005,Male,16,7.99073075,High
+Europe,Malta,2005,Female,3,1.47313734,High
+Europe,Malta,2006,Male,21,10.43732387,High
+Europe,Malta,2006,Female,5,2.44913154,High
+Europe,Malta,2007,Male,25,12.36705417,High
+Europe,Malta,2007,Female,1,0.48869167,High
+Europe,Malta,2008,Male,12,5.89113188,High
+Europe,Malta,2008,Female,2,0.97213379,High
+Europe,Ireland,2015,Male,335,14.4538723,High
+Europe,Ireland,2015,Female,90,3.7973578,High
+Europe,Ireland,2016,Male,350,14.91553969,High
+Europe,Ireland,2016,Female,87,3.63552636,High
+Europe,Malta,2009,Male,33,16.06370965,High
+Europe,Malta,2009,Female,3,1.44858956,High
+Europe,Ireland,2017,Male,310,13.02068567,High
+Europe,Ireland,2017,Female,73,3.00403116,High
+Europe,Ireland,2018,Male,327,13.59242349,High
+Europe,Ireland,2018,Female,110,4.48748258,High
+Europe,Malta,2010,Male,29,14.05495001,High
+Europe,Malta,2010,Female,2,0.96048101,High
+Europe,Ireland,2019,Male,300,12.213462,High
+Europe,Ireland,2019,Female,90,3.5968851,High
+Europe,Ireland,2020,Male,338,13.56461129,High
+Europe,Ireland,2020,Female,127,5.00374887,High
+Europe,Malta,2011,Male,20,9.65847628,High
+Europe,Malta,2011,Female,0,0.0,High
+Europe,Malta,2012,Male,19,9.0991375,High
+Europe,Malta,2012,Female,6,2.84770475,High
+Europe,Malta,2013,Male,21,9.94402932,High
+Europe,Malta,2013,Female,1,0.47114474,High
+Europe,Malta,2014,Male,27,12.64003521,High
+Europe,Malta,2014,Female,5,2.33848111,High
+Asia,Iran (Islamic Republic of),2015,Male,1669,4.20084066,Upper-Middle
+Asia,Iran (Islamic Republic of),2015,Female,706,1.82136839,Upper-Middle
+Asia,Iran (Islamic Republic of),2015,Unknown,1,,Upper-Middle
+Asia,Iran (Islamic Republic of),2016,Male,2073,5.11871543,Upper-Middle
+Asia,Iran (Islamic Republic of),2016,Female,851,2.15837403,Upper-Middle
+Asia,Iran (Islamic Republic of),2017,Male,2801,6.86200289,Upper-Middle
+Asia,Iran (Islamic Republic of),2017,Female,1291,3.23925022,Upper-Middle
+Asia,Iraq,2015,Male,3,0.01668173,Upper-Middle
+Asia,Iraq,2015,Female,0,0.0,Upper-Middle
+Asia,Iraq,2016,Male,4,0.02160648,Upper-Middle
+Asia,Iraq,2016,Female,0,0.0,Upper-Middle
+Europe,Iceland,1991,Male,29,22.41112828,High
+Europe,Iceland,1991,Female,8,6.22083981,High
+Europe,Iceland,1992,Male,23,17.57066463,High
+Europe,Iceland,1992,Female,5,3.84024578,High
+Europe,Iceland,1993,Male,19,14.36130008,High
+Europe,Iceland,1993,Female,7,5.32319392,High
+Europe,Iceland,1994,Male,21,15.74212894,High
+Europe,Iceland,1994,Female,4,3.01659125,High
+Europe,Iceland,1995,Male,22,16.41791045,High
+Europe,Iceland,1995,Female,5,3.75093773,High
+Europe,Iceland,1996,Male,28,20.77151335,High
+Europe,Iceland,1996,Female,5,3.72856078,High
+Europe,Iceland,2015,Male,29,17.44591766,High
+Europe,Iceland,2015,Female,11,6.68341571,High
+Europe,Iceland,2016,Male,36,21.28269628,High
+Europe,Iceland,2016,Female,4,2.40547245,High
+Europe,Iceland,2017,Male,32,18.3574131,High
+Europe,Iceland,2017,Female,2,1.18285103,High
+Europe,Iceland,2018,Male,29,16.09157772,High
+Europe,Iceland,2018,Female,5,2.89851712,High
+Europe,Iceland,2019,Male,32,17.30768191,High
+Europe,Iceland,2019,Female,7,3.98465339,High
+Europe,Iceland,2020,Male,32,17.02200094,High
+Europe,Iceland,2020,Female,15,8.40472682,High
+Europe,Iceland,2021,Male,26,13.60764959,High
+Europe,Iceland,2021,Female,12,6.61335567,High
+Europe,Iceland,2022,Male,25,14.40365968,High
+Europe,Iceland,2022,Female,8,4.65568313,High
+Asia,Israel,1991,Male,262,10.65777163,Low
+Asia,Israel,1991,Female,97,3.89887053,Low
+Asia,Israel,1992,Male,278,10.93197011,Low
+Asia,Israel,1992,Female,103,3.99147452,Low
+Asia,Israel,1993,Male,272,10.42385223,Low
+Asia,Israel,1993,Female,99,3.73303167,Low
+Asia,Israel,1994,Male,304,11.36108827,Low
+Asia,Israel,1994,Female,112,4.11235543,Low
+Asia,Israel,1995,Male,258,9.39377389,High
+Asia,Israel,1995,Female,102,3.64493997,High
+Asia,Israel,1996,Male,231,8.23676235,High
+Asia,Israel,1996,Female,75,2.60362424,High
+Asia,Israel,2015,Male,269,6.47688129,High
+Asia,Israel,2015,Female,73,1.72702765,High
+Asia,Israel,2016,Male,321,7.57570573,High
+Asia,Israel,2016,Female,69,1.60138137,High
+Asia,Israel,2017,Male,305,7.05722853,High
+Asia,Israel,2017,Female,97,2.20883374,High
+Asia,Israel,2018,Male,354,8.03215585,High
+Asia,Israel,2018,Female,95,2.12267734,High
+Asia,Israel,2019,Male,333,7.40978932,High
+Asia,Israel,2019,Female,95,2.08334298,High
+Asia,Israel,2020,Male,341,7.4526088,High
+Asia,Israel,2020,Female,96,2.06917144,High
+Asia,Israel,2021,Male,299,6.33903804,High
+Asia,Israel,2021,Female,97,2.08397473,High
+Europe,Italy,2015,Male,3105,10.53293746,High
+Europe,Italy,2015,Female,884,2.82865282,High
+Europe,Italy,2016,Male,3039,10.31882381,High
+Europe,Italy,2016,Female,831,2.665472,High
+Europe,Italy,2017,Male,3077,10.45294723,High
+Europe,Italy,2017,Female,863,2.77491649,High
+Europe,Italy,2018,Male,2915,10.0021164,High
+Europe,Italy,2018,Female,874,2.84381264,High
+Europe,Italy,2019,Male,2902,10.0213546,High
+Europe,Italy,2019,Female,824,2.70335088,High
+Europe,Italy,2020,Male,2923,10.09387128,High
+Europe,Italy,2020,Female,789,2.58852365,High
+Europe,Republic of Moldova,1997,Male,512,29.2676123,Low
+Europe,Republic of Moldova,1997,Female,114,5.98477348,Low
+Europe,Republic of Moldova,1998,Male,456,26.07679731,Low
+Europe,Republic of Moldova,1998,Female,119,6.24983259,Low
+Europe,Republic of Moldova,1999,Male,482,27.60870786,Low
+Europe,Republic of Moldova,1999,Female,97,5.10210791,Low
+Europe,Republic of Moldova,2000,Male,466,26.74264792,Low
+Europe,Republic of Moldova,2000,Female,78,4.11163186,Low
+Europe,Republic of Moldova,2001,Male,523,30.07335484,Low
+Europe,Republic of Moldova,2001,Female,99,5.23150465,Low
+Europe,Republic of Moldova,2002,Male,484,27.88934155,Low
+Europe,Republic of Moldova,2002,Female,99,5.24466633,Low
+Europe,Republic of Moldova,2003,Male,529,30.56282394,Low
+Europe,Republic of Moldova,2003,Female,91,4.83524822,Low
+Europe,Republic of Moldova,2004,Male,506,29.30560768,Low
+Europe,Republic of Moldova,2004,Female,97,5.16695937,Low
+Europe,Republic of Moldova,2005,Male,532,30.89242526,Lower-Middle
+Europe,Republic of Moldova,2005,Female,99,5.28540662,Lower-Middle
+Europe,Republic of Moldova,2006,Male,541,31.4509467,Lower-Middle
+Europe,Republic of Moldova,2006,Female,96,5.14725989,Lower-Middle
+Europe,Republic of Moldova,2007,Male,482,28.03554582,Lower-Middle
+Europe,Republic of Moldova,2007,Female,80,4.30648384,Lower-Middle
+Europe,Republic of Moldova,2008,Male,517,30.12478186,Lower-Middle
+Europe,Republic of Moldova,2008,Female,103,5.55581627,Lower-Middle
+Europe,Republic of Moldova,2009,Male,556,32.43478479,Lower-Middle
+Europe,Republic of Moldova,2009,Female,95,5.13126588,Lower-Middle
+Europe,Republic of Moldova,2010,Male,579,33.80463258,Lower-Middle
+Europe,Republic of Moldova,2010,Female,97,5.24533571,Lower-Middle
+Asia,Jordan,2008,Male,5,0.14883672,Lower-Middle
+Asia,Jordan,2008,Female,1,0.03127847,Lower-Middle
+Asia,Jordan,2009,Male,13,0.36896232,Lower-Middle
+Asia,Jordan,2009,Female,1,0.0296748,Lower-Middle
+Europe,Republic of Moldova,2011,Male,430,25.11806219,Lower-Middle
+Europe,Republic of Moldova,2011,Female,72,3.89595632,Lower-Middle
+Asia,Jordan,2010,Male,16,0.43202271,Lower-Middle
+Asia,Jordan,2010,Female,3,0.08431627,Lower-Middle
+Asia,Jordan,2011,Male,16,0.41019309,Upper-Middle
+Asia,Jordan,2011,Female,3,0.07973939,Upper-Middle
+Europe,Republic of Moldova,2012,Male,469,27.39428377,Lower-Middle
+Europe,Republic of Moldova,2012,Female,102,5.52102509,Lower-Middle
+Asia,Jordan,2012,Male,23,0.5594739,Upper-Middle
+Asia,Jordan,2012,Female,8,0.20105766,Upper-Middle
+Europe,Republic of Moldova,2013,Male,487,28.44749131,Lower-Middle
+Europe,Republic of Moldova,2013,Female,89,4.81956418,Lower-Middle
+Asia,Jordan,2015,Male,7,0.14914529,Upper-Middle
+Asia,Jordan,2015,Female,1,0.0218667,Upper-Middle
+Europe,Republic of Moldova,2014,Male,498,29.10791262,Lower-Middle
+Europe,Republic of Moldova,2014,Female,83,4.49737256,Lower-Middle
+Asia,Jordan,2016,Male,9,0.18607601,Upper-Middle
+Asia,Jordan,2016,Female,2,0.04239486,Upper-Middle
+Asia,Jordan,2017,Male,10,0.20190713,Upper-Middle
+Asia,Jordan,2017,Female,4,0.08276316,Upper-Middle
+Asia,Jordan,2018,Male,10,0.19827575,Upper-Middle
+Asia,Jordan,2018,Female,2,0.0406352,Upper-Middle
+Europe,Montenegro,2007,Male,89,28.86311748,Upper-Middle
+Europe,Montenegro,2007,Female,32,10.06805375,Upper-Middle
+Europe,Montenegro,2008,Male,80,25.82419533,Upper-Middle
+Europe,Montenegro,2008,Female,46,14.41924907,Upper-Middle
+Europe,Montenegro,2009,Male,77,24.73831998,Upper-Middle
+Europe,Montenegro,2009,Female,30,9.36686254,Upper-Middle
+Europe,Netherlands,1991,Male,1033,13.86614406,High
+Europe,Netherlands,1991,Female,578,7.58550093,High
+Europe,Netherlands,1992,Male,1041,13.8655798,High
+Europe,Netherlands,1992,Female,546,7.11280174,High
+Europe,Netherlands,1993,Male,1020,13.49099278,High
+Europe,Netherlands,1993,Female,535,6.92126575,High
+Europe,Netherlands,1994,Male,1084,14.25059487,High
+Europe,Netherlands,1994,Female,500,6.42995846,High
+Europe,Netherlands,1995,Male,1000,13.08061584,High
+Europe,Netherlands,1995,Female,511,6.53946072,High
+Europe,Netherlands,1996,Male,1043,13.58161339,High
+Europe,Netherlands,1996,Female,534,6.80168131,High
+Europe,Netherlands,1997,Male,1042,13.5002073,High
+Europe,Netherlands,1997,Female,530,6.71549124,High
+Europe,Netherlands,1998,Male,1002,12.90123218,High
+Europe,Netherlands,1998,Female,517,6.510925,High
+Europe,Netherlands,1999,Male,1016,12.99265966,High
+Europe,Netherlands,1999,Female,503,6.29355755,High
+Asia,Japan,2015,Male,16206,26.55730593,High
+Asia,Japan,2015,Female,6954,10.8155115,High
+Asia,Japan,2016,Male,14646,24.06238951,High
+Asia,Japan,2016,Female,6382,9.94801856,High
+Asia,Japan,2017,Male,14340,23.63382951,High
+Asia,Japan,2017,Female,6139,9.59627566,High
+Asia,Japan,2018,Male,13853,22.91460321,High
+Asia,Japan,2018,Female,6191,9.70933367,High
+Asia,Japan,2019,Male,13673,22.70959387,High
+Asia,Japan,2019,Female,5762,9.07071001,High
+Europe,Netherlands,2000,Male,1000,12.69343848,High
+Europe,Netherlands,2000,Female,501,6.22559235,High
+Asia,Japan,2020,Male,13594,22.65559506,High
+Asia,Japan,2020,Female,6658,10.50221935,High
+Asia,Japan,2021,Male,13510,22.63487997,High
+Asia,Japan,2021,Female,6789,10.76016228,High
+Europe,Netherlands,2001,Male,1010,12.71894371,High
+Europe,Netherlands,2001,Female,464,5.7246712,High
+Europe,Netherlands,2002,Male,1063,13.29794055,High
+Europe,Netherlands,2002,Female,507,6.21688467,High
+Europe,Netherlands,2003,Male,1018,12.67636554,High
+Europe,Netherlands,2003,Female,484,5.90632135,High
+Europe,Netherlands,2004,Male,1022,12.68628087,High
+Europe,Netherlands,2004,Female,492,5.98115753,High
+Europe,Netherlands,2005,Male,1074,13.30564009,High
+Europe,Netherlands,2005,Female,500,6.06189559,High
+Europe,Netherlands,2006,Male,1046,12.94068859,High
+Europe,Netherlands,2006,Female,479,5.79677873,High
+Europe,Netherlands,2007,Male,944,11.65389799,High
+Europe,Netherlands,2007,Female,410,4.95085252,High
+Asia,Kazakhstan,2015,Male,2343,27.63459866,Upper-Middle
+Asia,Kazakhstan,2015,Female,530,5.84626056,Upper-Middle
+Asia,Kazakhstan,2016,Male,2116,24.53971081,Upper-Middle
+Asia,Kazakhstan,2016,Female,457,4.96652945,Upper-Middle
+Europe,Netherlands,2008,Male,991,12.18307561,High
+Europe,Netherlands,2008,Female,448,5.39021356,High
+Asia,Kazakhstan,2017,Male,2166,24.81131488,Upper-Middle
+Asia,Kazakhstan,2017,Female,498,5.35030102,Upper-Middle
+Asia,Kazakhstan,2018,Male,2085,23.55334188,Upper-Middle
+Asia,Kazakhstan,2018,Female,409,4.33988862,Upper-Middle
+Europe,Netherlands,2009,Male,1068,13.05633687,High
+Europe,Netherlands,2009,Female,462,5.53263464,High
+Asia,Kazakhstan,2019,Male,2009,22.38773121,Upper-Middle
+Asia,Kazakhstan,2019,Female,364,3.81551043,Upper-Middle
+Asia,Kazakhstan,2020,Male,1801,19.79715555,Upper-Middle
+Asia,Kazakhstan,2020,Female,345,3.57202058,Upper-Middle
+Europe,Netherlands,2010,Male,1127,13.70466198,High
+Europe,Netherlands,2010,Female,477,5.68404232,High
+Asia,Kazakhstan,2021,Male,1726,18.71085869,Upper-Middle
+Asia,Kazakhstan,2021,Female,383,3.9168643,Upper-Middle
+Europe,Netherlands,2011,Male,1137,13.7598408,High
+Europe,Netherlands,2011,Female,513,6.08548361,High
+Europe,Netherlands,2012,Male,1186,14.29758876,High
+Europe,Netherlands,2012,Female,570,6.73770254,High
+Europe,Netherlands,2013,Male,1307,15.70750723,High
+Europe,Netherlands,2013,Female,549,6.47133223,High
+Europe,Netherlands,2014,Male,1250,14.9635691,High
+Europe,Netherlands,2014,Female,589,6.92014203,High
+Asia,Kyrgyzstan,2015,Male,327,11.08876027,Lower-Middle
+Asia,Kyrgyzstan,2015,Female,90,2.99168412,Lower-Middle
+Asia,Kyrgyzstan,2016,Male,330,10.74161405,Lower-Middle
+Asia,Kyrgyzstan,2016,Female,89,2.84681481,Lower-Middle
+Asia,Kyrgyzstan,2017,Male,312,10.15570783,Lower-Middle
+Asia,Kyrgyzstan,2017,Female,78,2.4949613,Lower-Middle
+Asia,Kyrgyzstan,2018,Male,305,9.72661825,Lower-Middle
+Asia,Kyrgyzstan,2018,Female,75,2.35302238,Lower-Middle
+Asia,Kyrgyzstan,2019,Male,301,9.3956212,Lower-Middle
+Asia,Kyrgyzstan,2019,Female,76,2.33638036,Lower-Middle
+Europe,North Macedonia,1994,Male,80,8.2110233,Lower-Middle
+Europe,North Macedonia,1994,Female,48,4.93979623,Lower-Middle
+Europe,North Macedonia,1995,Male,86,8.73717363,Lower-Middle
+Europe,North Macedonia,1995,Female,45,4.5838851,Lower-Middle
+Asia,Kazakhstan,1991,Male,2389,29.27803718,Lower-Middle
+Asia,Kazakhstan,1991,Female,696,8.0494067,Lower-Middle
+Asia,Kazakhstan,1992,Male,2579,31.2909488,Lower-Middle
+Asia,Kazakhstan,1992,Female,785,8.9964129,Lower-Middle
+Asia,Kazakhstan,1993,Male,3209,38.57991296,Lower-Middle
+Asia,Kazakhstan,1993,Female,829,9.4201334,Lower-Middle
+Europe,North Macedonia,1996,Male,103,10.37469782,Lower-Middle
+Europe,North Macedonia,1996,Female,43,4.34211855,Lower-Middle
+Europe,North Macedonia,1997,Male,115,11.50460184,Lower-Middle
+Europe,North Macedonia,1997,Female,40,4.01082924,Lower-Middle
+Europe,North Macedonia,1998,Male,97,9.65366242,Lower-Middle
+Europe,North Macedonia,1998,Female,56,5.58436378,Lower-Middle
+Europe,North Macedonia,1999,Male,117,11.59104419,Lower-Middle
+Europe,North Macedonia,1999,Female,53,5.25897996,Lower-Middle
+Europe,North Macedonia,2000,Male,104,10.25742184,Lower-Middle
+Europe,North Macedonia,2000,Female,46,4.54320988,Lower-Middle
+Europe,North Macedonia,2001,Male,113,11.10099251,Lower-Middle
+Europe,North Macedonia,2001,Female,39,3.83497795,Lower-Middle
+Europe,North Macedonia,2002,Male,99,9.75989668,Lower-Middle
+Europe,North Macedonia,2002,Female,50,4.97115735,Lower-Middle
+Europe,North Macedonia,2003,Male,97,9.53528744,Lower-Middle
+Europe,North Macedonia,2003,Female,40,3.96236153,Lower-Middle
+Europe,North Macedonia,2004,Male,122,11.96192187,Lower-Middle
+Europe,North Macedonia,2004,Female,57,5.62884576,Lower-Middle
+Europe,North Macedonia,2005,Male,102,9.98265758,Lower-Middle
+Europe,North Macedonia,2005,Female,41,4.03907858,Lower-Middle
+Europe,North Macedonia,2006,Male,124,12.12039462,Lower-Middle
+Europe,North Macedonia,2006,Female,42,4.12914795,Lower-Middle
+Europe,North Macedonia,2007,Male,114,11.12749869,Upper-Middle
+Europe,North Macedonia,2007,Female,45,4.41579087,Upper-Middle
+Europe,North Macedonia,2008,Male,116,11.30580046,Upper-Middle
+Europe,North Macedonia,2008,Female,45,4.40797903,Upper-Middle
+Europe,North Macedonia,2009,Male,125,12.16178087,Upper-Middle
+Europe,North Macedonia,2009,Female,42,4.10612977,Upper-Middle
+Europe,North Macedonia,2010,Male,87,8.44784861,Upper-Middle
+Europe,North Macedonia,2010,Female,35,3.41411453,Upper-Middle
+Europe,North Macedonia,2011,Male,96,9.30770998,Upper-Middle
+Europe,North Macedonia,2011,Female,32,3.11545891,Upper-Middle
+Europe,North Macedonia,2012,Male,120,11.62191583,Upper-Middle
+Europe,North Macedonia,2012,Female,52,5.05584767,Upper-Middle
+Asia,Republic of Korea,2015,Male,9559,37.54803293,High
+Asia,Republic of Korea,2015,Female,3955,15.51365983,High
+Europe,North Macedonia,2013,Male,136,13.15293185,Upper-Middle
+Europe,North Macedonia,2013,Female,34,3.30083628,Upper-Middle
+Asia,Republic of Korea,2016,Male,9243,36.20756489,High
+Asia,Republic of Korea,2016,Female,3849,15.04387876,High
+Asia,Republic of Korea,2017,Male,8923,34.88715064,High
+Asia,Republic of Korea,2017,Female,3541,13.80294155,High
+Asia,Republic of Korea,2018,Male,9864,38.52829867,High
+Asia,Republic of Korea,2018,Female,3810,14.82552632,High
+Asia,Republic of Korea,2019,Male,9731,37.9978525,High
+Asia,Republic of Korea,2019,Female,4069,15.81540357,High
+Europe,Norway,1991,Male,499,23.68071374,High
+Europe,Norway,1991,Female,176,8.16856957,High
+Asia,Republic of Korea,2020,Male,9093,35.51109667,High
+Asia,Republic of Korea,2020,Female,4103,15.93820281,High
+Asia,Republic of Korea,2021,Male,9194,35.92935774,High
+Asia,Republic of Korea,2021,Female,4160,16.15901057,High
+Asia,Kuwait,1993,Male,12,1.46824911,High
+Asia,Kuwait,1993,Female,6,0.97418412,High
+Europe,Norway,1992,Male,449,21.18024435,High
+Europe,Norway,1992,Female,167,7.70828525,High
+Asia,Kyrgyzstan,1991,Male,410,18.92977515,Low
+Asia,Kyrgyzstan,1991,Female,134,5.94287742,Low
+Asia,Kyrgyzstan,1992,Male,387,17.66961921,Low
+Asia,Kyrgyzstan,1992,Female,106,4.66878083,Low
+Europe,Norway,1993,Male,449,21.05509965,High
+Europe,Norway,1993,Female,141,6.46937371,High
+Asia,Kyrgyzstan,1993,Male,444,20.26471931,Low
+Asia,Kyrgyzstan,1993,Female,121,5.3570638,Low
+Asia,Kyrgyzstan,1994,Male,495,22.61099945,Low
+Asia,Kyrgyzstan,1994,Female,88,3.9090263,Low
+Europe,Norway,1994,Male,379,17.67394143,High
+Europe,Norway,1994,Female,152,6.93367393,High
+Asia,Kyrgyzstan,1995,Male,468,21.17455434,Low
+Asia,Kyrgyzstan,1995,Female,139,6.11957383,Low
+Europe,Norway,1995,Male,411,19.06750174,High
+Europe,Norway,1995,Female,137,6.21681717,High
+Europe,Norway,1996,Male,389,17.95605613,High
+Europe,Norway,1996,Female,128,5.77904194,High
+Asia,Kuwait,2015,Male,58,2.3804755,High
+Asia,Kuwait,2015,Female,13,0.81100117,High
+Asia,Kuwait,2016,Male,54,2.01600634,High
+Asia,Kuwait,2016,Female,12,0.72650439,High
+Asia,Kuwait,2017,Male,54,1.94684114,High
+Asia,Kuwait,2017,Female,18,1.08181789,High
+Asia,Kuwait,2018,Male,71,2.45209267,High
+Asia,Kuwait,2018,Female,14,0.83908556,High
+Asia,Kuwait,2019,Male,72,2.44638675,High
+Asia,Kuwait,2019,Female,9,0.5269651,High
+Europe,Norway,1997,Male,387,17.76370146,High
+Europe,Norway,1997,Female,146,6.55737705,High
+Europe,Norway,1998,Male,399,18.20006386,High
+Europe,Norway,1998,Female,149,6.65445938,High
+Europe,Norway,1999,Male,430,19.47155116,High
+Europe,Norway,1999,Female,153,6.78924583,High
+Europe,Norway,2000,Male,409,18.47456134,High
+Europe,Norway,2000,Female,132,5.85075003,High
+Europe,Norway,2001,Male,411,18.3759587,High
+Europe,Norway,2001,Female,138,6.06024942,High
+Europe,Norway,2002,Male,362,16.09589239,High
+Europe,Norway,2002,Female,132,5.76636019,High
+Europe,Norway,2003,Male,374,16.52981687,High
+Europe,Norway,2003,Female,128,5.55971328,High
+Europe,Norway,2004,Male,359,15.76939262,High
+Europe,Norway,2004,Female,170,7.34229612,High
+Europe,Norway,2005,Male,360,15.69977153,High
+Europe,Norway,2005,Female,173,7.42404197,High
+Europe,Norway,2006,Male,391,16.89798758,High
+Europe,Norway,2006,Female,141,6.00820183,High
+Europe,Norway,2007,Male,336,14.34218665,High
+Europe,Norway,2007,Female,149,6.29644686,High
+Europe,Norway,2008,Male,347,14.5959488,High
+Europe,Norway,2008,Female,158,6.60855599,High
+Europe,Norway,2009,Male,416,17.25494913,High
+Europe,Norway,2009,Female,157,6.49344472,High
+Europe,Norway,2010,Male,384,15.71322706,High
+Europe,Norway,2010,Female,164,6.70632668,High
+Europe,Norway,2011,Male,434,17.50098796,High
+Europe,Norway,2011,Female,164,6.63101016,High
+Europe,Norway,2012,Male,369,14.65804159,High
+Europe,Norway,2012,Female,146,5.83723782,High
+Asia,Lebanon,2019,Male,20,0.57983687,Upper-Middle
+Asia,Lebanon,2019,Female,9,0.26420366,Upper-Middle
+Asia,Lebanon,2020,Male,17,0.49479793,Upper-Middle
+Asia,Lebanon,2020,Female,11,0.32451288,Upper-Middle
+Asia,Lebanon,2021,Male,19,0.55724195,Upper-Middle
+Asia,Lebanon,2021,Female,7,0.20836428,Upper-Middle
+Europe,Norway,2013,Male,378,14.813822,High
+Europe,Norway,2013,Female,176,6.96066375,High
+Europe,Norway,2014,Male,401,15.52380853,High
+Europe,Norway,2014,Female,147,5.75500137,High
+Asia,Sri Lanka,1996,Male,3728,40.45664351,Low
+Asia,Sri Lanka,1996,Female,1170,12.78341067,Low
+Asia,Sri Lanka,1997,Male,4390,47.43127246,Low
+Asia,Sri Lanka,1997,Female,1497,16.24454717,Low
+Asia,Sri Lanka,1998,Male,4206,45.27450819,Low
+Asia,Sri Lanka,1998,Female,1312,14.14616416,Low
+Asia,Sri Lanka,1999,Male,4271,45.80079816,Low
+Asia,Sri Lanka,1999,Female,1348,14.43544145,Low
+Asia,Sri Lanka,2000,Male,3959,42.27018775,Low
+Asia,Sri Lanka,2000,Female,1293,13.73826762,Low
+Asia,Sri Lanka,2001,Male,3582,38.04850877,Low
+Asia,Sri Lanka,2001,Female,1008,10.61339864,Low
+Asia,Sri Lanka,2002,Male,3465,36.59378501,Low
+Asia,Sri Lanka,2002,Female,917,9.55840084,Low
+Asia,Sri Lanka,2003,Male,3533,37.08432207,Low
+Asia,Sri Lanka,2003,Female,934,9.63174657,Low
+Asia,Sri Lanka,2004,Male,3401,35.48442395,Lower-Middle
+Asia,Sri Lanka,2004,Female,935,9.53822154,Lower-Middle
+Asia,Sri Lanka,2005,Male,3391,35.18190685,Lower-Middle
+Asia,Sri Lanka,2005,Female,958,9.67040767,Lower-Middle
+Asia,Sri Lanka,2006,Male,3117,32.17283034,Lower-Middle
+Asia,Sri Lanka,2006,Female,898,8.97311045,Lower-Middle
+Asia,Sri Lanka,2007,Male,2946,30.26177048,Lower-Middle
+Asia,Sri Lanka,2007,Female,913,9.03335306,Lower-Middle
+Asia,Sri Lanka,2009,Male,2794,28.44356198,Lower-Middle
+Asia,Sri Lanka,2009,Female,804,7.80541072,Lower-Middle
+Asia,Sri Lanka,2010,Male,2699,27.35571028,Lower-Middle
+Asia,Sri Lanka,2010,Female,864,8.3113485,Lower-Middle
+Asia,Sri Lanka,2011,Male,2661,26.85279492,Lower-Middle
+Asia,Sri Lanka,2011,Female,730,6.95972976,Lower-Middle
+Asia,Sri Lanka,2012,Male,2446,24.57704325,Lower-Middle
+Asia,Sri Lanka,2012,Female,734,6.93747258,Lower-Middle
+Asia,Sri Lanka,2013,Male,2441,24.42294416,Lower-Middle
+Asia,Sri Lanka,2013,Female,724,6.78642711,Lower-Middle
+Asia,Sri Lanka,2014,Male,2222,22.13922063,Lower-Middle
+Asia,Sri Lanka,2014,Female,578,5.37573155,Lower-Middle
+Asia,Sri Lanka,2015,Male,2122,21.05647123,Lower-Middle
+Asia,Sri Lanka,2015,Female,570,5.26298198,Lower-Middle
+Asia,Sri Lanka,2019,Male,2179,21.29298968,Upper-Middle
+Asia,Sri Lanka,2019,Female,547,4.93222963,Upper-Middle
+Europe,Lithuania,2015,Male,727,54.33758965,High
+Europe,Lithuania,2015,Female,169,10.78509079,High
+Europe,Lithuania,2016,Male,697,52.76717261,High
+Europe,Lithuania,2016,Female,129,8.33692015,High
+Europe,Lithuania,2017,Male,596,45.679599,High
+Europe,Lithuania,2017,Female,153,10.04159056,High
+Europe,Lithuania,2018,Male,544,41.96099787,High
+Europe,Lithuania,2018,Female,140,9.30170135,High
+Europe,Lithuania,2019,Male,540,41.53932428,High
+Europe,Lithuania,2019,Female,119,7.96431985,High
+Europe,Lithuania,2020,Male,475,36.28790749,High
+Europe,Lithuania,2020,Female,133,8.95075001,High
+Europe,Lithuania,2021,Male,439,33.61970069,High
+Europe,Lithuania,2021,Female,126,8.38547636,High
+Europe,Lithuania,2022,Male,426,32.24323204,High
+Europe,Lithuania,2022,Female,101,6.6868331,High
+Europe,Luxembourg,2015,Male,45,15.75724045,High
+Europe,Luxembourg,2015,Female,19,6.68964619,High
+Europe,Luxembourg,2016,Male,32,10.92459639,High
+Europe,Luxembourg,2016,Female,11,3.78604052,High
+Europe,Luxembourg,2017,Male,38,12.68311244,High
+Europe,Luxembourg,2017,Female,15,5.05518578,High
+Europe,Luxembourg,2018,Male,34,11.12383445,High
+Europe,Luxembourg,2018,Female,16,5.2927643,High
+Europe,Luxembourg,2019,Male,47,15.07166255,High
+Europe,Luxembourg,2019,Female,21,6.81461963,High
+Europe,Luxembourg,2020,Male,46,14.50143438,High
+Europe,Luxembourg,2020,Female,14,4.46985878,High
+Europe,Luxembourg,2021,Male,26,8.06801961,High
+Europe,Luxembourg,2021,Female,9,2.83193415,High
+Europe,Luxembourg,2022,Male,37,11.25461591,High
+Europe,Luxembourg,2022,Female,14,4.31633827,High
+Europe,Latvia,2015,Male,306,33.70961043,High
+Europe,Latvia,2015,Female,81,7.57169271,High
+Europe,Latvia,2016,Male,287,31.88920778,High
+Europe,Latvia,2016,Female,77,7.26726353,High
+Europe,Latvia,2017,Male,283,31.70292899,High
+Europe,Latvia,2017,Female,70,6.66929627,High
+Europe,Latvia,2018,Male,261,29.41590826,High
+Europe,Latvia,2018,Female,38,3.65420103,High
+Europe,Latvia,2019,Male,226,25.59652069,High
+Europe,Latvia,2019,Female,62,6.01422656,High
+Europe,Latvia,2020,Male,246,28.01533555,High
+Europe,Latvia,2020,Female,52,5.08627844,High
+Europe,Latvia,2021,Male,213,24.42265643,High
+Europe,Latvia,2021,Female,40,3.95120655,High
+Europe,Republic of Moldova,2015,Male,464,27.13981979,Lower-Middle
+Europe,Republic of Moldova,2015,Female,92,4.98795571,Lower-Middle
+Europe,Republic of Moldova,2016,Male,462,27.04563336,Lower-Middle
+Europe,Republic of Moldova,2016,Female,84,4.55598162,Lower-Middle
+Europe,Republic of Moldova,2017,Male,436,25.5515112,Lower-Middle
+Europe,Republic of Moldova,2017,Female,70,3.79848804,Lower-Middle
+Europe,Republic of Moldova,2018,Male,425,24.94291008,Upper-Middle
+Europe,Republic of Moldova,2018,Female,64,3.47593162,Upper-Middle
+Asia,Maldives,2015,Male,1,0.36850465,Upper-Middle
+Asia,Maldives,2015,Female,0,0.0,Upper-Middle
+Asia,Maldives,2016,Male,3,1.03828503,Upper-Middle
+Asia,Maldives,2016,Female,2,1.07200094,Upper-Middle
+Asia,Maldives,2017,Male,0,0.0,Upper-Middle
+Asia,Maldives,2017,Female,0,0.0,Upper-Middle
+Asia,Maldives,2018,Male,2,0.61818643,Upper-Middle
+Asia,Maldives,2018,Female,0,0.0,Upper-Middle
+Asia,Maldives,2019,Male,4,1.19022823,Upper-Middle
+Asia,Maldives,2019,Female,0,0.0,Upper-Middle
+Europe,North Macedonia,2015,Male,82,7.90696777,Upper-Middle
+Europe,North Macedonia,2015,Female,32,3.09727575,Upper-Middle
+Europe,North Macedonia,2016,Male,98,9.44026001,Upper-Middle
+Europe,North Macedonia,2016,Female,27,2.61025172,Upper-Middle
+Europe,North Macedonia,2017,Male,79,7.60384543,Upper-Middle
+Europe,North Macedonia,2017,Female,32,3.0901334,Upper-Middle
+Europe,North Macedonia,2018,Male,91,8.75217121,Upper-Middle
+Europe,North Macedonia,2018,Female,25,2.41202152,Upper-Middle
+Europe,North Macedonia,2019,Male,83,8.00589543,Upper-Middle
+Europe,North Macedonia,2019,Female,24,2.30778551,Upper-Middle
+Europe,North Macedonia,2020,Male,82,7.90386586,Upper-Middle
+Europe,North Macedonia,2020,Female,23,2.22208482,Upper-Middle
+Europe,North Macedonia,2021,Male,73,8.01240716,Upper-Middle
+Europe,North Macedonia,2021,Female,32,3.45711983,Upper-Middle
+Europe,Malta,2015,Male,27,12.48930314,High
+Europe,Malta,2015,Female,7,3.24448091,High
+Europe,Malta,2016,Male,19,8.29484235,High
+Europe,Malta,2016,Female,5,2.20894889,High
+Europe,Malta,2017,Male,20,8.46887055,High
+Europe,Malta,2017,Female,5,2.15612966,High
+Europe,Malta,2018,Male,20,9.08331214,High
+Europe,Malta,2018,Female,2,0.91294603,High
+Europe,Malta,2019,Male,20,9.05866847,High
+Europe,Malta,2019,Female,1,0.45538585,High
+Europe,Malta,2020,Male,14,6.3228254,High
+Europe,Malta,2020,Female,8,3.63439776,High
+Europe,Montenegro,2017,Male,45,14.62244838,Upper-Middle
+Europe,Montenegro,2017,Female,16,5.08538682,Upper-Middle
+Europe,Montenegro,2019,Male,25,8.12653998,Upper-Middle
+Europe,Montenegro,2019,Female,10,3.18072228,Upper-Middle
+Asia,Mongolia,2016,Male,387,25.48069294,Lower-Middle
+Asia,Mongolia,2016,Female,63,4.01258806,Lower-Middle
+Asia,Mongolia,2017,Male,380,24.72575558,Lower-Middle
+Asia,Mongolia,2017,Female,70,4.38901467,Lower-Middle
+Asia,Mongolia,2018,Male,380,24.18864598,Upper-Middle
+Asia,Mongolia,2018,Female,65,4.02386586,Upper-Middle
+Asia,Mongolia,2019,Male,397,25.19705429,Upper-Middle
+Asia,Mongolia,2019,Female,50,3.08989302,Upper-Middle
+Asia,Mongolia,2020,Male,384,24.14924232,Upper-Middle
+Asia,Mongolia,2020,Female,67,4.09776033,Upper-Middle
+Asia,Mongolia,2021,Male,411,25.40534977,Upper-Middle
+Asia,Mongolia,2021,Female,72,4.32429965,Upper-Middle
+Asia,Malaysia,2020,Male,18,0.10823283,Upper-Middle
+Asia,Malaysia,2020,Female,6,0.03813111,Upper-Middle
+Asia,Malaysia,2019,Male,10,0.06088961,Upper-Middle
+Asia,Malaysia,2019,Female,2,0.0128811,Upper-Middle
+Asia,Malaysia,2000,Male,89,0.75308819,Upper-Middle
+Asia,Malaysia,2000,Female,29,0.25491711,Upper-Middle
+Asia,Malaysia,2001,Male,58,0.47971429,Lower-Middle
+Asia,Malaysia,2001,Female,15,0.1291035,Lower-Middle
+Asia,Malaysia,2018,Male,28,0.17270964,Upper-Middle
+Asia,Malaysia,2018,Female,2,0.01305837,Upper-Middle
+Asia,Malaysia,2002,Male,34,0.27512117,Upper-Middle
+Asia,Malaysia,2002,Female,12,0.10126411,Upper-Middle
+Asia,Malaysia,2003,Male,45,0.35645956,Upper-Middle
+Asia,Malaysia,2003,Female,11,0.09109981,Upper-Middle
+Asia,Malaysia,2017,Male,19,0.11874768,Upper-Middle
+Asia,Malaysia,2017,Female,3,0.01986184,Upper-Middle
+Asia,Malaysia,2004,Male,49,0.38004662,Upper-Middle
+Asia,Malaysia,2004,Female,17,0.13823957,Upper-Middle
+Asia,Malaysia,2005,Male,37,0.28098309,Upper-Middle
+Asia,Malaysia,2005,Female,2,0.01597117,Upper-Middle
+Asia,Malaysia,2016,Male,13,0.08232685,Upper-Middle
+Asia,Malaysia,2016,Female,7,0.046999,Upper-Middle
+Asia,Malaysia,2006,Male,52,0.38659557,Upper-Middle
+Asia,Malaysia,2006,Female,11,0.08626636,Upper-Middle
+Asia,Malaysia,2007,Male,49,0.35242417,Upper-Middle
+Asia,Malaysia,2007,Female,13,0.09882399,Upper-Middle
+Asia,Malaysia,2015,Male,24,0.15399258,Upper-Middle
+Asia,Malaysia,2015,Female,7,0.0476651,Upper-Middle
+Asia,Malaysia,2008,Male,40,0.28210535,Upper-Middle
+Asia,Malaysia,2008,Female,19,0.14191284,Upper-Middle
+Asia,Malaysia,2009,Male,32,0.22134698,Upper-Middle
+Asia,Malaysia,2009,Female,8,0.05871751,Upper-Middle
+Asia,Malaysia,2014,Male,19,0.11973938,Upper-Middle
+Asia,Malaysia,2014,Female,2,0.01347643,Upper-Middle
+Europe,Lithuania,1992,Male,1023,58.47772702,Low
+Europe,Lithuania,1992,Female,271,13.89222809,Low
+Europe,Lithuania,1993,Male,1298,74.6110368,Low
+Europe,Lithuania,1993,Female,274,14.10245589,Low
+Asia,Malaysia,2010,Male,25,0.16971541,Upper-Middle
+Asia,Malaysia,2010,Female,14,0.10102399,Upper-Middle
+Europe,Lithuania,1994,Male,1441,83.52219047,Low
+Europe,Lithuania,1994,Female,262,13.56210148,Low
+Europe,Lithuania,1995,Male,1388,81.19869872,Lower-Middle
+Europe,Lithuania,1995,Female,306,15.93986607,Lower-Middle
+Asia,Malaysia,2011,Male,28,0.18691576,Upper-Middle
+Asia,Malaysia,2011,Female,6,0.04260751,Upper-Middle
+Europe,Lithuania,1996,Male,1389,82.00965577,Lower-Middle
+Europe,Lithuania,1996,Female,334,17.50606685,Lower-Middle
+Asia,Malaysia,2013,Male,17,0.10894075,Upper-Middle
+Asia,Malaysia,2013,Female,5,0.03422583,Upper-Middle
+Asia,Malaysia,2012,Male,23,0.15116354,Upper-Middle
+Asia,Malaysia,2012,Female,6,0.04197356,Upper-Middle
+Europe,Netherlands,2020,Male,1228,14.10397628,High
+Europe,Netherlands,2020,Female,596,6.76863917,High
+Europe,Netherlands,2019,Male,1232,14.21844541,High
+Europe,Netherlands,2019,Female,579,6.58227036,High
+Europe,Netherlands,2018,Male,1177,13.68992426,High
+Europe,Netherlands,2018,Female,653,7.48952585,High
+Europe,Netherlands,2017,Male,1304,15.33866273,High
+Europe,Netherlands,2017,Female,613,7.10139647,High
+Europe,Netherlands,2016,Male,1279,15.14304973,High
+Europe,Netherlands,2016,Female,616,7.17597864,High
+Europe,Netherlands,2015,Male,1282,15.2710001,High
+Europe,Netherlands,2015,Female,591,6.91638442,High
+Europe,Norway,2016,Male,418,15.85062192,High
+Europe,Norway,2016,Female,196,7.54127356,High
+Europe,Norway,2015,Male,400,15.3141233,High
+Europe,Norway,2015,Female,190,7.37026586,High
+Asia,Oman,2021,Male,1,0.03621674,High
+Asia,Oman,2021,Female,0,0.0,High
+Asia,Oman,2020,Male,5,0.17500538,High
+Asia,Oman,2020,Female,1,0.05728289,High
+Asia,Oman,2019,Male,5,0.15223258,High
+Asia,Oman,2019,Female,0,0.0,High
+Asia,Oman,2018,Male,1,0.0313797,High
+Asia,Oman,2018,Female,1,0.06087531,High
+Asia,Oman,2017,Male,9,0.29283911,High
+Asia,Oman,2017,Female,4,0.25116698,High
+Asia,Oman,2016,Male,6,0.20412121,High
+Asia,Oman,2016,Female,2,0.12988809,High
+Asia,Oman,2014,Male,7,0.27133771,High
+Asia,Oman,2014,Female,0,0.0,High
+Asia,Oman,2014,Unknown,1,,High
+Asia,Oman,2010,Male,16,0.87214943,High
+Asia,Oman,2010,Female,0,0.0,High
+Asia,Oman,2009,Male,13,0.76272638,High
+Asia,Oman,2009,Female,0,0.0,High
+Europe,Latvia,1992,Male,709,57.91537331,Low
+Europe,Latvia,1992,Female,212,15.06323718,Low
+Europe,Latvia,1993,Male,867,72.1898418,Low
+Europe,Latvia,1993,Female,232,16.75090253,Low
+Europe,Latvia,1994,Male,838,70.9327916,Low
+Europe,Latvia,1994,Female,195,14.27212179,Low
+Europe,Latvia,1995,Male,825,70.7972196,Lower-Middle
+Europe,Latvia,1995,Female,199,14.73637441,Lower-Middle
+Europe,Latvia,1996,Male,741,64.25041186,Lower-Middle
+Europe,Latvia,1996,Female,181,13.53372215,Lower-Middle
+Europe,Netherlands,2021,Male,1295,14.85300741,High
+Europe,Netherlands,2021,Female,570,6.46268175,High
+Europe,Netherlands,2022,Male,1317,14.97455009,High
+Europe,Netherlands,2022,Female,601,6.75262462,High
+Asia,Philippines,1992,Male,244,0.74325006,Low
+Asia,Philippines,1992,Female,103,0.31996189,Low
+Asia,Philippines,1993,Male,509,1.51429871,Low
+Asia,Philippines,1993,Female,342,1.03696115,Low
+Asia,Philippines,1997,Male,598,1.62411565,Lower-Middle
+Asia,Philippines,1997,Female,219,0.60479126,Lower-Middle
+Asia,Philippines,1998,Male,666,1.76950173,Low
+Asia,Philippines,1998,Female,219,0.59134378,Low
+Asia,Philippines,1999,Male,788,2.04896027,Lower-Middle
+Asia,Philippines,1999,Female,255,0.67340251,Lower-Middle
+Asia,Philippines,2000,Male,1045,2.66033048,Lower-Middle
+Asia,Philippines,2000,Female,358,0.92480358,Lower-Middle
+Asia,Philippines,2001,Male,927,2.31147381,Low
+Asia,Philippines,2001,Female,277,0.70005029,Low
+Asia,Philippines,2002,Male,999,2.44084333,Lower-Middle
+Asia,Philippines,2002,Female,302,0.74684477,Lower-Middle
+Asia,Philippines,2003,Male,1142,2.73522524,Lower-Middle
+Asia,Philippines,2003,Female,402,0.97335664,Lower-Middle
+Asia,Philippines,2006,Male,1386,3.13608413,Lower-Middle
+Asia,Philippines,2006,Female,402,0.92004675,Lower-Middle
+Asia,Philippines,2007,Male,1292,2.8712765,Lower-Middle
+Asia,Philippines,2007,Female,406,0.91424816,Lower-Middle
+Asia,Philippines,2008,Male,1411,3.08105451,Lower-Middle
+Asia,Philippines,2008,Female,409,0.90675383,Lower-Middle
+Asia,Philippines,2009,Male,1549,3.32437198,Lower-Middle
+Asia,Philippines,2009,Female,525,1.14581552,Lower-Middle
+Asia,Philippines,2010,Male,1630,3.438985,Lower-Middle
+Asia,Philippines,2010,Female,488,1.04790565,Lower-Middle
+Asia,Philippines,2011,Male,1879,3.89794714,Lower-Middle
+Asia,Philippines,2011,Female,570,1.20341547,Lower-Middle
+Europe,Republic of Moldova,1992,Male,533,25.66812986,Low
+Europe,Republic of Moldova,1992,Female,154,6.77006401,Low
+Asia,Philippines,2014,Male,1723,3.41878083,Lower-Middle
+Asia,Philippines,2014,Female,384,0.77613113,Lower-Middle
+Europe,Republic of Moldova,1993,Male,567,27.30589099,Low
+Europe,Republic of Moldova,1993,Female,161,7.08747797,Low
+Europe,Republic of Moldova,1994,Male,612,29.47303939,Low
+Europe,Republic of Moldova,1994,Female,172,7.57171893,Low
+Asia,Philippines,2016,Male,1928,3.71912526,Lower-Middle
+Asia,Philippines,2016,Female,485,0.95679529,Lower-Middle
+Europe,Republic of Moldova,1995,Male,615,29.67069867,Low
+Europe,Republic of Moldova,1995,Female,187,8.25232886,Low
+Europe,Republic of Moldova,1996,Male,638,30.87203831,Low
+Europe,Republic of Moldova,1996,Female,139,6.15562301,Low
+Asia,Philippines,2017,Male,1997,3.79265248,Lower-Middle
+Asia,Philippines,2017,Female,466,0.90459462,Lower-Middle
+Asia,Philippines,2018,Male,2409,4.50773545,Lower-Middle
+Asia,Philippines,2018,Female,575,1.09913821,Lower-Middle
+Asia,Philippines,2019,Male,2209,4.07554763,Lower-Middle
+Asia,Philippines,2019,Female,599,1.1283398,Lower-Middle
+Europe,Poland,1992,Male,4732,25.32390733,Lower-Middle
+Europe,Poland,1992,Female,981,4.98503473,Lower-Middle
+Europe,Poland,1993,Male,4641,24.78359082,Lower-Middle
+Europe,Poland,1993,Female,983,4.98150307,Lower-Middle
+Europe,Lithuania,1991,Male,921,52.57242408,Low
+Europe,Lithuania,1991,Female,221,11.3201845,Low
+Europe,Poland,1994,Male,4628,24.66543375,Lower-Middle
+Europe,Poland,1994,Female,891,4.50445896,Lower-Middle
+Europe,Poland,1995,Male,4562,24.29270527,Lower-Middle
+Europe,Poland,1995,Female,937,4.73034031,Lower-Middle
+Europe,Poland,1996,Male,4537,24.14685032,Upper-Middle
+Europe,Poland,1996,Female,909,4.5842411,Upper-Middle
+Europe,Poland,1999,Male,4895,26.05289349,Upper-Middle
+Europe,Poland,1999,Female,884,4.45006016,Upper-Middle
+Europe,Poland,2000,Male,4869,26.25952413,Upper-Middle
+Europe,Poland,2000,Female,972,4.93048098,Upper-Middle
+Europe,Poland,2001,Male,5005,27.00596155,Upper-Middle
+Europe,Poland,2001,Female,850,4.31081591,Upper-Middle
+Europe,Poland,2002,Male,4933,26.64012699,Upper-Middle
+Europe,Poland,2002,Female,992,5.03167061,Upper-Middle
+Europe,Poland,2003,Male,4948,26.75614221,Upper-Middle
+Europe,Poland,2003,Female,888,4.5071047,Upper-Middle
+Europe,Poland,2004,Male,5162,27.93536745,Upper-Middle
+Europe,Poland,2004,Female,910,4.61884832,Upper-Middle
+Europe,Poland,2005,Male,5138,27.83205215,Upper-Middle
+Europe,Poland,2005,Female,907,4.60392467,Upper-Middle
+Europe,Poland,2006,Male,4947,26.83322249,Upper-Middle
+Europe,Poland,2006,Female,858,4.35617553,Upper-Middle
+Europe,Poland,2007,Male,4472,24.28181589,Upper-Middle
+Europe,Poland,2007,Female,812,4.12205904,Upper-Middle
+Europe,Poland,2008,Male,4870,26.45530669,High
+Europe,Poland,2008,Female,812,4.12025795,High
+Europe,Poland,2009,Male,5531,30.02169585,Upper-Middle
+Europe,Poland,2009,Female,946,4.79471766,Upper-Middle
+Europe,Poland,2010,Male,5517,29.94732918,High
+Europe,Poland,2010,Female,840,4.28133269,High
+Europe,Poland,2011,Male,5353,29.0563283,High
+Europe,Poland,2011,Female,760,3.8719811,High
+Europe,Poland,2012,Male,5558,30.16691127,High
+Europe,Poland,2012,Female,810,4.12529194,High
+Europe,Poland,2013,Male,5378,29.21059798,High
+Europe,Poland,2013,Female,840,4.28123515,High
+Europe,Poland,2014,Male,5123,27.84622016,High
+Europe,Poland,2014,Female,811,4.13592264,High
+Europe,Poland,2015,Male,4697,25.54831931,High
+Europe,Poland,2015,Female,723,3.68937466,High
+Europe,Poland,2016,Male,4076,22.18753288,High
+Europe,Poland,2016,Female,596,3.04297404,High
+Europe,Poland,2017,Male,3882,21.12835771,High
+Europe,Poland,2017,Female,601,3.06806296,High
+Europe,Poland,2018,Male,3873,21.08553771,High
+Europe,Poland,2018,Female,574,2.93154785,High
+Europe,Poland,2019,Male,3962,21.57007498,High
+Europe,Poland,2019,Female,610,3.11540799,High
+Europe,Poland,2020,Male,3958,21.56004639,High
+Europe,Poland,2020,Female,601,3.0707597,High
+Europe,Poland,2021,Male,3929,21.52616039,High
+Europe,Poland,2021,Female,656,3.36669198,High
+Europe,Portugal,1991,Male,708,14.74734241,Upper-Middle
+Europe,Portugal,1991,Female,234,4.53543747,Upper-Middle
+Europe,Portugal,1992,Male,630,13.13694915,Upper-Middle
+Europe,Portugal,1992,Female,236,4.57642829,Upper-Middle
+Europe,Portugal,1993,Male,586,12.20708211,Upper-Middle
+Europe,Portugal,1993,Female,194,3.75664457,Upper-Middle
+Europe,Portugal,1994,Male,587,12.19509155,Upper-Middle
+Europe,Portugal,1994,Female,175,3.37960887,Upper-Middle
+Europe,Portugal,1995,Male,582,12.04734981,Upper-Middle
+Europe,Portugal,1995,Female,227,4.36938512,Upper-Middle
+Europe,Portugal,1996,Male,491,10.12322083,High
+Europe,Portugal,1996,Female,162,3.10719238,High
+Europe,Latvia,1991,Male,578,46.62042265,Low
+Europe,Latvia,1991,Female,179,12.58259525,Low
+Europe,Portugal,1997,Male,483,9.91185427,Upper-Middle
+Europe,Portugal,1997,Female,145,2.76927631,Upper-Middle
+Europe,Portugal,1998,Male,416,8.49191716,High
+Europe,Portugal,1998,Female,140,2.66087812,High
+Europe,Portugal,1999,Male,407,8.25866043,High
+Europe,Portugal,1999,Female,138,2.60885889,High
+Europe,Portugal,2000,Male,417,8.39827733,Upper-Middle
+Europe,Portugal,2000,Female,107,2.00954289,Upper-Middle
+Europe,Portugal,2001,Male,586,11.71316888,Upper-Middle
+Europe,Portugal,2001,Female,175,3.26504355,Upper-Middle
+Europe,Portugal,2002,Male,947,18.83318945,High
+Europe,Portugal,2002,Female,265,4.91535025,High
+Europe,Portugal,2003,Male,889,17.63072069,High
+Europe,Portugal,2003,Female,267,4.92939427,High
+Europe,Portugal,2007,Male,751,14.82118565,High
+Europe,Portugal,2007,Female,269,4.91244077,High
+Europe,Portugal,2008,Male,794,15.6669514,High
+Europe,Portugal,2008,Female,244,4.44429549,High
+Europe,Portugal,2009,Male,804,15.87366772,High
+Europe,Portugal,2009,Female,222,4.03397626,High
+Europe,Portugal,2010,Male,836,16.52616788,High
+Europe,Portugal,2010,Female,265,4.80555108,High
+Europe,Portugal,2011,Male,794,15.74775039,High
+Europe,Portugal,2011,Female,224,4.0612303,High
+Europe,Portugal,2012,Male,859,17.13521882,High
+Europe,Portugal,2012,Female,217,3.94418022,High
+Europe,Portugal,2013,Male,812,16.31551309,High
+Europe,Portugal,2013,Female,241,4.39745995,High
+Europe,Portugal,2014,Male,925,18.72150157,High
+Europe,Portugal,2014,Female,298,5.45765655,High
+Europe,Portugal,2015,Male,803,16.34576483,High
+Europe,Portugal,2015,Female,329,6.04169855,High
+Europe,Portugal,2016,Male,750,15.33120775,High
+Europe,Portugal,2016,Female,231,4.25142759,High
+Europe,Portugal,2017,Male,788,16.16385721,High
+Europe,Portugal,2017,Female,274,5.05048085,High
+Europe,Portugal,2018,Male,737,15.16451857,High
+Europe,Portugal,2018,Female,259,4.77525599,High
+Europe,Portugal,2019,Male,752,15.54787443,High
+Europe,Portugal,2019,Female,241,4.47165453,High
+Asia,Qatar,2004,Male,20,4.04915676,High
+Asia,Qatar,2004,Female,1,0.38550204,High
+Asia,Qatar,2005,Male,16,2.73669879,High
+Asia,Qatar,2005,Female,1,0.35617102,High
+Asia,Qatar,2006,Male,24,3.34927963,High
+Asia,Qatar,2006,Female,5,1.63328237,High
+Asia,Qatar,2007,Male,37,4.18874247,High
+Asia,Qatar,2007,Female,4,1.19359873,High
+Asia,Qatar,2008,Male,31,2.89845316,High
+Asia,Qatar,2008,Female,2,0.54476022,High
+Asia,Qatar,2009,Male,41,3.27063291,High
+Asia,Qatar,2009,Female,3,0.74745119,High
+Europe,Republic of Moldova,1991,Male,527,25.33603905,Low
+Europe,Republic of Moldova,1991,Female,196,8.59485519,Low
+Asia,Qatar,2010,Male,46,3.24105943,High
+Asia,Qatar,2010,Female,1,0.22881201,High
+Asia,Qatar,2011,Male,45,2.88142181,High
+Asia,Qatar,2011,Female,5,1.05455642,High
+Asia,Qatar,2012,Male,38,2.25679071,High
+Asia,Qatar,2012,Female,5,0.97604588,High
+Asia,Qatar,2013,Male,36,2.01480772,High
+Asia,Qatar,2013,Female,1,0.18188168,High
+Asia,Qatar,2014,Male,52,2.77405977,High
+Asia,Qatar,2014,Female,3,0.51308978,High
+Asia,Qatar,2015,Male,57,2.92276366,High
+Asia,Qatar,2015,Female,9,1.46222821,High
+Asia,Qatar,2016,Male,63,3.12978161,High
+Asia,Qatar,2016,Female,7,1.09126226,High
+Asia,Qatar,2017,Male,49,2.3766437,High
+Asia,Qatar,2017,Female,5,0.75415236,High
+Asia,Qatar,2019,Male,57,2.67163998,High
+Asia,Qatar,2019,Female,6,0.85892205,High
+Asia,Qatar,2020,Male,72,3.32542774,High
+Asia,Qatar,2020,Female,8,1.11743549,High
+Asia,Qatar,2021,Male,64,2.91351283,High
+Asia,Qatar,2021,Female,6,0.81759129,High
+Europe,Romania,1992,Male,2077,18.54348389,Lower-Middle
+Europe,Romania,1992,Female,573,4.94464244,Lower-Middle
+Europe,Romania,1993,Male,2191,19.60380802,Lower-Middle
+Europe,Romania,1993,Female,583,5.0350206,Lower-Middle
+Europe,Romania,1994,Male,2298,20.59730389,Lower-Middle
+Europe,Romania,1994,Female,589,5.08908051,Lower-Middle
+Europe,Romania,1995,Male,2256,20.28047465,Lower-Middle
+Europe,Romania,1995,Female,537,4.64653457,Lower-Middle
+Europe,Romania,1996,Male,2335,21.07229557,Lower-Middle
+Europe,Romania,1996,Female,493,4.27702638,Lower-Middle
+Europe,Romania,1997,Male,2375,21.50995345,Lower-Middle
+Europe,Romania,1997,Female,484,4.20704942,Lower-Middle
+Europe,Romania,1998,Male,2350,21.34016219,Lower-Middle
+Europe,Romania,1998,Female,488,4.24691272,Lower-Middle
+Europe,Romania,1999,Male,2235,20.34685238,Lower-Middle
+Europe,Romania,1999,Female,501,4.36658387,Lower-Middle
+Europe,Romania,2000,Male,2325,21.19629133,Lower-Middle
+Europe,Romania,2000,Female,511,4.45649899,Lower-Middle
+Europe,Romania,2001,Male,2278,20.80462195,Lower-Middle
+Europe,Romania,2001,Female,442,3.85726278,Lower-Middle
+Europe,Romania,2002,Male,2539,23.85709123,Lower-Middle
+Europe,Romania,2002,Female,528,4.7344685,Lower-Middle
+Europe,Romania,2003,Male,2386,22.49618032,Lower-Middle
+Europe,Romania,2003,Female,508,4.56534377,Lower-Middle
+Europe,Romania,2004,Male,2276,21.52936839,Lower-Middle
+Europe,Romania,2004,Female,444,3.99937956,Lower-Middle
+Europe,Romania,2005,Male,2133,20.23043921,Upper-Middle
+Europe,Romania,2005,Female,470,4.24175054,Upper-Middle
+Europe,Romania,2006,Male,2240,21.29036937,Upper-Middle
+Europe,Romania,2006,Female,481,4.34775692,Upper-Middle
+Europe,Romania,2007,Male,1984,18.90114245,Upper-Middle
+Europe,Romania,2007,Female,446,4.03954662,Upper-Middle
+Europe,Romania,2008,Male,2026,19.33646897,Upper-Middle
+Europe,Romania,2008,Female,446,4.04467975,Upper-Middle
+Europe,Romania,2009,Male,2197,21.00940986,Upper-Middle
+Europe,Romania,2009,Female,389,3.53227262,Upper-Middle
+Europe,Romania,2010,Male,2304,22.0813535,Upper-Middle
+Europe,Romania,2010,Female,462,4.20108655,Upper-Middle
+Europe,Romania,2011,Male,2142,20.61094418,Upper-Middle
+Europe,Romania,2011,Female,394,3.59428086,Upper-Middle
+Europe,Romania,2012,Male,2142,21.92346582,Upper-Middle
+Europe,Romania,2012,Female,353,3.43057207,Upper-Middle
+Europe,Romania,2013,Male,2043,20.94029403,Upper-Middle
+Europe,Romania,2013,Female,364,3.55733327,Upper-Middle
+Europe,Romania,2014,Male,1887,19.39311373,Upper-Middle
+Europe,Romania,2014,Female,322,3.16114175,Upper-Middle
+Europe,Romania,2015,Male,1886,19.48239029,Upper-Middle
+Europe,Romania,2015,Female,342,3.37306049,Upper-Middle
+Europe,Romania,2016,Male,1657,17.21024343,Upper-Middle
+Europe,Romania,2016,Female,318,3.15525116,Upper-Middle
+Europe,Romania,2017,Male,1600,16.70044854,Upper-Middle
+Europe,Romania,2017,Female,331,3.30591653,Upper-Middle
+Europe,Romania,2018,Male,1623,17.02551908,High
+Europe,Romania,2018,Female,325,3.26597355,High
+Europe,Romania,2019,Male,1501,15.82889022,High
+Europe,Romania,2019,Female,241,2.43602306,High
+Europe,Russian Federation,1993,Male,46016,66.77559881,Lower-Middle
+Europe,Russian Federation,1993,Female,10120,12.98549654,Lower-Middle
+Europe,Russian Federation,1994,Male,51464,74.62314327,Lower-Middle
+Europe,Russian Federation,1994,Female,10422,13.37668155,Lower-Middle
+Europe,Russian Federation,1995,Male,50280,72.89555407,Lower-Middle
+Europe,Russian Federation,1995,Female,10673,13.69773352,Lower-Middle
+Europe,Russian Federation,1996,Male,48107,69.95112858,Lower-Middle
+Europe,Russian Federation,1996,Female,9705,12.47976298,Lower-Middle
+Europe,Russian Federation,1997,Male,45519,66.39294049,Lower-Middle
+Europe,Russian Federation,1997,Female,9512,12.2612713,Lower-Middle
+Europe,Russian Federation,1998,Male,42785,62.59024274,Lower-Middle
+Europe,Russian Federation,1998,Female,8985,11.61007214,Lower-Middle
+Europe,Russian Federation,1999,Male,47345,69.57241144,Lower-Middle
+Europe,Russian Federation,1999,Female,9931,12.87770139,Lower-Middle
+Europe,Russian Federation,2000,Male,47806,70.63744688,Lower-Middle
+Europe,Russian Federation,2000,Female,9128,11.88193872,Lower-Middle
+Europe,Russian Federation,2001,Male,48251,71.74183407,Lower-Middle
+Europe,Russian Federation,2001,Female,9033,11.80579202,Lower-Middle
+Europe,Russian Federation,2002,Male,46252,69.28111141,Lower-Middle
+Europe,Russian Federation,2002,Female,9078,11.92230111,Lower-Middle
+Europe,Russian Federation,2003,Male,43279,64.86662033,Lower-Middle
+Europe,Russian Federation,2003,Female,8470,11.03834089,Lower-Middle
+Europe,Russian Federation,2004,Male,41155,61.59699523,Upper-Middle
+Europe,Russian Federation,2004,Female,8223,10.67812676,Upper-Middle
+Europe,Russian Federation,2005,Male,38574,58.10811668,Upper-Middle
+Europe,Russian Federation,2005,Female,7489,9.76010499,Upper-Middle
+Europe,Russian Federation,2006,Male,35608,53.94639351,Upper-Middle
+Europe,Russian Federation,2006,Female,7247,9.47555676,Upper-Middle
+Europe,Russian Federation,2007,Male,33974,51.6455368,Upper-Middle
+Europe,Russian Federation,2007,Female,7355,9.63555564,Upper-Middle
+Europe,Russian Federation,2008,Male,31472,47.91764475,Upper-Middle
+Europe,Russian Federation,2008,Female,6934,9.09054511,Upper-Middle
+Europe,Russian Federation,2009,Male,31071,47.33510057,Upper-Middle
+Europe,Russian Federation,2009,Female,6499,8.52118477,Upper-Middle
+Europe,Russian Federation,2010,Male,27675,41.91081896,Upper-Middle
+Europe,Russian Federation,2010,Female,5805,7.55698012,Upper-Middle
+Europe,Russian Federation,2011,Male,25564,38.66697319,High
+Europe,Russian Federation,2011,Female,5580,7.26112093,High
+Europe,Russian Federation,2012,Male,24275,36.63326488,High
+Europe,Russian Federation,2012,Female,5460,7.0967321,High
+Europe,Russian Federation,2013,Male,23794,35.80726458,High
+Europe,Russian Federation,2013,Female,4985,6.46925469,High
+Europe,Russian Federation,2014,Male,21941,33.01871027,High
+Europe,Russian Federation,2014,Female,4665,6.05397655,High
+Europe,Russian Federation,2015,Male,20901,30.81192042,Upper-Middle
+Europe,Russian Federation,2015,Female,4575,5.82269508,Upper-Middle
+Europe,Russian Federation,2016,Male,19175,28.48903715,Upper-Middle
+Europe,Russian Federation,2016,Female,3944,5.0584348,Upper-Middle
+Europe,Russian Federation,2017,Male,16830,24.95957009,Upper-Middle
+Europe,Russian Federation,2017,Female,3448,4.41479368,Upper-Middle
+Europe,Russian Federation,2018,Male,15079,22.32914234,Upper-Middle
+Europe,Russian Federation,2018,Female,3127,3.99854477,Upper-Middle
+Europe,Russian Federation,2019,Male,14299,20.994058,Upper-Middle
+Europe,Russian Federation,2019,Female,2893,3.6780922,Upper-Middle
+Asia,Singapore,1991,Male,177,12.5150251,High
+Asia,Singapore,1991,Female,119,8.62068966,High
+Asia,Singapore,1992,Male,160,11.1180599,High
+Asia,Singapore,1992,Female,117,8.29375487,High
+Asia,Singapore,1993,Male,168,11.47384237,High
+Asia,Singapore,1993,Female,102,7.08185795,High
+Asia,Singapore,1994,Male,190,12.75852807,High
+Asia,Singapore,1994,Female,126,8.57026255,High
+Asia,Singapore,1995,Male,226,14.92734478,High
+Asia,Singapore,1995,Female,138,9.20306769,High
+Asia,Singapore,1996,Male,152,9.87012987,High
+Asia,Singapore,1996,Female,87,5.69334468,High
+Asia,Singapore,1997,Male,196,12.51756291,High
+Asia,Singapore,1997,Female,107,6.86910188,High
+Asia,Singapore,1998,Male,200,12.56439251,High
+Asia,Singapore,1998,Female,128,8.05943836,High
+Asia,Singapore,1999,Male,187,11.58038147,High
+Asia,Singapore,1999,Female,90,5.5731005,High
+Asia,Singapore,2000,Male,204,12.47935401,High
+Asia,Singapore,2000,Female,105,6.40751815,High
+Asia,Singapore,2001,Male,190,11.45544435,High
+Asia,Singapore,2001,Female,115,6.897379,High
+Asia,Singapore,2002,Male,192,11.39939441,High
+Asia,Singapore,2002,Female,129,7.59448958,High
+Asia,Singapore,2003,Male,201,11.75713617,High
+Asia,Singapore,2003,Female,119,6.88418373,High
+Asia,Singapore,2004,Male,205,11.84491824,High
+Asia,Singapore,2004,Female,130,7.41078554,High
+Asia,Singapore,2005,Male,240,13.65187713,High
+Asia,Singapore,2005,Female,119,6.66330702,High
+Asia,Singapore,2006,Male,231,12.92235399,High
+Asia,Singapore,2006,Female,141,7.74384886,High
+Asia,Singapore,2007,Male,197,11.09546607,High
+Asia,Singapore,2007,Female,131,7.24717858,High
+Asia,Singapore,2008,Male,207,11.48086523,High
+Asia,Singapore,2008,Female,112,6.08794912,High
+Asia,Singapore,2009,Male,235,12.73920569,High
+Asia,Singapore,2009,Female,114,6.03433537,High
+Asia,Singapore,2010,Male,197,10.58513782,High
+Asia,Singapore,2010,Female,99,5.18161834,High
+Asia,Singapore,2011,Male,197,10.54490954,High
+Asia,Singapore,2011,Female,111,5.77793972,High
+Asia,Singapore,2012,Male,243,12.92553192,High
+Asia,Singapore,2012,Female,149,7.68754515,High
+Asia,Singapore,2013,Male,245,12.95265566,High
+Asia,Singapore,2013,Female,112,5.73404183,High
+Asia,Singapore,2014,Male,250,13.14122613,High
+Asia,Singapore,2014,Female,105,5.33447406,High
+Asia,Singapore,2015,Male,218,11.3741425,High
+Asia,Singapore,2015,Female,111,5.58894939,High
+Asia,Singapore,2016,Male,212,10.98715436,High
+Asia,Singapore,2016,Female,124,6.18752286,High
+Asia,Singapore,2017,Male,198,10.18756962,High
+Asia,Singapore,2017,Female,109,5.39003319,High
+Asia,Singapore,2018,Male,237,12.11756802,High
+Asia,Singapore,2018,Female,97,4.75852917,High
+Asia,Singapore,2019,Male,216,10.9679077,High
+Asia,Singapore,2019,Female,106,5.15356907,High
+Asia,Singapore,2020,Male,249,12.59129956,High
+Asia,Singapore,2020,Female,110,5.32261327,High
+Europe,North Macedonia,1991,Male,96,9.97920998,Lower-Middle
+Europe,North Macedonia,1991,Female,50,5.24328859,Lower-Middle
+Europe,North Macedonia,1992,Male,92,9.52775476,Lower-Middle
+Europe,North Macedonia,1992,Female,52,5.4206192,Lower-Middle
+Asia,Singapore,2021,Male,206,10.5472594,High
+Asia,Singapore,2021,Female,103,5.06459074,High
+Europe,North Macedonia,1993,Male,95,9.81100898,Lower-Middle
+Europe,North Macedonia,1993,Female,55,5.70302779,Lower-Middle
+Asia,Singapore,2022,Male,237,11.90827912,High
+Asia,Singapore,2022,Female,133,6.38493884,High
+Europe,Poland,1991,Male,4448,23.87098505,Lower-Middle
+Europe,Poland,1991,Female,868,4.4260874,Lower-Middle
+Asia,Qatar,2001,Male,18,4.63918721,High
+Asia,Qatar,2001,Female,5,2.41170739,High
+Europe,Romania,1991,Male,1638,14.32406671,Lower-Middle
+Europe,Romania,1991,Female,523,4.45113959,Lower-Middle
+Europe,Montenegro,2005,Male,82,26.72411265,Lower-Middle
+Europe,Montenegro,2005,Female,36,11.37660023,Lower-Middle
+Asia,Qatar,1995,Male,0,0.0,High
+Asia,Qatar,1995,Female,0,0.0,High
+Europe,Russian Federation,1991,Male,30923,44.50562815,Lower-Middle
+Europe,Russian Federation,1991,Female,8465,10.74733665,Lower-Middle
+Europe,Russian Federation,1992,Male,36980,53.1608266,Lower-Middle
+Europe,Russian Federation,1992,Female,9145,11.61303759,Lower-Middle
+Europe,Serbia,1998,Male,1015,27.53275584,Lower-Middle
+Europe,Serbia,1998,Female,445,11.46544637,Lower-Middle
+Europe,Serbia,1999,Male,1092,29.7613613,Lower-Middle
+Europe,Serbia,1999,Female,480,12.3992112,Lower-Middle
+Europe,Serbia,2000,Male,1072,29.32345162,Low
+Europe,Serbia,2000,Female,474,12.27798286,Low
+Europe,Serbia,2001,Male,1026,28.12089133,Lower-Middle
+Europe,Serbia,2001,Female,417,10.81740123,Lower-Middle
+Europe,Serbia,2002,Male,1053,28.8715422,Lower-Middle
+Europe,Serbia,2002,Female,396,10.27812983,Lower-Middle
+Europe,Serbia,2003,Male,998,27.43424646,Lower-Middle
+Europe,Serbia,2003,Female,383,9.96668577,Lower-Middle
+Europe,Serbia,2004,Male,979,26.97568661,Lower-Middle
+Europe,Serbia,2004,Female,367,9.57234068,Lower-Middle
+Europe,Serbia,2005,Male,1010,27.91566705,Lower-Middle
+Europe,Serbia,2005,Female,432,11.30082724,Lower-Middle
+Europe,Serbia,2006,Male,1022,28.35975712,Upper-Middle
+Europe,Serbia,2006,Female,422,11.0823082,Upper-Middle
+Europe,Serbia,2007,Male,969,26.9994876,Upper-Middle
+Europe,Serbia,2007,Female,385,10.15128848,Upper-Middle
+Europe,Serbia,2008,Male,903,25.26712358,Upper-Middle
+Europe,Serbia,2008,Female,387,10.24783339,Upper-Middle
+Europe,Serbia,2009,Male,1000,28.08950891,Upper-Middle
+Europe,Serbia,2009,Female,376,9.99798179,Upper-Middle
+Europe,Serbia,2010,Male,905,25.51902309,Upper-Middle
+Europe,Serbia,2010,Female,304,8.1173556,Upper-Middle
+Europe,Serbia,2011,Male,909,25.80414399,Upper-Middle
+Europe,Serbia,2011,Female,347,9.34954892,Upper-Middle
+Europe,Serbia,2012,Male,934,26.64222976,Upper-Middle
+Europe,Serbia,2012,Female,311,8.42050674,Upper-Middle
+Europe,Serbia,2013,Male,902,25.85663727,Upper-Middle
+Europe,Serbia,2013,Female,296,8.05296237,Upper-Middle
+Europe,Serbia,2014,Male,857,24.67787739,Upper-Middle
+Europe,Serbia,2014,Female,277,7.57028959,Upper-Middle
+Europe,Serbia,2015,Male,795,23.00789938,Upper-Middle
+Europe,Serbia,2015,Female,269,7.39001244,Upper-Middle
+Europe,Serbia,2016,Male,704,20.47922551,Upper-Middle
+Europe,Serbia,2016,Female,258,7.12570967,Upper-Middle
+Europe,Serbia,2017,Male,763,22.31114841,Upper-Middle
+Europe,Serbia,2017,Female,242,6.72027521,Upper-Middle
+Europe,Serbia,2018,Male,720,21.16585031,Upper-Middle
+Europe,Serbia,2018,Female,229,6.39504392,Upper-Middle
+Europe,Serbia,2019,Male,698,20.62811121,Upper-Middle
+Europe,Serbia,2019,Female,243,6.8229621,Upper-Middle
+Europe,Serbia,2020,Male,682,20.29577068,Upper-Middle
+Europe,Serbia,2020,Female,213,6.01895547,Upper-Middle
+Europe,Serbia,2021,Male,668,20.07814245,Upper-Middle
+Europe,Serbia,2021,Female,214,6.10151611,Upper-Middle
+Europe,Serbia,2022,Male,590,18.2052578,Upper-Middle
+Europe,Serbia,2022,Female,179,5.2283733,Upper-Middle
+Europe,Slovakia,1992,Male,654,25.27432693,Lower-Middle
+Europe,Slovakia,1992,Female,142,5.22263697,Lower-Middle
+Europe,Slovakia,1993,Male,622,23.9722015,Lower-Middle
+Europe,Slovakia,1993,Female,116,4.24914651,Lower-Middle
+Europe,Slovakia,1994,Male,583,22.38008994,Lower-Middle
+Europe,Slovakia,1994,Female,108,3.93812908,Lower-Middle
+Europe,Slovakia,1995,Male,609,23.31342313,Upper-Middle
+Europe,Slovakia,1995,Female,126,4.57940858,Upper-Middle
+Europe,Slovakia,1996,Male,566,21.63332357,Upper-Middle
+Europe,Slovakia,1996,Female,106,3.84411881,Upper-Middle
+Europe,Slovakia,1997,Male,524,19.99748887,Upper-Middle
+Europe,Slovakia,1997,Female,106,3.836543,Upper-Middle
+Europe,Slovakia,1998,Male,585,22.30185658,Upper-Middle
+Europe,Slovakia,1998,Female,88,3.17942048,Upper-Middle
+Europe,Slovakia,1999,Male,590,22.48389924,Upper-Middle
+Europe,Slovakia,1999,Female,102,3.68071594,Upper-Middle
+Europe,Slovakia,2000,Male,594,22.62261629,Upper-Middle
+Europe,Slovakia,2000,Female,135,4.8648859,Upper-Middle
+Europe,Slovakia,2001,Male,580,22.19939342,Upper-Middle
+Europe,Slovakia,2001,Female,112,4.04756467,Upper-Middle
+Europe,Slovakia,2002,Male,617,23.62670269,Upper-Middle
+Europe,Slovakia,2002,Female,100,3.61355618,Upper-Middle
+Europe,Slovakia,2003,Male,648,24.81929409,Upper-Middle
+Europe,Slovakia,2003,Female,105,3.79324571,Upper-Middle
+Europe,Slovakia,2004,Male,564,21.59006214,Upper-Middle
+Europe,Slovakia,2004,Female,112,4.04294036,Upper-Middle
+Europe,Slovakia,2005,Male,584,22.33344755,Upper-Middle
+Europe,Slovakia,2005,Female,95,3.42666734,Upper-Middle
+Europe,Slovakia,2008,Male,508,19.33842046,High
+Europe,Slovakia,2008,Female,83,2.98552882,High
+Europe,Slovakia,2009,Male,543,20.61951191,High
+Europe,Slovakia,2009,Female,58,2.08262566,High
+Europe,Slovakia,2010,Male,539,20.41747099,High
+Europe,Slovakia,2010,Female,92,3.2961584,High
+Europe,Slovakia,2012,Male,499,18.94553841,High
+Europe,Slovakia,2012,Female,72,2.59579802,High
+Europe,Slovakia,2013,Male,533,20.2083814,High
+Europe,Slovakia,2013,Female,83,2.99005034,High
+Europe,Slovakia,2014,Male,471,17.83622033,High
+Europe,Slovakia,2014,Female,83,2.98780938,High
+Europe,Slovakia,2016,Male,329,12.42032963,High
+Europe,Slovakia,2016,Female,60,2.15678807,High
+Europe,Slovakia,2017,Male,308,11.60469146,High
+Europe,Slovakia,2017,Female,67,2.40563061,High
+Europe,Slovakia,2018,Male,338,12.7125234,High
+Europe,Slovakia,2018,Female,75,2.69012455,High
+Europe,Slovakia,2019,Male,309,11.60252454,High
+Europe,Slovakia,2019,Female,56,2.00649711,High
+Europe,Slovakia,2020,Male,310,11.62578765,High
+Europe,Slovakia,2020,Female,48,1.71840067,High
+Europe,Slovakia,2021,Male,323,12.15243747,High
+Europe,Slovakia,2021,Female,60,2.16075358,High
+Europe,Slovenia,1991,Male,501,51.64948454,Low
+Europe,Slovenia,1991,Female,145,14.09272038,Low
+Europe,Slovenia,1992,Male,439,45.39344432,Low
+Europe,Slovenia,1992,Female,148,14.41090555,Low
+Europe,Slovenia,1993,Male,481,49.87039917,Low
+Europe,Slovenia,1993,Female,133,12.97687579,Low
+Europe,Slovenia,1994,Male,480,49.77187889,Low
+Europe,Slovenia,1994,Female,141,13.75475563,Low
+Europe,Slovenia,1995,Male,435,45.27477102,Upper-Middle
+Europe,Slovenia,1995,Female,129,12.61983956,Upper-Middle
+Europe,Slovenia,1996,Male,465,47.98266433,Upper-Middle
+Europe,Slovenia,1996,Female,142,13.89296546,Upper-Middle
+Europe,Slovenia,1997,Male,473,49.31192661,Upper-Middle
+Europe,Slovenia,1997,Female,120,11.75548589,Upper-Middle
+Europe,Slovenia,1998,Male,477,49.89017885,Upper-Middle
+Europe,Slovenia,1998,Female,135,13.25999411,Upper-Middle
+Europe,Slovenia,1999,Male,453,47.31564654,Upper-Middle
+Europe,Slovenia,1999,Female,137,13.445873,Upper-Middle
+Europe,Slovenia,2000,Male,433,45.20215175,Upper-Middle
+Europe,Slovenia,2000,Female,155,15.20636509,Upper-Middle
+Europe,Slovenia,2001,Male,459,47.13924357,Upper-Middle
+Europe,Slovenia,2001,Female,122,11.98046987,Upper-Middle
+Europe,Slovenia,2002,Male,433,44.35970909,Upper-Middle
+Europe,Slovenia,2002,Female,107,10.49423945,Upper-Middle
+Europe,Slovenia,2003,Male,440,45.01573505,High
+Europe,Slovenia,2003,Female,122,11.96856388,High
+Europe,Slovenia,2004,Male,370,37.86746796,High
+Europe,Slovenia,2004,Female,142,13.92276981,High
+Europe,Slovenia,2005,Male,391,39.89510953,High
+Europe,Slovenia,2005,Female,112,10.96916489,High
+Europe,Slovenia,2006,Male,415,42.09454333,High
+Europe,Slovenia,2006,Female,114,11.14761793,High
+Europe,Slovenia,2007,Male,335,33.66411255,High
+Europe,Slovenia,2007,Female,99,9.66531645,High
+Europe,Slovenia,2008,Male,324,32.00704945,High
+Europe,Slovenia,2008,Female,84,8.1781911,High
+Europe,Slovenia,2009,Male,350,34.59294482,High
+Europe,Slovenia,2009,Female,97,9.41228526,High
+Europe,Slovenia,2010,Male,336,33.11271331,High
+Europe,Slovenia,2010,Female,78,7.53954637,High
+Europe,Slovenia,2011,Male,347,34.17271501,High
+Europe,Slovenia,2011,Female,88,8.4854773,High
+Europe,Slovenia,2012,Male,360,35.38382605,High
+Europe,Slovenia,2012,Female,80,7.70083785,High
+Europe,Slovenia,2013,Male,360,35.30595553,High
+Europe,Slovenia,2013,Female,86,8.27355848,High
+Europe,Slovenia,2014,Male,325,31.81847998,High
+Europe,Slovenia,2014,Female,63,6.0565043,High
+Europe,Slovenia,2015,Male,332,32.46772298,High
+Europe,Slovenia,2015,Female,90,8.64949646,High
+Europe,Slovenia,2016,Male,294,28.71452682,High
+Europe,Slovenia,2016,Female,77,7.40122014,High
+Europe,Slovenia,2017,Male,327,31.87218377,High
+Europe,Slovenia,2017,Female,84,8.07546328,High
+Europe,Slovenia,2018,Male,274,26.68500206,High
+Europe,Slovenia,2018,Female,79,7.59909119,High
+Europe,Slovenia,2019,Male,305,30.0223445,High
+Europe,Slovenia,2019,Female,87,8.37137337,High
+Europe,Slovenia,2020,Male,295,27.97579477,High
+Europe,Slovenia,2020,Female,73,6.98135023,High
+Europe,Sweden,1991,Male,1036,24.34553744,High
+Europe,Sweden,1991,Female,447,10.25629259,High
+Europe,Sweden,1992,Male,936,21.85588194,High
+Europe,Sweden,1992,Female,419,9.55421275,High
+Europe,Sweden,1993,Male,956,22.19230234,High
+Europe,Sweden,1993,Female,417,9.45406729,High
+Europe,Sweden,1994,Male,929,21.41243719,High
+Europe,Sweden,1994,Female,395,8.89199046,High
+Europe,Sweden,1995,Male,936,21.46198294,High
+Europe,Sweden,1995,Female,412,9.22567065,High
+Europe,Sweden,1996,Male,872,19.96382701,High
+Europe,Sweden,1996,Female,381,8.51758288,High
+Europe,Sweden,1997,Male,857,19.60694594,High
+Europe,Sweden,1997,Female,344,7.68663553,High
+Europe,Sweden,1998,Male,882,20.16507008,High
+Europe,Sweden,1998,Female,349,7.79487638,High
+Europe,Sweden,1999,Male,862,19.68957624,High
+Europe,Sweden,1999,Female,358,7.99089306,High
+Europe,Sweden,2000,Male,802,18.28327773,High
+Europe,Sweden,2000,Female,329,7.33430054,High
+Europe,Sweden,2001,Male,833,18.92889281,High
+Europe,Sweden,2001,Female,364,8.09708134,High
+Europe,Sweden,2002,Male,862,19.51208029,High
+Europe,Sweden,2002,Female,318,7.05540624,High
+Europe,Sweden,2003,Male,776,17.48976167,High
+Europe,Sweden,2003,Female,336,7.43141287,High
+Europe,Sweden,2004,Male,834,18.71430692,High
+Europe,Sweden,2004,Female,321,7.07508572,High
+Europe,Sweden,2005,Male,835,18.65325509,High
+Europe,Sweden,2005,Female,384,8.43373745,High
+Europe,Sweden,2006,Male,817,18.13525817,High
+Europe,Sweden,2006,Female,380,8.30516135,High
+Europe,Sweden,2007,Male,801,17.62871936,High
+Europe,Sweden,2007,Female,325,7.05851181,High
+Europe,Sweden,2008,Male,855,18.65258117,High
+Europe,Sweden,2008,Female,315,6.79491145,High
+Europe,Sweden,2009,Male,888,19.19434752,High
+Europe,Sweden,2009,Female,354,7.57680667,High
+Europe,Sweden,2010,Male,838,17.94575115,High
+Europe,Sweden,2010,Female,303,6.43517454,High
+Europe,Sweden,2011,Male,789,16.75679016,High
+Europe,Sweden,2011,Female,323,6.81337717,High
+Europe,Sweden,2012,Male,819,17.25529194,High
+Europe,Sweden,2012,Female,335,7.0186392,High
+Europe,Sweden,2013,Male,862,17.99533249,High
+Europe,Sweden,2013,Female,368,7.650334,High
+Europe,Sweden,2014,Male,785,16.2079624,High
+Europe,Sweden,2014,Female,363,7.48020065,High
+Europe,Sweden,2015,Male,851,17.57067007,High
+Europe,Sweden,2015,Female,331,6.82078902,High
+Europe,Sweden,2016,Male,784,15.76780618,High
+Europe,Sweden,2016,Female,351,7.08957926,High
+Europe,Sweden,2017,Male,842,16.67985835,High
+Europe,Sweden,2017,Female,348,6.94653345,High
+Europe,Sweden,2018,Male,889,17.388583,High
+Europe,Sweden,2018,Female,383,7.56518777,High
+Europe,Sweden,2019,Male,900,17.41106717,High
+Europe,Sweden,2019,Female,403,7.88686594,High
+Europe,Sweden,2020,Male,865,16.60482091,High
+Europe,Sweden,2020,Female,336,6.53174022,High
+Europe,Sweden,2021,Male,874,16.67373488,High
+Europe,Sweden,2021,Female,353,6.82253024,High
+Europe,Sweden,2022,Male,898,17.00913654,High
+Europe,Sweden,2022,Female,357,6.85559496,High
+Asia,Syrian Arab Republic,1998,Male,11,0.13955743,Upper-Middle
+Asia,Syrian Arab Republic,1998,Female,4,0.05183007,Upper-Middle
+Asia,Syrian Arab Republic,1999,Male,17,0.21004935,Upper-Middle
+Asia,Syrian Arab Republic,1999,Female,9,0.11362695,Upper-Middle
+Asia,Syrian Arab Republic,2000,Male,21,0.25295689,Upper-Middle
+Asia,Syrian Arab Republic,2000,Female,2,0.02466384,Upper-Middle
+Asia,Syrian Arab Republic,2001,Male,8,0.09414874,Upper-Middle
+Asia,Syrian Arab Republic,2001,Female,3,0.03627849,Upper-Middle
+Asia,Syrian Arab Republic,2002,Male,25,0.28803045,Upper-Middle
+Asia,Syrian Arab Republic,2002,Female,5,0.05948847,Upper-Middle
+Asia,Syrian Arab Republic,2003,Male,21,0.23677288,Upper-Middle
+Asia,Syrian Arab Republic,2003,Female,5,0.05850721,Upper-Middle
+Asia,Syrian Arab Republic,2004,Male,26,0.28590493,Upper-Middle
+Asia,Syrian Arab Republic,2004,Female,3,0.03434894,Upper-Middle
+Asia,Syrian Arab Republic,2005,Male,21,0.22416061,Upper-Middle
+Asia,Syrian Arab Republic,2005,Female,2,0.02223978,Upper-Middle
+Asia,Syrian Arab Republic,2006,Male,19,0.19562996,Upper-Middle
+Asia,Syrian Arab Republic,2006,Female,8,0.08558857,Upper-Middle
+Asia,Syrian Arab Republic,2007,Male,25,0.24738257,Upper-Middle
+Asia,Syrian Arab Republic,2007,Female,4,0.04093139,Upper-Middle
+Asia,Syrian Arab Republic,2008,Male,18,0.17181645,Upper-Middle
+Asia,Syrian Arab Republic,2008,Female,16,0.1570515,Upper-Middle
+Asia,Syrian Arab Republic,2009,Male,17,0.15851239,Upper-Middle
+Asia,Syrian Arab Republic,2009,Female,4,0.03816372,Upper-Middle
+Asia,Syrian Arab Republic,2010,Male,26,0.24107445,Upper-Middle
+Asia,Syrian Arab Republic,2010,Female,6,0.05672423,Upper-Middle
+Asia,Thailand,1991,Male,2437,8.59399674,Lower-Middle
+Asia,Thailand,1991,Female,1165,4.03456678,Lower-Middle
+Asia,Thailand,1992,Male,2397,8.36231683,Lower-Middle
+Asia,Thailand,1992,Female,1205,4.13425593,Lower-Middle
+Asia,Thailand,1994,Male,1631,5.64262238,Lower-Middle
+Asia,Thailand,1994,Female,702,2.43100045,Lower-Middle
+Asia,Thailand,1995,Male,3139,10.62711057,Lower-Middle
+Asia,Thailand,1995,Female,1152,3.84903111,Lower-Middle
+Asia,Thailand,1996,Male,3358,11.24909924,Lower-Middle
+Asia,Thailand,1996,Female,1173,3.87398345,Lower-Middle
+Asia,Thailand,1997,Male,3214,10.65109614,Lower-Middle
+Asia,Thailand,1997,Female,971,3.16582707,Lower-Middle
+Asia,Thailand,1998,Male,3843,12.60012228,Lower-Middle
+Asia,Thailand,1998,Female,1121,3.60619466,Lower-Middle
+Asia,Thailand,1999,Male,4083,13.25233623,Lower-Middle
+Asia,Thailand,1999,Female,1210,3.84262305,Lower-Middle
+Asia,Thailand,2000,Male,4040,12.99266815,Lower-Middle
+Asia,Thailand,2000,Female,1151,3.61288698,Lower-Middle
+Asia,Thailand,2002,Male,3715,11.97360997,Lower-Middle
+Asia,Thailand,2002,Female,1190,3.7744456,Lower-Middle
+Asia,Thailand,2003,Male,3426,10.77505377,Lower-Middle
+Asia,Thailand,2003,Female,1060,3.236226,Lower-Middle
+Asia,Thailand,2004,Male,3253,10.16854782,Lower-Middle
+Asia,Thailand,2004,Female,1043,3.16017503,Lower-Middle
+Asia,Thailand,2005,Male,3033,9.42695666,Lower-Middle
+Asia,Thailand,2005,Female,908,2.73144343,Lower-Middle
+Asia,Thailand,2006,Male,2856,8.8299541,Lower-Middle
+Asia,Thailand,2006,Female,756,2.25886801,Lower-Middle
+Asia,Thailand,2007,Male,2944,9.48089522,Lower-Middle
+Asia,Thailand,2007,Female,812,2.54692402,Lower-Middle
+Asia,Thailand,2008,Male,2906,9.3212955,Upper-Middle
+Asia,Thailand,2008,Female,872,2.72175958,Upper-Middle
+Asia,Thailand,2009,Male,2926,9.35586351,Upper-Middle
+Asia,Thailand,2009,Female,861,2.67533097,Upper-Middle
+Asia,Thailand,2010,Male,2913,9.28521178,Upper-Middle
+Asia,Thailand,2010,Female,848,2.62301282,Upper-Middle
+Asia,Thailand,2011,Male,2985,9.44820111,Upper-Middle
+Asia,Thailand,2011,Female,888,2.72495576,Upper-Middle
+Asia,Thailand,2012,Male,3055,9.66315354,Upper-Middle
+Asia,Thailand,2012,Female,930,2.84826755,Upper-Middle
+Asia,Thailand,2013,Male,3105,9.77234096,Upper-Middle
+Asia,Thailand,2013,Female,856,2.60594625,Upper-Middle
+Asia,Thailand,2014,Male,3074,9.62957464,Upper-Middle
+Asia,Thailand,2014,Female,878,2.65796234,Upper-Middle
+Asia,Thailand,2015,Male,3366,10.54111957,Upper-Middle
+Asia,Thailand,2015,Female,839,2.53510248,Upper-Middle
+Asia,Thailand,2016,Male,3283,10.29331721,Upper-Middle
+Asia,Thailand,2016,Female,848,2.56046262,Upper-Middle
+Asia,Thailand,2017,Male,3481,10.88965851,Upper-Middle
+Asia,Thailand,2017,Female,848,2.55124382,Upper-Middle
+Asia,Thailand,2018,Male,3823,11.93055624,Upper-Middle
+Asia,Thailand,2018,Female,935,2.80254357,Upper-Middle
+Asia,Thailand,2019,Male,4737,14.75933452,Upper-Middle
+Asia,Thailand,2019,Female,1133,3.38591908,Upper-Middle
+Asia,Tajikistan,1991,Male,150,5.65525562,Low
+Asia,Tajikistan,1991,Female,60,2.23056619,Low
+Asia,Tajikistan,1992,Male,142,5.13785368,Low
+Asia,Tajikistan,1992,Female,63,2.25717459,Low
+Asia,Tajikistan,1993,Male,107,3.86854189,Low
+Asia,Tajikistan,1993,Female,46,1.64886372,Low
+Asia,Tajikistan,1994,Male,144,5.08151599,Low
+Asia,Tajikistan,1994,Female,47,1.64681149,Low
+Asia,Tajikistan,1995,Male,146,5.08533612,Low
+Asia,Tajikistan,1995,Female,53,1.83613373,Low
+Asia,Tajikistan,1996,Male,123,4.28925628,Low
+Asia,Tajikistan,1996,Female,41,1.42974511,Low
+Asia,Tajikistan,1997,Male,120,4.11877306,Low
+Asia,Tajikistan,1997,Female,39,1.34066644,Low
+Asia,Tajikistan,1998,Male,114,3.83479437,Low
+Asia,Tajikistan,1998,Female,42,1.4161302,Low
+Asia,Tajikistan,1999,Male,143,4.70905918,Low
+Asia,Tajikistan,1999,Female,63,2.08102865,Low
+Asia,Tajikistan,2000,Male,139,4.48408071,Low
+Asia,Tajikistan,2000,Female,40,1.29512205,Low
+Asia,Tajikistan,2001,Male,91,2.87691453,Low
+Asia,Tajikistan,2001,Female,72,2.28597119,Low
+Asia,Tajikistan,2002,Male,103,3.19018093,Low
+Asia,Tajikistan,2002,Female,38,1.18293388,Low
+Asia,Tajikistan,2003,Male,126,3.82256966,Low
+Asia,Tajikistan,2003,Female,43,1.31217057,Low
+Asia,Tajikistan,2004,Male,116,3.44639796,Low
+Asia,Tajikistan,2004,Female,56,1.6744764,Low
+Asia,Tajikistan,2005,Male,139,4.07256073,Low
+Asia,Tajikistan,2005,Female,48,1.42170325,Low
+Asia,Tajikistan,2016,Male,154,3.52392021,Low
+Asia,Tajikistan,2016,Female,82,1.90988955,Low
+Asia,Tajikistan,2017,Male,114,2.60312841,Low
+Asia,Tajikistan,2017,Female,63,1.47622885,Low
+Asia,Turkmenistan,1991,Male,188,10.16381035,Low
+Asia,Turkmenistan,1991,Female,87,4.58473862,Low
+Asia,Turkmenistan,1992,Male,191,10.046815,Low
+Asia,Turkmenistan,1992,Female,80,4.1139566,Low
+Asia,Turkmenistan,1993,Male,174,8.744158,Low
+Asia,Turkmenistan,1993,Female,67,3.42290794,Low
+Asia,Turkmenistan,1994,Male,165,8.07122242,Low
+Asia,Turkmenistan,1994,Female,69,3.44862055,Low
+Asia,Turkmenistan,1995,Male,192,8.64475462,Low
+Asia,Turkmenistan,1995,Female,52,2.30057957,Low
+Asia,Turkmenistan,1996,Male,230,10.15587054,Low
+Asia,Turkmenistan,1996,Female,53,2.30244581,Low
+Asia,Turkmenistan,1997,Male,261,11.32468434,Low
+Asia,Turkmenistan,1997,Female,72,3.07863343,Low
+Asia,Turkmenistan,1998,Male,322,13.77363333,Low
+Asia,Turkmenistan,1998,Female,84,3.5443038,Low
+Asia,Turkmenistan,1999,Male,342,15.55606095,Low
+Asia,Turkmenistan,1999,Female,100,4.40988467,Low
+Asia,Turkmenistan,2000,Male,307,13.8112102,Low
+Asia,Turkmenistan,2000,Female,76,3.31400744,Low
+Asia,Turkmenistan,2001,Male,368,16.38357511,Low
+Asia,Turkmenistan,2001,Female,78,3.36506416,Low
+Asia,Turkmenistan,2002,Male,336,14.81178454,Low
+Asia,Turkmenistan,2002,Female,80,3.41653449,Low
+Asia,Turkmenistan,2003,Male,295,12.87822698,Lower-Middle
+Asia,Turkmenistan,2003,Female,82,3.46713662,Lower-Middle
+Asia,Turkmenistan,2004,Male,301,13.00848707,Lower-Middle
+Asia,Turkmenistan,2004,Female,93,3.89199179,Lower-Middle
+Asia,Turkmenistan,2005,Male,374,15.99050489,Lower-Middle
+Asia,Turkmenistan,2005,Female,94,3.89110857,Lower-Middle
+Asia,Turkmenistan,2006,Male,392,16.5679493,Lower-Middle
+Asia,Turkmenistan,2006,Female,114,4.66429361,Lower-Middle
+Asia,Turkmenistan,2007,Male,269,11.22970252,Lower-Middle
+Asia,Turkmenistan,2007,Female,85,3.43474728,Lower-Middle
+Asia,Turkmenistan,2008,Male,187,7.70279566,Lower-Middle
+Asia,Turkmenistan,2008,Female,57,2.27265931,Lower-Middle
+Asia,Turkmenistan,2009,Male,125,5.07450799,Lower-Middle
+Asia,Turkmenistan,2009,Female,40,1.57191923,Lower-Middle
+Asia,Turkmenistan,2010,Male,131,5.23473595,Upper-Middle
+Asia,Turkmenistan,2010,Female,47,1.81839496,Upper-Middle
+Asia,Turkmenistan,2011,Male,91,3.57475781,Upper-Middle
+Asia,Turkmenistan,2011,Female,39,1.48376476,Upper-Middle
+Asia,Turkmenistan,2012,Male,105,4.05046337,Upper-Middle
+Asia,Turkmenistan,2012,Female,33,1.23336361,Upper-Middle
+Asia,Turkmenistan,2013,Male,73,2.7637916,Upper-Middle
+Asia,Turkmenistan,2013,Female,28,1.0274939,Upper-Middle
+Asia,Turkmenistan,2014,Male,92,3.41881993,Upper-Middle
+Asia,Turkmenistan,2014,Female,44,1.58539305,Upper-Middle
+Asia,Turkmenistan,2015,Male,92,3.35757846,Upper-Middle
+Asia,Turkmenistan,2015,Female,41,1.45121801,Upper-Middle
+Asia,T?rkiye,2009,Male,843,2.3298999,Upper-Middle
+Asia,T?rkiye,2009,Female,260,0.72509452,Upper-Middle
+Asia,T?rkiye,2010,Male,1148,3.12356933,Upper-Middle
+Asia,T?rkiye,2010,Female,376,1.03327009,Upper-Middle
+Asia,T?rkiye,2011,Male,850,2.27954959,Upper-Middle
+Asia,T?rkiye,2011,Female,298,0.80681055,Upper-Middle
+Asia,T?rkiye,2012,Male,1072,2.84014431,Upper-Middle
+Asia,T?rkiye,2012,Female,378,1.00985098,Upper-Middle
+Asia,T?rkiye,2013,Male,1348,3.532044,High
+Asia,T?rkiye,2013,Female,463,1.22196648,High
+Asia,T?rkiye,2014,Male,1209,3.12170538,High
+Asia,T?rkiye,2014,Female,408,1.06103409,High
+Asia,T?rkiye,2015,Male,1135,2.89188574,Upper-Middle
+Asia,T?rkiye,2015,Female,397,1.01871322,Upper-Middle
+Asia,T?rkiye,2016,Male,1422,3.57489244,Upper-Middle
+Asia,T?rkiye,2016,Female,434,1.09871912,Upper-Middle
+Asia,T?rkiye,2017,Male,2127,5.27930515,Upper-Middle
+Asia,T?rkiye,2017,Female,603,1.50662217,Upper-Middle
+Asia,T?rkiye,2018,Male,2529,6.19282867,Upper-Middle
+Asia,T?rkiye,2018,Female,813,2.00396129,Upper-Middle
+Asia,T?rkiye,2019,Male,2626,6.33831676,Upper-Middle
+Asia,T?rkiye,2019,Female,780,1.89555575,Upper-Middle
+Europe,Ukraine,1991,Male,8371,34.93170978,Lower-Middle
+Europe,Ukraine,1991,Female,2372,8.53790224,Lower-Middle
+Europe,Ukraine,1992,Male,9184,38.16838308,Lower-Middle
+Europe,Ukraine,1992,Female,2547,9.1507119,Lower-Middle
+Europe,Ukraine,1993,Male,9932,41.21794632,Lower-Middle
+Europe,Ukraine,1993,Female,2609,9.37538181,Lower-Middle
+Europe,Ukraine,1994,Male,11138,46.42903294,Low
+Europe,Ukraine,1994,Female,2769,10.00455245,Low
+Europe,Ukraine,1995,Male,11953,50.18937008,Low
+Europe,Ukraine,1995,Female,2634,9.59185457,Low
+Europe,Ukraine,1996,Male,12586,53.27497608,Low
+Europe,Ukraine,1996,Female,2672,9.8110852,Low
+Europe,Ukraine,1997,Male,12178,51.97055372,Low
+Europe,Ukraine,1997,Female,2800,10.36668444,Low
+Europe,Ukraine,1998,Male,12016,51.67460823,Low
+Europe,Ukraine,1998,Female,2844,10.61396012,Low
+Europe,Ukraine,1999,Male,11806,51.1715804,Low
+Europe,Ukraine,1999,Female,2646,9.95402939,Low
+Europe,Ukraine,2000,Male,11910,52.06079442,Low
+Europe,Ukraine,2000,Female,2648,10.04198064,Low
+Europe,Ukraine,2001,Male,11038,48.67857385,Low
+Europe,Ukraine,2001,Female,2206,8.43434345,Low
+Europe,Ukraine,2002,Male,10374,46.74762017,Low
+Europe,Ukraine,2002,Female,2169,8.4086826,Low
+Europe,Ukraine,2003,Male,10172,46.19505686,Lower-Middle
+Europe,Ukraine,2003,Female,2150,8.3942004,Lower-Middle
+Europe,Ukraine,2004,Male,9394,43.01203078,Lower-Middle
+Europe,Ukraine,2004,Female,1865,7.33360675,Lower-Middle
+Europe,Ukraine,2005,Male,8861,40.90133413,Lower-Middle
+Europe,Ukraine,2005,Female,1761,6.97136231,Lower-Middle
+Europe,Ukraine,2006,Male,8300,38.59626052,Lower-Middle
+Europe,Ukraine,2006,Female,1713,6.82395165,Lower-Middle
+Europe,Ukraine,2007,Male,8408,39.3519122,Lower-Middle
+Europe,Ukraine,2007,Female,1629,6.52570477,Lower-Middle
+Europe,Ukraine,2008,Male,7783,36.64087494,Upper-Middle
+Europe,Ukraine,2008,Female,1675,6.74409858,Upper-Middle
+Europe,Ukraine,2009,Male,7992,37.79438192,Lower-Middle
+Europe,Ukraine,2009,Female,1724,6.97214249,Lower-Middle
+Europe,Ukraine,2010,Male,7512,35.65285397,Lower-Middle
+Europe,Ukraine,2010,Female,1579,6.41334326,Lower-Middle
+Europe,Ukraine,2011,Male,7309,34.79703365,Lower-Middle
+Europe,Ukraine,2011,Female,1664,6.7860016,Lower-Middle
+Europe,Ukraine,2012,Male,7363,35.1125203,Upper-Middle
+Europe,Ukraine,2012,Female,1697,6.94260941,Upper-Middle
+Europe,Ukraine,2014,Male,6414,32.36781464,Lower-Middle
+Europe,Ukraine,2014,Female,1556,6.76063456,Lower-Middle
+Europe,Ukraine,2015,Male,6149,31.12967878,Lower-Middle
+Europe,Ukraine,2015,Female,1426,6.22098473,Lower-Middle
+Europe,Ukraine,2017,Male,5327,27.17665797,Lower-Middle
+Europe,Ukraine,2017,Female,1161,5.11128244,Lower-Middle
+Europe,Ukraine,2018,Male,5172,26.51393166,Lower-Middle
+Europe,Ukraine,2018,Female,1107,4.89965251,Lower-Middle
+Europe,Ukraine,2019,Male,5112,26.35139022,Lower-Middle
+Europe,Ukraine,2019,Female,1078,4.79989684,Lower-Middle
+Asia,Uzbekistan,1991,Male,1049,10.29359815,Low
+Asia,Uzbekistan,1991,Female,355,3.40615795,Low
+Asia,Uzbekistan,1992,Male,1000,9.31888285,Low
+Asia,Uzbekistan,1992,Female,348,3.16775444,Low
+Asia,Uzbekistan,1993,Male,1006,9.27967235,Low
+Asia,Uzbekistan,1993,Female,350,3.16278397,Low
+Asia,Uzbekistan,1994,Male,1078,9.67840405,Low
+Asia,Uzbekistan,1994,Female,342,3.01877466,Low
+Asia,Uzbekistan,1995,Male,1155,10.15509601,Low
+Asia,Uzbekistan,1995,Female,331,2.8686571,Low
+Asia,Uzbekistan,1996,Male,1334,11.61292569,Low
+Asia,Uzbekistan,1996,Female,367,3.15210856,Low
+Asia,Uzbekistan,1997,Male,1206,10.298626,Low
+Asia,Uzbekistan,1997,Female,348,2.93670886,Low
+Asia,Uzbekistan,1998,Male,1252,10.50864529,Low
+Asia,Uzbekistan,1998,Female,368,3.05650379,Low
+Asia,Uzbekistan,1999,Male,1375,11.36295271,Low
+Asia,Uzbekistan,1999,Female,420,3.43954681,Low
+Asia,Uzbekistan,2000,Male,1455,11.84986007,Low
+Asia,Uzbekistan,2000,Female,464,3.7504681,Low
+Asia,Uzbekistan,2001,Male,1462,11.75004079,Low
+Asia,Uzbekistan,2001,Female,452,3.60966922,Low
+Asia,Uzbekistan,2002,Male,1177,9.3391915,Low
+Asia,Uzbekistan,2002,Female,399,3.14941263,Low
+Asia,Uzbekistan,2003,Male,1038,8.13610146,Low
+Asia,Uzbekistan,2003,Female,379,2.95869282,Low
+Asia,Uzbekistan,2004,Male,943,7.30299248,Low
+Asia,Uzbekistan,2004,Female,308,2.3780348,Low
+Asia,Uzbekistan,2005,Male,921,7.04701684,Low
+Asia,Uzbekistan,2005,Female,300,2.29048548,Low
+Asia,Uzbekistan,2009,Male,1024,7.37018064,Lower-Middle
+Asia,Uzbekistan,2009,Female,376,2.71018669,Lower-Middle
+Asia,Uzbekistan,2010,Male,1011,7.07403053,Lower-Middle
+Asia,Uzbekistan,2010,Female,453,3.17433756,Lower-Middle
+Asia,Uzbekistan,2011,Male,1123,7.64964386,Lower-Middle
+Asia,Uzbekistan,2011,Female,517,3.52685681,Lower-Middle
+Asia,Uzbekistan,2012,Male,1220,8.18484163,Lower-Middle
+Asia,Uzbekistan,2012,Female,615,4.13616525,Lower-Middle
+Asia,Uzbekistan,2013,Male,1322,8.72715789,Lower-Middle
+Asia,Uzbekistan,2013,Female,628,4.16030255,Lower-Middle
+Asia,Uzbekistan,2014,Male,1408,9.13405168,Lower-Middle
+Asia,Uzbekistan,2014,Female,690,4.49721671,Lower-Middle
+Asia,Uzbekistan,2015,Male,1598,10.18121804,Lower-Middle
+Asia,Uzbekistan,2015,Female,794,5.08864725,Lower-Middle
+Asia,Uzbekistan,2016,Male,1658,10.37551154,Lower-Middle
+Asia,Uzbekistan,2016,Female,809,5.09832295,Lower-Middle
+Asia,Uzbekistan,2017,Male,1616,9.93885207,Lower-Middle
+Asia,Uzbekistan,2017,Female,801,4.96616744,Lower-Middle
+Asia,Uzbekistan,2018,Male,1467,8.86178176,Lower-Middle
+Asia,Uzbekistan,2018,Female,811,4.94455936,Lower-Middle
+Asia,Uzbekistan,2019,Male,1446,8.56739981,Lower-Middle
+Asia,Uzbekistan,2019,Female,872,5.22078877,Lower-Middle
+Asia,Armenia,1990,Male,64,3.88915897,Low
+Asia,Armenia,1990,Female,29,1.69988277,Low
+Europe,Austria,1990,Male,1284,34.93346182,Low
+Europe,Austria,1990,Female,541,13.51725799,Low
+Asia,Azerbaijan,1990,Male,89,2.59679631,Low
+Asia,Azerbaijan,1990,Female,25,0.69577802,Low
+Europe,Belarus,1990,Male,1650,34.47699444,Low
+Europe,Belarus,1990,Female,435,8.01680765,Low
+Europe,Belgium,1990,Male,1303,26.75344941,Low
+Europe,Belgium,1990,Female,592,11.6146753,Low
+Europe,Bosnia and Herzegovina,1990,Male,375,16.79054357,Low
+Europe,Bosnia and Herzegovina,1990,Female,87,3.87579632,Low
+Europe,Bulgaria,1990,Male,920,20.74267806,Low
+Europe,Bulgaria,1990,Female,403,8.84644935,Low
+Europe,Croatia,1990,Male,810,34.98315626,Low
+Europe,Croatia,1990,Female,332,13.48168602,Low
+Europe,Czechia,1990,Male,1434,28.47215328,Low
+Europe,Czechia,1990,Female,563,10.57018944,Low
+Europe,Denmark,1990,Male,815,32.17909741,Low
+Europe,Denmark,1990,Female,426,16.3393679,Low
+Europe,Estonia,1990,Male,310,42.23180082,Low
+Europe,Estonia,1990,Female,118,14.12953672,Low
+Europe,Finland,1990,Male,1193,49.3077082,Low
+Europe,Finland,1990,Female,319,12.42744166,Low
+Europe,France,1990,Male,8178,29.60544178,Low
+Europe,France,1990,Female,3225,11.07798212,Low
+Asia,Georgia,1990,Male,140,5.43003976,Low
+Asia,Georgia,1990,Female,56,1.95763127,Low
+Europe,Germany,1990,Male,9534,24.90836366,Low
+Europe,Germany,1990,Female,4390,10.68433273,Low
+Europe,Greece,1990,Male,271,5.41620865,Low
+Europe,Greece,1990,Female,78,1.51250727,Low
+Asia,"China, Hong Kong SAR",1990,Male,382,13.07279012,Low
+Asia,"China, Hong Kong SAR",1990,Female,295,10.60235768,Low
+Europe,Hungary,1990,Male,2980,59.81090521,Low
+Europe,Hungary,1990,Female,1153,21.38504223,Low
+Europe,Iceland,1990,Male,35,27.36512901,Low
+Europe,Iceland,1990,Female,5,3.94011032,Low
+Europe,Ireland,1990,Male,251,14.35269899,Low
+Europe,Ireland,1990,Female,83,4.73231085,Low
+Asia,Israel,1990,Male,220,9.47867299,Low
+Asia,Israel,1990,Female,84,3.59112479,Low
+Europe,Italy,1990,Male,3181,11.35240271,Low
+Europe,Italy,1990,Female,1221,4.11932202,Low
+Asia,Japan,1990,Male,12316,20.44183306,Low
+Asia,Japan,1990,Female,7772,12.44069381,Low
+Asia,Kazakhstan,1990,Male,2398,29.6539955,Low
+Asia,Kazakhstan,1990,Female,780,9.08762568,Low
+Asia,Republic of Korea,1990,Male,2197,10.18629278,Low
+Asia,Republic of Korea,1990,Female,962,4.51619869,Low
+Asia,Kyrgyzstan,1990,Male,400,18.75029297,Low
+Asia,Kyrgyzstan,1990,Female,147,6.59577332,Low
+Europe,Latvia,1990,Male,541,43.52023168,Low
+Europe,Latvia,1990,Female,154,10.78733539,Low
+Europe,Lithuania,1990,Male,779,44.53400792,Low
+Europe,Lithuania,1990,Female,190,9.75052011,Low
+Europe,Luxembourg,1990,Male,47,25.16059957,Low
+Europe,Luxembourg,1990,Female,21,10.76923077,Low
+Europe,Malta,1990,Male,8,4.57665904,Low
+Europe,Malta,1990,Female,0,0.0,Low
+Europe,Republic of Moldova,1990,Male,502,24.1481639,Low
+Europe,Republic of Moldova,1990,Female,144,6.30776367,Low
+Europe,Netherlands,1990,Male,909,12.30207065,Low
+Europe,Netherlands,1990,Female,541,7.15371901,Low
+Europe,Norway,1990,Male,488,23.27023032,Low
+Europe,Norway,1990,Female,171,7.97463042,Low
+Europe,Poland,1990,Male,4091,22.02066961,Low
+Europe,Poland,1990,Female,879,4.49828052,Low
+Europe,Portugal,1990,Male,642,13.33905126,Low
+Europe,Portugal,1990,Female,228,4.40981664,Low
+Europe,Romania,1990,Male,1523,13.30235564,Low
+Europe,Romania,1990,Female,556,4.72885623,Low
+Europe,Russian Federation,1990,Male,30392,43.87710023,Low
+Europe,Russian Federation,1990,Female,8758,11.13586313,Low
+Asia,Singapore,1990,Male,201,14.49902619,Low
+Asia,Singapore,1990,Female,153,11.33669235,Low
+Europe,Slovenia,1990,Male,423,43.59925789,Low
+Europe,Slovenia,1990,Female,130,12.62503642,Low
+Europe,Spain,1990,Male,2135,11.1650917,Low
+Europe,Spain,1990,Female,804,4.05301178,Low
+Europe,Sweden,1990,Male,1020,24.12488174,Low
+Europe,Sweden,1990,Female,451,10.41378036,Low
+Europe,Switzerland,1990,Male,1032,31.4835718,Low
+Europe,Switzerland,1990,Female,435,12.66633666,Low
+Asia,Tajikistan,1990,Male,141,5.42307692,Low
+Asia,Tajikistan,1990,Female,91,3.45744681,Low
+Asia,Thailand,1990,Male,2472,8.82277424,Low
+Asia,Thailand,1990,Female,1329,4.65665524,Low
+Asia,Turkmenistan,1990,Male,216,11.97936887,Low
+Asia,Turkmenistan,1990,Female,82,4.42334664,Low
+Europe,Ukraine,1990,Male,8270,34.62554587,Low
+Europe,Ukraine,1990,Female,2423,8.73068206,Low
+Europe,United Kingdom of Great Britain and Northern Ireland,1990,Male,3524,12.59139615,Low
+Europe,United Kingdom of Great Britain and Northern Ireland,1990,Female,1119,3.80504759,Low
+Asia,Uzbekistan,1990,Male,1013,10.0358636,Low
+Asia,Uzbekistan,1990,Female,454,4.3964983,Low
