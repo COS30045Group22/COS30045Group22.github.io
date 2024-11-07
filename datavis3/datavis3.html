@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="description"	content="Data Visualisation Exercise 1"/>
+	<meta name="keywords"		  content="HTML, CSS, D3"/>
+	<meta name="author"			  content="Hoo Ying Kit"/>
+
+	<title>Data Visualization 3</title>
+	
+	<script src= "https://d3js.org/d3.v7.min.js"></script>
+
+	<style>
+		.bar { fill: steelblue; }
+    .axis-label { font-size: 12px; }
+    .tooltip { position: absolute; text-align: center; padding: 6px; background: lightgray; border-radius: 4px; pointer-events: none; }
+
+    /* Timeline styling */
+    .timeline-container {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+      position: relative;
+      width: 100%;
+    }
+    .timeline {
+      display: flex;
+      align-items: center;
+      width: 80%;
+      position: relative;
+      overflow-x: auto;
+      padding: 10px;
+      white-space: nowrap;
+    }
+    .line {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: #ddd;
+      z-index: 1;
+    }
+    .year-marker {
+      position: relative;
+      display: inline-block;
+      padding: 10px;
+      margin: 0 20px;
+      cursor: pointer;
+      text-align: center;
+      z-index: 2;
+    }
+    .year-marker.selected { color: steelblue; font-weight: bold; }
+    
+    /* Alternating arrow styles */
+    .year-marker:before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+    }
+    .year-marker.up:before {
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-width: 0 5px 10px 5px;
+      border-color: transparent transparent steelblue transparent;
+    }
+    .year-marker.down:before {
+      top: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-width: 10px 5px 0 5px;
+      border-color: steelblue transparent transparent transparent;
+    }
+    </style>
+	</head>
+	
+	<body>
+	
+	<h1>Design 3</h1>
+    <h2>Author: Hoo Ying Kit</h2>
+
+    <br>
+    <h3>Comparison of Suicide Rates by Age Group Between Europe and Asia</h3>
+
+    <br>
+
+    <div id="chart"></div>
+    
+	<div class="timeline-container">
+		<div class="timeline" id="timeline">
+		 </div>
+	</div>
+
+	  <button id="updatebutton">Refresh</button> 
+    
+	<script src="datavis3.js"></script>
+    
+	
+	<br>
+	
+	<footer>COS30045 Data Visualisation <br> Hoo Ying Kit</footer>
+    
+    
+	
+</body>
+</html>
