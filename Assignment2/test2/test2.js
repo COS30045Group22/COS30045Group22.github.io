@@ -11,8 +11,17 @@ const svg = d3.select("#chart")
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-// Tooltip
-const tooltip = d3.select("#tooltip");
+// Enhanced Tooltip
+const tooltip = d3.select("#tooltip")
+    .style("position", "absolute")
+    .style("background-color", "#fff")
+    .style("border", "1px solid #ccc")
+    .style("border-radius", "8px")
+    .style("padding", "10px")
+    .style("box-shadow", "0 4px 8px rgba(0, 0, 0, 0.1)")
+    .style("pointer-events", "none")
+    .style("font-size", "12px")
+    .style("color", "#333");
 
 // Color scale for generations
 const color = d3.scaleOrdinal(d3.schemeCategory10);
@@ -21,7 +30,7 @@ const color = d3.scaleOrdinal(d3.schemeCategory10);
 const xScale = d3.scaleLinear().range([0, width]);
 const yScale = d3.scaleLinear().range([height, 0]);
 
-// Legend container with inline styling to position it to the right of the chart
+// Legend container
 const legendContainer = d3.select("#chart")
     .append("div")
     .attr("id", "legend-container")
@@ -31,15 +40,7 @@ const legendContainer = d3.select("#chart")
     .style("width", "120px")                         // Fixed width for legend
     .style("display", "none");                       // Hidden by default
 
-// Add event listener for the new gender dropdown
-d3.select("#gender-select").on("change", function() {
-    const selectedRegion = d3.select("#region-select").property("value");
-    const selectedGeneration = d3.select("#generation-select").property("value");
-    const selectedGender = d3.select(this).property("value");
-    updateChart(selectedRegion, selectedGeneration, selectedGender, data);
-});
-
-// Update the updateChart function to include gender filtering
+// Update the updateChart function to include gender filtering and legend
 function updateChart(region, generation, gender, data) {
     // Clear previous lines
     svg.selectAll(".line").remove();
@@ -107,24 +108,36 @@ function updateChart(region, generation, gender, data) {
                     tooltip.style("display", "block");
                 })
                 .on("mousemove", function(event) {
-                    const [xPos] = d3.pointer(event);
+                    const [xPos, yPos] = d3.pointer(event);
+                
+                    // Find the closest year using xScale
                     const year = Math.round(xScale.invert(xPos));
-                    const closestDataPoint = values.reduce((prev, curr) =>
-                        Math.abs(curr.year - year) < Math.abs(prev.year - year) ? curr : prev
-                    );
-
+                
+                    // Find the closest data point by matching both year and the minimum distance to the y-value
+                    const closestDataPoint = values.reduce((prev, curr) => {
+                        const prevDistance = Math.abs(xScale(prev.year) - xPos) + Math.abs(yScale(prev.suicides_per_100k) - yPos);
+                        const currDistance = Math.abs(xScale(curr.year) - xPos) + Math.abs(yScale(curr.suicides_per_100k) - yPos);
+                        return currDistance < prevDistance ? curr : prev;
+                    });
+                
                     tooltip
-                        .html(`Region: ${region}<br>Generation: ${generation}<br>Year: ${closestDataPoint.year}<br>Rate: ${closestDataPoint.suicides_per_100k.toFixed(2)}<br>Gender: ${closestDataPoint.sex}`)
-                        .style("left", `${event.pageX + 5}px`)
-                        .style("top", `${event.pageY + 5}px`);
+                        .html(`
+                            <strong>Region:</strong> ${region}<br>
+                            <strong>Generation:</strong> <span style="color:${color(generation)}">${generation}</span><br>
+                            <strong>Year:</strong> ${closestDataPoint.year}<br>
+                            <strong>Rate:</strong> ${closestDataPoint.suicides_per_100k.toFixed(2)}<br>
+                            <strong>Gender:</strong> ${closestDataPoint.sex}
+                        `)
+                        .style("left", `${event.pageX + 15}px`)
+                        .style("top", `${event.pageY - 15}px`);
                 })
                 .on("mouseout", function() {
                     tooltip.style("display", "none");
-                });
+                });                
         });
     });
 
-    // Display legend if both filters are set to "all"
+    // Display legend if all filters are set to "all"
     if (region === "all" && generation === "all" && gender === "all") {
         legendContainer.style("display", "block");
         legendContainer.html(""); // Clear previous legend content
