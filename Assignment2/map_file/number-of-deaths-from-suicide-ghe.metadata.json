@@ -1,0 +1,30 @@
+{
+  "chart": {
+    "title": "Number of suicides",
+    "subtitle": "Estimated annual number of deaths from suicide. Suicide deaths are underreported in many countries due to social stigma and cultural or legal concerns. This data includes modeling based on global suicide patterns, and includes adjustments and extrapolations that aim to account for missing data and underreporting.",
+    "citation": "World Health Organization (2024)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/number-of-deaths-from-suicide-ghe",
+    "selection": [
+      "World"
+    ]
+  },
+  "columns": {
+    "Total deaths from self-harm amongboth sexes": {
+      "titleShort": "Total deaths from self-harm amongboth sexes",
+      "titleLong": "Total deaths from self-harm amongboth sexes",
+      "descriptionShort": "Estimated number of deaths from self-harm inboth sexes.",
+      "descriptionKey": [],
+      "shortUnit": "",
+      "unit": "deaths",
+      "timespan": "2000-2021",
+      "type": "Numeric",
+      "owidVariableId": 970224,
+      "shortName": "death_count__age_group_allages__sex_both_sexes__cause_self_harm",
+      "lastUpdated": "2024-07-30",
+      "citationShort": "World Health Organization (2024) – with major processing by Our World in Data",
+      "citationLong": "World Health Organization (2024) – with major processing by Our World in Data. “Total deaths from self-harm amongboth sexes” [dataset]. World Health Organization, “Global Health Estimates” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/970224.metadata.json"
+    }
+  },
+  "dateDownloaded": "2024-11-09"
+}
