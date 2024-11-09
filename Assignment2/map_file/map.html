@@ -20,16 +20,22 @@
   </style>
 </head>
 <body>
-  <h2 id="chart-title"></h2>
-  <p id="chart-subtitle"></p>
-  <p>Data Source: <span id="chart-citation"></span></p>
-  
-  <!-- Slider for selecting year -->
-  <label for="year-slider" id="year-label">Year: 2000</label>
-  <input type="range" id="year-slider" min="2000" max="2021" step="1" value="2000" />
+    
+ 
+   <!-- Slider for selecting year -->
+   <label for="year-slider" id="year-label">Year: 2000</label>
+   <input type="range" id="year-slider" min="2000" max="2021" step="1" value="2000" />
+
 
   <svg width="960" height="600"></svg>
   <div class="tooltip" style="opacity: 0;"></div>
+
+
+ <!-- Footer -->
+  <footer style="text-align: center; margin-top: 20px; font-size: 14px; color: #555;">
+    Starter Code Credits: <a href="https://www.d3-graph-gallery.com/" target="_blank">D3.js Graph Gallery</a> |
+    Data Source: <a href="https://ourworldindata.org/suicide" target="_blank">Our World In Data</a> | Modified by: Bryan Chow Hou Nam
+</footer>
   <script src="map.js"></script>
 </body>
 </html>
