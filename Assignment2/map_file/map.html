@@ -1,54 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>D3 World Map</title>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="map.js" defer></script> <!-- Link to JavaScript file -->
-    <style>
-        .legend {
-            font-family: Arial, sans-serif;
-            font-size: 12px;
-            margin-top: 10px;
-        }
-        .legend div {
-            display: flex;
-            align-items: center;
-            margin-bottom: 5px;
-        }
-        .legend div span {
-            margin-left: 8px;
-        }
-        .button-container {
-            margin: 10px 0;
-        }
-        .button-container button {
-            font-size: 14px;
-            margin-right: 10px;
-            padding: 5px 10px;
-            cursor: pointer;
-        }
-        #tooltip {
-            position: absolute;
-            background: rgba(0, 0, 0, 0.7);
-            color: white;
-            padding: 5px;
-            border-radius: 4px;
-            font-size: 12px;
-            pointer-events: none;
-            opacity: 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Suicide Rates by Country Over Time</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    .tooltip {
+      position: absolute;
+      padding: 8px;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      pointer-events: none;
+      font-size: 12px;
+    }
+    #year-label {
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-    <svg width="960" height="500"></svg>
-    <div id="tooltip"></div> <!-- Tooltip container -->
-    <div class="button-container">
-        <!-- Buttons to change the color scale based on the data metric -->
-        <button onclick="updateColorScale('Males')">Males</button>
-        <button onclick="updateColorScale('Females')">Females</button>
-        <button onclick="updateColorScale('Total')">Total</button>
-    </div>
-    <div class="legend"></div> <!-- Legend container -->
+    
+ 
+   <!-- Slider for selecting year -->
+   <label for="year-slider" id="year-label">Year: 2000</label>
+   <input type="range" id="year-slider" min="2000" max="2021" step="1" value="2000" />
+
+
+  <svg width="960" height="600"></svg>
+  <div class="tooltip" style="opacity: 0;"></div>
+
+
+ <!-- Footer -->
+  <footer style="text-align: center; margin-top: 20px; font-size: 14px; color: #555;">
+    Starter Code Credits: <a href="https://www.d3-graph-gallery.com/" target="_blank">D3.js Graph Gallery</a> |
+    Data Source: <a href="https://ourworldindata.org/suicide" target="_blank">Our World In Data</a> | Modified by: Bryan Chow Hou Nam
+</footer>
+  <script src="map.js"></script>
 </body>
 </html>
