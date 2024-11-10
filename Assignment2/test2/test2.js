@@ -1,177 +1,207 @@
 // Dimensions and margins
-const margin = { top: 50, right: 150, bottom: 50, left: 70 };
-const width = 900 - margin.left - margin.right;
-const height = 500 - margin.top - margin.bottom;
+const width = 600;
+const height = 600;
+const innerRadius = 100;
+const outerRadius = Math.min(width, height) / 2 - 50;
 
 // Append SVG to the chart div
 const svg = d3.select("#chart")
     .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+    .attr("width", width)
+    .attr("height", height)
     .append("g")
-    .attr("transform", `translate(${margin.left},${margin.top})`);
+    .attr("transform", `translate(${width / 2}, ${height / 2})`);
 
-// Enhanced Tooltip
+// Tooltip
 const tooltip = d3.select("#tooltip")
     .style("position", "absolute")
-    .style("background-color", "#fff")
-    .style("border", "1px solid #ccc")
-    .style("border-radius", "8px")
-    .style("padding", "10px")
-    .style("box-shadow", "0 4px 8px rgba(0, 0, 0, 0.1)")
     .style("pointer-events", "none")
-    .style("font-size", "12px")
-    .style("color", "#333");
+    .style("background", "rgba(255, 255, 255, 0.9)")
+    .style("border", "1px solid #ccc")
+    .style("padding", "5px")
+    .style("border-radius", "3px")
+    .style("box-shadow", "0px 2px 5px rgba(0, 0, 0, 0.2)")
+    .style("display", "none");
 
-// Color scale for generations
-const color = d3.scaleOrdinal(d3.schemeCategory10);
+// Append legend container
+const legendContainer = d3.select("#chart")
+    .append("div")
+    .attr("id", "legend-container")
+    .style("position", "absolute")
+    .style("left", "600px") // Align legend to the right
+    .style("top", "50%") // Vertically center the legend
+    .style("transform", "translateY(-50%)") // Adjust for perfect centering
+    .style("display", "flex")
+    .style("flex-direction", "column") // Stack items vertically
+    .style("align-items", "flex-start")
+    .style("background-color", "rgba(255, 255, 255, 0.8)")
+    .style("border", "1px solid #ccc")
+    .style("padding", "10px")
+    .style("border-radius", "5px")
+    .style("box-shadow", "0px 2px 5px rgba(0, 0, 0, 0.2)");
 
-// Scales
-const xScale = d3.scaleLinear().range([0, width]);
-const yScale = d3.scaleLinear().range([height, 0]);
+// Color scale for suicide rates
+const colorScale = d3.scaleSequential(d3.interpolateYlGnBu).domain([0, 50]);
 
-// Stack generator
-const stack = d3.stack()
-    .keys(["Generation Z", "Millennials", "Generation X", "Boomers", "Silent", "G.I. Generation"])
-    .order(d3.stackOrderNone)
-    .offset(d3.stackOffsetNone);
-
-// Area generator
-const area = d3.area()
-    .x(d => xScale(d.data.year))
-    .y0(d => yScale(d[0]))
-    .y1(d => yScale(d[1]))
-    .curve(d3.curveBasis);
-
-    function updateChart(region, gender, data) {
-        // Filter data based on region and gender
-        let filteredData = data;
-        if (region !== "all") {
-            filteredData = filteredData.filter(d => d.region === region);
-        }
-        if (gender !== "all") {
-            filteredData = filteredData.filter(d => d.sex.toLowerCase() === gender);
-        }
-    
-        // Group data by year and sum suicide rates for each generation
-        const groupedData = Array.from(d3.group(filteredData, d => d.year), ([year, values]) => {
-            const generations = d3.rollup(
-                values,
-                v => d3.sum(v, d => d.suicides_per_100k),
-                d => d.generation
-            );
-    
-            return {
-                year: +year,
-                "Generation Z": generations.get("Generation Z") || 0,
-                Millennials: generations.get("Millennials") || 0,
-                "Generation X": generations.get("Generation X") || 0,
-                Boomers: generations.get("Boomers") || 0,
-                Silent: generations.get("Silent") || 0,
-                "G.I. Generation": generations.get("G.I. Generation") || 0,
-                gender: values[0]?.sex || "All Genders",
-            };
-        });
-    
-        // Update scales
-        xScale.domain(d3.extent(groupedData, d => d.year));
-        yScale.domain([0, d3.max(groupedData, d => d3.sum(Object.values(d).slice(1)))]).nice();
-    
-        // Generate stacked data
-        const stackedData = stack(groupedData);
-    
-        // Clear previous chart elements
-        svg.selectAll(".area").remove();
-        svg.selectAll(".x-axis").remove();
-        svg.selectAll(".y-axis").remove();
-        svg.selectAll(".legend").remove();
-    
-        // Draw area chart
-        svg.selectAll(".area")
-            .data(stackedData)
-            .enter()
-            .append("path")
-            .attr("class", "area")
-            .attr("d", area)
-            .style("fill", d => color(d.key))
-            .style("opacity", 0.7)
-            .on("mouseover", function () {
-                tooltip.style("display", "block");
-            })
-            .on("mousemove", function (event, d) {
-                const [x, y] = d3.pointer(event);
-                const year = Math.round(xScale.invert(x));
-                const dataPoint = groupedData.find(dp => dp.year === year);
-    
-                if (dataPoint) {
-                    tooltip.html(`
-                        <strong>Generation:</strong> ${d.key}<br>
-                        <strong>Year:</strong> ${year}<br>
-                        <strong>Suicide Rate:</strong> ${dataPoint[d.key].toFixed(2)} per 100k<br>
-                        <strong>Gender:</strong> ${dataPoint.gender}
-                    `)
-                        .style("left", `${event.pageX + 15}px`)
-                        .style("top", `${event.pageY - 15}px`)
-                        .style("display", "block");
-                }
-            })
-            .on("mouseout", function () {
-                tooltip.style("display", "none");
-            });
-    
-        // Draw axes
-        svg.append("g")
-            .attr("class", "x-axis")
-            .attr("transform", `translate(0,${height})`)
-            .call(d3.axisBottom(xScale).tickFormat(d3.format("d")));
-    
-        svg.append("g")
-            .attr("class", "y-axis")
-            .call(d3.axisLeft(yScale));
-    
-        // Add legend
-        const legend = svg.selectAll(".legend")
-            .data(stack.keys())
-            .enter()
-            .append("g")
-            .attr("class", "legend")
-            .attr("transform", (d, i) => `translate(${width + 10}, ${i * 20})`);
-    
-        legend.append("rect")
-            .attr("x", 0)
-            .attr("y", 0)
-            .attr("width", 12)
-            .attr("height", 12)
-            .style("fill", d => color(d));
-    
-        legend.append("text")
-            .attr("x", 20)
-            .attr("y", 10)
-            .style("font-size", "12px")
-            .text(d => d);
-    }    
-
-// Load data and initialize chart
+// Load data
 d3.csv("generation.csv").then(data => {
+    // Process data
     data.forEach(d => {
         d.year = +d.year;
         d.suicides_per_100k = +d.suicides_per_100k;
     });
 
-    // Initial render with "All" filters
-    updateChart("all", "all", data);
+    const allYears = Array.from(new Set(data.map(d => d.year))).sort();
+    const allGenerations = Array.from(new Set(data.map(d => d.generation)));
 
-    // Add event listeners for dropdowns
+    // Scales
+    const angleScale = d3.scaleBand()
+        .domain(allYears)
+        .range([0, 2 * Math.PI])
+        .align(0);
+
+    const radiusScale = d3.scaleBand()
+        .domain(allGenerations)
+        .range([innerRadius, outerRadius])
+        .padding(0.1);
+
+    // Draw year labels
+    svg.append("g")
+        .selectAll("text")
+        .data(allYears)
+        .join("text")
+        .attr("x", d => Math.cos(angleScale(d) - Math.PI / 2) * (outerRadius + 20))
+        .attr("y", d => Math.sin(angleScale(d) - Math.PI / 2) * (outerRadius + 20))
+        .attr("text-anchor", "middle")
+        .attr("font-size", "10px")
+        .text(d => d);
+
+    // Update chart function with filters
+    function updateChart(region, gender) {
+        const filteredData = data.filter(d => 
+            (region === "all" || d.region === region) &&
+            (gender === "all" || d.sex.toLowerCase() === gender)
+        );
+
+        svg.selectAll("path").remove();
+
+svg.selectAll("path")
+    .data(filteredData)
+    .join("path")
+    .attr("d", d => {
+        const yearAngle = angleScale(d.year);
+        const nextAngle = yearAngle + angleScale.bandwidth();
+        const genRadius = radiusScale(d.generation);
+        const nextRadius = genRadius + radiusScale.bandwidth();
+
+        const arc = d3.arc()
+            .innerRadius(genRadius)
+            .outerRadius(nextRadius)
+            .startAngle(yearAngle)
+            .endAngle(nextAngle);
+        return arc();
+    })
+    .attr("fill", d => colorScale(d.suicides_per_100k))
+    .attr("stroke", "#fff")
+    .on("mouseover", function(event, d) {
+        tooltip.style("display", "block")
+            .html(`
+                <strong>Year:</strong> ${d.year}<br>
+                <strong>Generation:</strong> ${d.generation}<br>
+                <strong>Region:</strong> ${d.region}<br>
+                <strong>Gender:</strong> ${d.sex}<br>
+                <strong>Suicide Rate:</strong> ${d.suicides_per_100k.toFixed(2)}
+            `);
+
+        // Enlarge the arc
+        d3.select(this)
+            .transition()
+            .duration(200) // Smooth transition
+            .attr("d", d => {
+                const yearAngle = angleScale(d.year);
+                const nextAngle = yearAngle + angleScale.bandwidth();
+                const genRadius = radiusScale(d.generation) - 10; // Inner radius adjustment
+                const nextRadius = radiusScale(d.generation) + radiusScale.bandwidth() + 10; // Outer radius adjustment
+
+                const enlargedArc = d3.arc()
+                    .innerRadius(genRadius)
+                    .outerRadius(nextRadius)
+                    .startAngle(yearAngle)
+                    .endAngle(nextAngle);
+                return enlargedArc();
+            });
+    })
+    .on("mousemove", event => {
+        const [mouseX, mouseY] = d3.pointer(event, document.body);
+        tooltip
+            .style("left", `${mouseX + 10}px`)
+            .style("top", `${mouseY - 10}px`);
+    })
+    .on("mouseout", function() {
+        tooltip.style("display", "none");
+
+        // Reset the arc to original size
+        d3.select(this)
+            .transition()
+            .duration(200) // Smooth transition
+            .attr("d", d => {
+                const yearAngle = angleScale(d.year);
+                const nextAngle = yearAngle + angleScale.bandwidth();
+                const genRadius = radiusScale(d.generation);
+                const nextRadius = genRadius + radiusScale.bandwidth();
+
+                const originalArc = d3.arc()
+                    .innerRadius(genRadius)
+                    .outerRadius(nextRadius)
+                    .startAngle(yearAngle)
+                    .endAngle(nextAngle);
+                return originalArc();
+            });
+    });
+    }
+
+    // Initial rendering
+    updateChart("all", "all");
+
+    legendContainer.selectAll("div")
+    .data(allGenerations)
+    .join("div")
+    .style("display", "flex")
+    .style("align-items", "center")
+    .style("margin", "5px 0")
+    .html(d => {
+        // Define custom names for each generation
+        const generationNames = {
+            "Generation Z": "Gen Z (3rd Outer Layer)",
+            "Millenials": "Millennials (2nd Outer Layer)",
+            "Generation X": "Gen X (4th Outer Layer)",
+            "Boomers": "Baby Boomers (Last Layer)",
+            "Silent": "Silent Generation (1st Layer)",
+            "G.I. Generation": "Greatest Generation (5th Layer)"
+        };
+        return `
+            <span style="
+                width: 20px;
+                height: 20px;
+                background-color: ${colorScale(radiusScale(d))};
+                display: inline-block;
+                margin-right: 10px;
+            "></span>
+            ${generationNames[d] || d} <!-- Default to the original name if not found -->
+        `;
+    });
+
+    // Event listeners for filters
     d3.select("#region-select").on("change", function() {
-        const selectedRegion = d3.select(this).property("value");
-        const selectedGender = d3.select("#gender-select").property("value");
-        updateChart(selectedRegion, selectedGender, data);
+        const region = d3.select(this).property("value");
+        const gender = d3.select("#gender-select").property("value");
+        updateChart(region, gender);
     });
 
     d3.select("#gender-select").on("change", function() {
-        const selectedRegion = d3.select("#region-select").property("value");
-        const selectedGender = d3.select(this).property("value");
-        updateChart(selectedRegion, selectedGender, data);
+        const gender = d3.select(this).property("value");
+        const region = d3.select("#region-select").property("value");
+        updateChart(region, gender);
     });
 });
 
