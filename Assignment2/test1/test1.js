@@ -20,10 +20,9 @@ d3.csv("income.csv").then(data => {
     const chartGroup = svg.append("g")
         .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    // Custom color palette matching the background
     const colorScale = d3.scaleOrdinal()
         .domain(incomeLevels)
-        .range(["#FF7F7F", "#FFB27F", "#FFD27F", "#A8E6A3"]); // Complementary shades
+        .range(d3.schemeCategory10);
 
     const tooltip = d3.select("body")
         .append("div")
@@ -70,47 +69,51 @@ d3.csv("income.csv").then(data => {
 
             region.incomeData.forEach(income => {
                 regionGroup.append("rect")
-                    .attr("x", 0)
-                    .attr("y", yOffset)
-                    .attr("width", region.width)
-                    .attr("height", 0) // Start with height 0 for animation
-                    .attr("fill", colorScale(income.IncomeLevel))
-                    .style("stroke", "none") // No border initially
-                    .style("stroke-width", "2px")
-                    .transition()
-                    .duration(1000)
-                    .attr("height", income.height)
-                    .on("end", function () {
-                        d3.select(this)
-                            .on("mouseover", function (event) {
-                                tooltip.style("visibility", "visible")
-                                    .html(`
-                                        <strong>${region.region} - ${income.IncomeLevel}</strong><br>
-                                        Rate: ${income.DeathRate.toFixed(2)} per 100k population<br>
-                                        Proportion: ${(income.DeathRate / totalDeaths * 100).toFixed(1)}%
-                                    `);
-
-                                d3.select(this)
-                                    .style("stroke", "#000") // Add border
-                                    .style("stroke-width", "3px")
-                                    .style("opacity", 0.9)
-                                    .attr("transform", "scale(1.02)"); // Slight enlargement
-                            })
-                            .on("mousemove", function (event) {
-                                tooltip.style("top", `${event.pageY - 10}px`)
-                                    .style("left", `${event.pageX + 10}px`);
-                            })
-                            .on("mouseout", function () {
-                                tooltip.style("visibility", "hidden");
-
-                                d3.select(this)
-                                    .style("stroke", "none") // Remove border
-                                    .style("stroke-width", "2px")
-                                    .style("opacity", 1)
-                                    .attr("transform", "scale(1)"); // Restore original size
-                            });
-                    });
-
+                .attr("x", 0)
+                .attr("y", yOffset)
+                .attr("width", region.width)
+                .attr("height", 0) // Start with height 0 for animation
+                .attr("fill", colorScale(income.IncomeLevel))
+                .style("stroke", "none") // No border initially
+                .style("stroke-width", "2px")
+                .transition()
+                .duration(1000)
+                .attr("height", income.height)
+                .on("end", function () { // Enable hover effect only after animation ends
+                    d3.select(this)
+                        .on("mouseover", function (event) {
+                            tooltip.style("visibility", "visible")
+                                .html(`
+                                    <strong>${region.region} - ${income.IncomeLevel}</strong><br>
+                                    Rate: ${income.DeathRate.toFixed(2)} per 100k population<br>
+                                    Proportion: ${(income.DeathRate / totalDeaths * 100).toFixed(1)}%
+                                `);
+            
+                            d3.select(this)
+                                .style("stroke", "#000") // Add border
+                                .style("stroke-width", "3px")
+                                .style("opacity", 0.9)
+                                .attr("transform", "scale(1.02)"); // Slight enlargement
+                        })
+                        .on("mousemove", function (event) {
+                            tooltip.style("top", `${event.pageY - 10}px`)
+                                .style("left", `${event.pageX + 10}px`);
+                        })
+                        .on("mouseout", function () {
+                            tooltip.style("visibility", "hidden");
+            
+                            d3.select(this)
+                                .style("stroke", "none") // Remove border
+                                .style("stroke-width", "2px")
+                                .style("opacity", 1)
+                                .attr("transform", "scale(1)"); // Restore original size
+                        });
+                })
+            
+                .transition() // Add animation for height
+                .duration(1000)
+                .attr("height", income.height);            
+            
                 yOffset += income.height;
             });
 
@@ -146,6 +149,7 @@ d3.csv("income.csv").then(data => {
         .style("margin-top", "10px")
         .text(`Year: ${d3.min(years)}`);
 
+    // Restore legend to display only
     const legendGroup = svg.append("g")
         .attr("transform", `translate(${width + margin.left + 20},${margin.top})`);
 
