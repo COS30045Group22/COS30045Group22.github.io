@@ -110,7 +110,7 @@ svg.selectAll("path")
                 <strong>Generation:</strong> ${d.generation}<br>
                 <strong>Region:</strong> ${d.region}<br>
                 <strong>Gender:</strong> ${d.sex}<br>
-                <strong>Suicide Rate:</strong> ${d.suicides_per_100k.toFixed(2)}
+                <strong>Suicide Rate:</strong> ${d.suicides_per_100k.toFixed(2)} per 100k population
             `);
 
         // Enlarge the arc
