@@ -92,7 +92,7 @@ d3.csv("datavis4.csv").then(function (data) {
   
     var color = d3.scaleOrdinal()
         .domain(['Drug', 'Poisoning', 'Hanging', 'Jumping', 'Other'])
-        .range(['#46295D', '#966C8B', '#FD9999', '#9898BB0', '#B89454']);
+        .range(['#660000', '#006600', '#000066', '#660066', '#B89454']);
   
     // Prepare the stacked data
     var stackedData = d3.stack()
