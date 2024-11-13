@@ -2,65 +2,59 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8"/>
-	<meta name="description"	content="Data Visualisation Exercise 1"/>
-	<meta name="keywords"		  content="HTML, CSS, D3"/>
-	<meta name="author"			  content="Hoo Ying Kit"/>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Data Visualisation Exercise 1"/>
+    <meta name="keywords" content="HTML, CSS, D3"/>
+    <meta name="author" content="Hoo Ying Kit"/>
 
-	<title>Data Visualization</title>
-	
-	<script src= "https://d3js.org/d3.v7.min.js"></script>
+    <title>Data Visualization</title>
+    
+    <script src="https://d3js.org/d3.v7.min.js"></script>
 
-	<style>
-    </style>
-	</head>
-	
-	<body>
-	
-	<h3>Comparison of Suicide Methods and Rates Between Europe and Asia</h3>
+</head>
+    
+<body>
+    
+    <h3>Comparison of Suicide Methods and Rates Between Europe and Asia</h3>
 
-	<!-- Footer Section -->
-    <footer style="text-align: center; margin-top: 20px; font-size: 14px; color: #555;">
-        Starter Code Credits: <a href="https://www.d3-graph-gallery.com/" target="_blank">D3.js Graph Gallery</a> |
-        Data Source: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2569832/table/HZT-62-06-0545-t02/" target="_blank">National Library Of Medicine</a> | Modified by: Hoo Ying Kit
-    </footer>
+    <!-- Footer Section -->
+	<footer style="text-align: center; margin-top: 20px; font-size: 14px; color: #555;">
+    Starter Code Credits: <a href="https://www.d3-graph-gallery.com/" target="_blank">D3.js Graph Gallery</a> |
+    Data Source: 
+    <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2569832/table/HZT-62-06-0545-t02/" target="_blank">National Library Of Medicine</a> |
+    
+    <a href="https://iris.who.int/rest/bitstreams/52201/retrieve" target="_blank">World Health Organization (WHO)</a> |
+    <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3366604/#sec2" target="_blank">National Library of Medicine</a> |
+    Modified by: Hoo Ying Kit
+	</footer>
 
-    <br>
-	
-	<label for="continentSelect">Select a continent:</label>
-<select id="continentSelect">
-	<option value="Both" selected>Both</option>
-  <option value="Asia">Asia</option>
-  <option value="Europe">Europe</option>
-</select>
-
+	<br>
+    
+    <label for="continentSelect">Select a continent:</label>
+    <select id="continentSelect">
+        <option value="Both" selected>Both</option>
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europe</option>
+    </select>
 
     <div id="chart"></div>
-	<div id="tooltip" style="position: absolute; text-align: center; padding: 8px; font-size: 12px; background: lightgrey; border: 1px solid #333; border-radius: 4px; pointer-events: none; opacity: 0;"></div>
+    <div id="tooltip" style="position: absolute; text-align: center; padding: 8px; font-size: 12px; background: lightgrey; border: 1px solid #333; border-radius: 4px; pointer-events: none; opacity: 0;"></div>
 
-	<!-- Pop-up warning box (Initially hidden) -->
-<div id="maxCountryPopup" style="display: none; position: fixed; top: 20px; left: 50%; transform: translateX(-50%); 
-background-color: transparent; padding: 15px 30px; border: 2px solid #f39c12; border-radius: 10px; color: black; 
-font-size: 16px; text-align: center; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <strong>Warning:</strong> You have already exceeded the limit of 10 countries. Please remove a country or update to see other countries.
-</div>
+    <!-- Pop-up warning box (Initially hidden) -->
+    <div id="maxCountryPopup" style="display: none; position: absolute; top: 270px; left: 710px; 
+        background-color: #fff; padding: 15px 30px; border: 2px solid #f39c12; border-radius: 10px; 
+        color: black; font-size: 16px; text-align: center; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+        max-width: 200px; overflow-wrap: break-word;">
+    <strong>Warning:</strong> You have already exceeded the limit of 10 countries. Please remove a country or update to view other countries.
+	</div>
 
 
-
-
-	  
     <button id="updateButton">Update Chart</button>
-	<button id="addButton">Add Country</button>
+    <button id="addButton">Add Country</button>
     <button id="removeButton">Remove Country</button>
     
-	<script src="datavis4.js"></script>
+    <script src="datavis4.js"></script>
     
-	
-	<br>
-	
-	
-    
-    
-	
+    <br>
 </body>
 </html>
