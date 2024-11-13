@@ -198,17 +198,9 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 20px;
+    
 }
 
-/* Shared description styling */
-.description {
-    width: 40%;
-    font-size: 18px;
-    color: white;
-    line-height: 1.6;
-    margin-left: 20px;
-}
 
 /* Visualization container styling */
 
