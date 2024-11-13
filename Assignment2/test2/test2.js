@@ -170,7 +170,6 @@ svg.selectAll("path")
     .style("align-items", "center")
     .style("margin", "5px 0")
     .html(d => {
-        // Define custom names for each generation
         const generationNames = {
             "Generation Z": "Gen Z (3rd Outer Layer)",
             "Millenials": "Millennials (2nd Outer Layer)",
@@ -187,8 +186,24 @@ svg.selectAll("path")
                 display: inline-block;
                 margin-right: 10px;
             "></span>
-            ${generationNames[d] || d} <!-- Default to the original name if not found -->
+            ${generationNames[d] || d}
         `;
+    })
+    .on("mouseover", (event, gen) => {
+        svg.selectAll("path")
+            .filter(d => d.generation === gen)
+            .transition()
+            .duration(200)
+            .attr("stroke", "black") // Highlight border
+            .attr("stroke-width", 2);
+    })
+    .on("mouseout", (event, gen) => {
+        svg.selectAll("path")
+            .filter(d => d.generation === gen)
+            .transition()
+            .duration(200)
+            .attr("stroke", "#fff") // Reset border
+            .attr("stroke-width", 1);
     });
 
     // Event listeners for filters
