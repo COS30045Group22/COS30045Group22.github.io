@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Suicide Rates by Country Over Time</title>
+  <title>Interactive 3D Globe Map</title>
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://d3js.org/d3-geo-projection.v3.min.js"></script>
+  <script src="https://unpkg.com/versor@0.0.4/build/versor.min.js"></script> <!-- Versor library -->
   <style>
     .tooltip {
       position: absolute;
@@ -14,29 +16,104 @@
       pointer-events: none;
       font-size: 12px;
     }
+    .country-hover {
+      stroke-width: 2;
+      fill-opacity: 0.8;
+      cursor: pointer;
+    }
     #year-label {
       font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    /* Enhanced Year Slider Styling */
+    .year-slider-container {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      margin-top: 20px;
+      position: relative;
+    }
+    #year-slider {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 300px;
+      height: 8px;
+      background: linear-gradient(90deg, #e66465, #9198e5);
+      border-radius: 5px;
+      outline: none;
+      opacity: 0.9;
+      transition: opacity 0.2s;
+    }
+    #year-slider:hover {
+      opacity: 1;
+    }
+    #year-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      background-color: #4CAF50;
+      border-radius: 50%;
+      cursor: pointer;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    }
+    #year-slider::-moz-range-thumb {
+      width: 20px;
+      height: 20px;
+      background-color: #4CAF50;
+      border-radius: 50%;
+      cursor: pointer;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    }
+    .year-value {
+      position: absolute;
+      bottom: -25px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #4CAF50;
+      margin-left: 10px;
     }
   </style>
 </head>
 <body>
-    
-    <h3 style="display: flex; justify-content: space-between;">Number of Suicide rates between Europe and Asia (For Both Genders)</h3>
-    <footer style="text-align: center; margin-top: 20px; font-size: 14px; color: #555;">
-        Starter Code Credits: <a href="https://www.d3-graph-gallery.com/" target="_blank">D3.js Graph Gallery</a> |
-        Data Source: <a href="https://ourworldindata.org/suicide" target="_blank">Our World In Data</a> | Modified by: Bryan Chow Hou Nam
-    </footer>
-   <!-- Slider for selecting year -->
-   <label for="year-slider" id="year-label">Year: 2000</label>
-   <input type="range" id="year-slider" min="2000" max="2021" step="1" value="2000" />
+  <h3 style="display: flex; justify-content: space-between;">
+    Number of Suicide Rates between Europe and Asia (For Both Genders)
+  </h3>
 
+  <footer style="text-align: center; margin-top: 20px; font-size: 14px; color: #555;">
+    Starter Code Credits: <a href="https://www.d3-graph-gallery.com/" target="_blank">D3.js Graph Gallery</a> |
+    Data Source: <a href="https://ourworldindata.org/suicide" target="_blank">Our World In Data</a> | Modified by: Bryan Chow Hou Nam
+  </footer>
+
+  <!-- Year Slider Container -->
+  <div class="year-slider-container">
+    <label for="year-slider" id="year-label">Year: <span id="year-display">2000</span></label>
+    <input type="range" id="year-slider" min="2000" max="2021" step="1" value="2000" />
+    <div id="year-value" class="year-value">2000</div>
+  </div>
 
   <svg width="960" height="600"></svg>
   <div class="tooltip" style="opacity: 0;"></div>
 
-
- <!-- Footer -->
   
+
   <script src="map.js"></script>
+  <script>
+    // Update the displayed year above the slider thumb as it moves
+    const slider = document.getElementById('year-slider');
+    const yearDisplay = document.getElementById('year-display');
+    const yearValue = document.getElementById('year-value');
+
+    slider.addEventListener('input', function() {
+      yearDisplay.textContent = this.value;
+      yearValue.textContent = this.value;
+      const sliderPosition = ((this.value - this.min) / (this.max - this.min)) * this.clientWidth;
+      yearValue.style.left = `${sliderPosition - yearValue.clientWidth / 2}px`;
+    });
+
+    // Initialize position for the year label
+    slider.dispatchEvent(new Event('input'));
+  </script>
 </body>
 </html>

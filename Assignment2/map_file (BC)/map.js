@@ -1,13 +1,29 @@
 // Set up SVG dimensions
-const width = 960, height = 600;
+const width = 1125, height = 500; // Reduced width and height for a smaller layout
 
-// Projection and path setup for map
-const projection = d3.geoMercator().scale(150).translate([width / 2, height / 1.5]);
+// Projection and path setup for 3D globe
+const projection = d3.geoOrthographic()
+  .scale(250) // Reduced scale for a smaller globe
+  .translate([width / 2, height / 2])
+  .precision(0.5);
+
 const path = d3.geoPath().projection(projection);
 
 // Set up SVG and tooltip
-const svg = d3.select("svg");
+const svg = d3.select("svg")
+  .attr("width", width)
+  .attr("height", height);
+
 const tooltip = d3.select(".tooltip");
+
+// Add a black outline circle behind the globe
+svg.append("circle")
+  .attr("cx", width / 2)
+  .attr("cy", height / 2)
+  .attr("r", projection.scale())
+  .attr("fill", "none")
+  .attr("stroke", "black")
+  .attr("stroke-width", 2);
 
 // List of Europe and Asia country codes (ISO Alpha-3 codes)
 const europeAsiaCountries = new Set([
@@ -19,80 +35,87 @@ const europeAsiaCountries = new Set([
   "SYR", "THA", "TLS", "ARE", "VNM", "YEM"
 ]);
 
-// Load metadata JSON for titles
-d3.json("number-of-deaths-from-suicide-ghe.metadata.json").then(metadata => {
-  document.getElementById("chart-title").textContent = metadata.chart.title;
-  document.getElementById("chart-subtitle").textContent = metadata.chart.subtitle;
-  document.getElementById("chart-citation").textContent = metadata.chart.citation;
-});
-
-// Define color scale for suicide rates and a neutral color for other countries
+// Define color scale and neutral color
 const colorScale = d3.scaleSequential(d3.interpolateReds).domain([0, 100000]);
 const neutralColor = "#ccc";
 
 // Load geo data and suicide CSV data
 Promise.all([
   d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
-  d3.csv("number-of-deaths-from-suicide-ghe.csv") // Adjust the path to the CSV file as needed
+  d3.csv("number-of-deaths-from-suicide-ghe.csv")
 ]).then(([geoData, suicideData]) => {
-  // Prepare data in a nested format: {year: {countryCode: deathCount}}
   const yearData = {};
   suicideData.forEach(d => {
-    const year = +d.Year; // Ensure Year is a number
+    const year = +d.Year;
     if (!yearData[year]) yearData[year] = {};
     yearData[year][d.Code] = +d["Total deaths from self-harm amongboth sexes"];
   });
 
-  // Draw the map for a specific year
   function updateMap(selectedYear) {
-    // Update the year label
     d3.select("#year-label").text(`Year: ${selectedYear}`);
-
-    // Bind data and update map colors based on selected year data
     svg.selectAll("path")
       .data(geoData.features)
       .join("path")
       .attr("d", path)
       .attr("fill", d => {
-        const countryCode = d.id;
-        const suicideCount = yearData[selectedYear][countryCode] || 0;
-
-        // Color Europe and Asia countries based on data, others in neutral color
-        if (europeAsiaCountries.has(countryCode)) {
-          return colorScale(suicideCount);
-        } else {
-          return neutralColor;
-        }
+        const suicideCount = yearData[selectedYear][d.id] || 0;
+        return europeAsiaCountries.has(d.id) ? colorScale(suicideCount) : neutralColor;
       })
       .attr("stroke", "#333")
-      .on("mouseover", (event, d) => {
-        const countryCode = d.id;
-        const suicideCount = yearData[selectedYear][countryCode] || "Data not available";
-
-        // Show tooltip only for Europe and Asia countries
-        if (europeAsiaCountries.has(countryCode)) {
+      .on("mouseover", function(event, d) {
+        const suicideCount = yearData[selectedYear][d.id] || "Data not available";
+        if (europeAsiaCountries.has(d.id)) {
+          d3.select(this).classed("country-hover", true);
           tooltip.style("opacity", 1)
             .html(`<strong>${d.properties.name}</strong><br>Suicide Deaths: ${suicideCount}`)
             .style("left", `${event.pageX + 10}px`)
             .style("top", `${event.pageY + 10}px`);
         }
       })
-      .on("mouseout", () => tooltip.style("opacity", 0));
+      .on("mouseout", function() {
+        d3.select(this).classed("country-hover", false);
+        tooltip.style("opacity", 0);
+      });
   }
 
   // Initialize map with the first year (e.g., 2000)
   updateMap(2000);
-
-  // Add an event listener to the slider to update the map based on selected year
   d3.select("#year-slider").on("input", function() {
-    const selectedYear = +this.value;
-    updateMap(selectedYear);
+    updateMap(+this.value);
   });
 
-  // Color legend (as described previously)
+  // Smooth dragging with requestAnimationFrame
+  let v0, q0, r0;
+  let isDragging = false;
+
+  function render() {
+    if (isDragging) {
+      requestAnimationFrame(render); // Schedule the next frame for smooth animation
+      updateMap(+d3.select("#year-slider").property("value"));
+    }
+  }
+
+  svg.call(d3.drag()
+    .on("start", function(event) {
+      v0 = versor.cartesian(projection.invert([event.x, event.y]));
+      r0 = projection.rotate();
+      q0 = versor(r0);
+      isDragging = true;
+      requestAnimationFrame(render); // Start rendering loop
+    })
+    .on("drag", function(event) {
+      const v1 = versor.cartesian(projection.invert([event.x, event.y]));
+      const q1 = versor.multiply(q0, versor.delta(v0, v1));
+      projection.rotate(versor.rotation(q1));
+    })
+    .on("end", function() {
+      isDragging = false; // Stop rendering when drag ends
+    }));
+
+  // Adjusted color legend position
   const legendWidth = 300, legendHeight = 10;
   const legendSvg = svg.append("g")
-    .attr("transform", `translate(${width - legendWidth - 50}, ${height - 40})`);
+    .attr("transform", `translate(${width - legendWidth - 20}, ${height - 50})`); // Move slightly to the right and down
 
   const defs = svg.append("defs");
   const linearGradient = defs.append("linearGradient")
