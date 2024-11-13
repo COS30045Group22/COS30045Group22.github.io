@@ -1,191 +1,221 @@
-// Set the dimensions and margins of the graph
-const margin = { top: 40, right: 30, bottom: 90, left: 60 },
-      width = 960 - margin.left - margin.right,
-      height = 500 - margin.top - margin.bottom;
+// Load the data from CSV 
+d3.csv("oecd.csv").then(data => {
 
-// Append the svg object to the body of the page
-const svg = d3.select("#chart")
-  .append("svg")
-  .attr("width", width + margin.left + margin.right + 150)  // Extra space for the legend
-  .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-  .attr("transform", `translate(${margin.left},${margin.top})`);
+  // Convert numerical values and filter out suicide rate of 0
+  data = data.map(d => ({
+      ...d,
+      "Suicide Rate": +d["Suicide Rate"]  // Convert Suicide Rate from a string to a number
+  })).filter(d => d["Suicide Rate"] > 0); // Remove where the suicide rate is 0
 
-// Define scales for X, X1, Y
-const x0 = d3.scaleBand().range([0, width]).padding(0.2);  // Country scale
-const x1 = d3.scaleBand().padding(0.1);  // Age group scale
-const y = d3.scaleLinear().range([height, 0]);  // Suicide rate scale
+  // Set initial dimensions of the chart
+  const width = 1200;  
+  const heightAll = 1000;  // Height for viewing all continents 
+  const heightSingle = 600;  // Height for viewing a single age group or continent
+  const heightEurope = 1000;  // Height for viewing all age groups within Europe
+  const heightAsia = 800;  // Height for viewing all age groups within Asia
 
-// Tooltip for displaying data on hover
-const tooltip = d3.select("body").append("div")
-    .attr("class", "tooltip")
-    .style("opacity", 0);
+  // Define unique age groups
+  const ageGroups = Array.from(new Set(data.map(d => d["Age Group"]))); // Extracts unique age groups
 
-// Load the data from the CSV file
-d3.csv("datavis3.csv").then(data => {
-  // Parse suicide rates as numbers
-  data.forEach(d => {
-    d["Suicide Rate"] = +d["Suicide Rate"];
-    d.Year = +d.Year;
+  // Dropdown with age groups
+  const ageGroupSelect = d3.select("#age-group-select");
+  ageGroups.forEach(ageGroup => {
+      ageGroupSelect.append("option").text(ageGroup).attr("value", ageGroup); // Adds each age group as an option
   });
 
-  // Separate countries by continent
-  const asiaCountries = Array.from(new Set(data.filter(d => d.Continent === "Asia").map(d => d.Country)));
-  const europeCountries = Array.from(new Set(data.filter(d => d.Continent === "Europe").map(d => d.Country)));
-  const ageGroups = Array.from(new Set(data.map(d => d["Age Group"])));
-  const years = Array.from(new Set(data.map(d => d.Year))).sort();
+  // Set up color scale for age groups 
+  const color = d3.scaleOrdinal()
+      .domain(ageGroups) // Define the domain of the scale as age groups
+      .range(["#e6194b", "#3cb44b", "#ffe119", "#4363d8", "#f58231", "#911eb4", 
+              "#46f0f0", "#f032e6", "#bcf60c", "#fabebe", "#008080", "#e6beff", 
+              "#9a6324", "#800000", "#808000"]);
 
-  // Initialize with a random 2-3 Asia and 2-3 Europe countries
-  let displayedCountries = new Set();
+  // Set up radius scale based on suicide rate
+  const radius = d3.scaleSqrt()
+      .domain([0, d3.max(data, d => d["Suicide Rate"])]) // Scale domain from 0 to max suicide rate
+      .range([3, 30]); // Set radius be 3 - 30 pixel
 
-  function selectBalancedCountries() {
-    displayedCountries = new Set();
-    const asiaSample = d3.shuffle(asiaCountries).slice(0, 2 + Math.floor(Math.random() * 2)); // 2 or 3 Asia
-    const europeSample = d3.shuffle(europeCountries).slice(0, 5 - asiaSample.length); // 2 or 3 Europe
-    displayedCountries = new Set([...asiaSample, ...europeSample]);
-    
-    // Update the x0 domain and x1 range after selecting countries
-    x0.domain([...displayedCountries]);
-    x1.range([0, x0.bandwidth()]);
+  // Create the SVG container with initial height
+  const svg = d3.select("#bubble-chart")
+      .append("svg")
+      .attr("width", width) 
+      .attr("height", heightAll)  // Initial height for "All" view
+      .call(d3.zoom().on("zoom", (event) => { // Enables zooming and panning
+          svg.attr("transform", event.transform); // Transforms based on zoom level
+      }))
+      .append("g");
+
+  // Update bubbles based on the selected age group and continent
+  function updateBubbles(selectedAgeGroup, selectedContinent) {
+      let filteredData = data;
+
+      // Filter by age group if not "all"
+      if (selectedAgeGroup !== "all") {
+          filteredData = filteredData.filter(d => d["Age Group"] === selectedAgeGroup);
+      }
+
+      // Filter by continent if not "all"
+      if (selectedContinent !== "all") {
+          filteredData = filteredData.filter(d => d["Continent"] === selectedContinent);
+      }
+
+      // Determine the appropriate height based on the selection
+      let currentHeight;
+      if (selectedAgeGroup === "all" && selectedContinent === "Europe") {
+          currentHeight = heightEurope;
+      } else if (selectedAgeGroup === "all" && selectedContinent === "Asia") {
+          currentHeight = heightAsia;
+      } else if (selectedAgeGroup === "all" && selectedContinent === "all") {
+          currentHeight = heightAll;
+      } else {
+          currentHeight = heightSingle;
+      }
+
+      // Update SVG height to fit the current view
+      svg.attr("height", currentHeight);
+
+      // Update bubble data
+      const bubbles = svg.selectAll("circle")
+          .data(filteredData, d => d.Country); // Bind filtered data to circles
+
+      // Remove old bubbles
+      bubbles.exit().remove();
+
+      // Add new bubbles and merge with existing ones
+      bubbles.enter()
+          .append("circle")
+          .merge(bubbles) // Merge new and existing circles
+          .attr("r", d => radius(d["Suicide Rate"])) // Set radius based on suicide rate
+          .attr("fill", d => color(d["Age Group"])) // Color based on age group
+          .attr("stroke", "black") 
+          .attr("stroke-width", 0.5) 
+          .attr("cx", width / 2) // Initial x position in the center
+          .attr("cy", currentHeight / 3) // Initial y position adjusted based on height
+          .on("mouseover", function (event, d) { // Mouseover event to highlight circles
+              svg.selectAll("circle")
+                  .style("opacity", 0.2); // Lower opacity for all circles
+              svg.selectAll("circle")
+                  .filter(b => b["Age Group"] === d["Age Group"])
+                  .style("opacity", 1); // Highlight circles of the same age group
+
+              d3.select("#tooltip") // Show tooltip
+                  .style("opacity", 1)
+                  .html(`<strong>Country:</strong> ${d.Country}<br>
+                         <strong>Continent:</strong> ${d.Continent}<br>
+                         <strong>Age Group:</strong> ${d["Age Group"]}<br>
+                         <strong>Suicide Rate:</strong> ${d["Suicide Rate"]}`);
+          })
+          .on("mouseout", function () { // Mouseout event to reset opacity
+              svg.selectAll("circle")
+                  .style("opacity", 1);
+
+              d3.select("#tooltip")
+                  .style("opacity", 0); // Hide tooltip
+          })
+          .on("click", function (event, d) { // To show alert with data
+              alert(`Country: ${d.Country}\nContinent: ${d.Continent}\nAge Group: ${d["Age Group"]}\nSuicide Rate: ${d["Suicide Rate"]}`);
+          })
+          .call(d3.drag() // Drag functionality
+              .on("start", function (event, d) {
+                  d3.select(this).raise().attr("stroke", "orange"); // Highlight on drag start
+              })
+              .on("drag", function (event, d) { // Update position during drag
+                  d3.select(this).attr("cx", d.x = event.x).attr("cy", d.y = event.y);
+              })
+              .on("end", function (event, d) { // Reset stroke on drag end
+                  d3.select(this).attr("stroke", "black");
+              }));
+
+      // Adjust simulation's vertical force based on selection
+      const targetY = currentHeight / 2; // Center bubbles vertically
+      simulation
+          .force("y", d3.forceY(targetY).strength(0.05)) // Adjust y-force to center bubbles
+          .nodes(filteredData) // Restart simulation with filtered data
+          .alpha(1)
+          .restart();
   }
 
-  // Define domains for X and Y scales
-  x1.domain(ageGroups);
+  // Create a simulation for positioning the bubbles
+  const simulation = d3.forceSimulation(data)
+      .force("x", d3.forceX(width / 2).strength(0.05)) // x-force to center horizontally
+      .force("y", d3.forceY(heightAll / 2).strength(0.05)) // y-force for "All" view initially
+      .force("collide", d3.forceCollide(d => radius(d["Suicide Rate"]) + 4)) // Collision force to prevent overlap
+      .on("tick", () => { // Run at each simulation step
+          svg.selectAll("circle")
+              .attr("cx", d => d.x) // Update x position
+              .attr("cy", d => d.y); // Update y position
+      });
 
-  // Function to update bar based on the selected year
-  function updateBar(selectedYear) {
-    const yearData = data.filter(d => d.Year === selectedYear && displayedCountries.has(d.Country));
+  // Initialize with all data displayed
+  updateBubbles("all", "all");
 
-    // Calculate the maximum suicide rate for the current data
-    const maxSuicideRate = d3.max(yearData, d => d["Suicide Rate"]);
-    let yIncrement = maxSuicideRate > 100 ? 20 : maxSuicideRate > 50 ? 10 : 5;
-    const roundedMax = Math.ceil(maxSuicideRate / yIncrement) * yIncrement;
-    y.domain([0, roundedMax]);
+  // Event listener for age group selection
+  ageGroupSelect.on("change", function() {
+      const selectedAgeGroup = d3.select(this).property("value");
+      const selectedContinent = d3.select("#continent-select").property("value");
+      updateBubbles(selectedAgeGroup, selectedContinent); // Update bubbles based on selection
+  });
 
-    // Clear previous bars and axes
-    svg.selectAll(".bar-group").remove();
-    svg.selectAll(".x-axis").remove();
-    svg.selectAll(".y-axis").remove();
+  // Event listener for continent selection
+  const continentSelect = d3.select("#continent-select");
+  continentSelect.on("change", function() {
+      const selectedAgeGroup = d3.select("#age-group-select").property("value");
+      const selectedContinent = d3.select(this).property("value");
+      updateBubbles(selectedAgeGroup, selectedContinent); // Update bubbles based on selection
+  });
 
-    // Recreate the X axis
-    svg.append("g")
-      .attr("class", "x-axis")
-      .attr("transform", `translate(0, ${height})`)
-      .call(d3.axisBottom(x0))
-      .selectAll("text")
-      .attr("transform", "rotate(-45)")
-      .style("text-anchor", "end");
+  // Tooltip 
+  const tooltip = d3.select("body")
+      .append("div")
+      .attr("id", "tooltip")
+      .style("position", "absolute")
+      .style("background", "#f4f4f4")
+      .style("border", "1px solid #333")
+      .style("padding", "8px")
+      .style("border-radius", "4px")
+      .style("opacity", 0); // Tooltip initially hidden
 
-    // X-axis label
-    svg.append("text")
-      .attr("class", "x-axis-label")
-      .attr("text-anchor", "middle")
-      .attr("x", width / 2)
-      .attr("y", height + margin.bottom - 10)
-      .text("Country");
+  d3.select("body").on("mousemove", function (event) { // Tooltip follows mouse movement
+      tooltip
+          .style("left", (event.pageX + 10) + "px")
+          .style("top", (event.pageY - 20) + "px");
+  });
 
-    // Recreate the Y axis with updated scale
-    svg.append("g")
-      .attr("class", "y-axis")
-      .call(d3.axisLeft(y).ticks(roundedMax / yIncrement));
+  // Position the legend in a horizontal grid format under the dropdown
+  const legendContainer = d3.select("body")
+      .insert("div", "#bubble-chart")
+      .attr("id", "legend-container")
+      .style("display", "flex")
+      .style("flex-wrap", "wrap")
+      .style("width", "1000px")
+      .style("margin", "10px auto"); // Center the legend container
 
-    // Y-axis label
-    svg.append("text")
-      .attr("class", "y-axis-label")
-      .attr("text-anchor", "middle")
-      .attr("transform", "rotate(-90)")
-      .attr("x", -height / 2)
-      .attr("y", -margin.left + 15)
-      .text("Suicide Rate");
-
-    // Group data by country and add bars for each age group
-    const countryGroups = svg.selectAll(".bar-group")
-      .data([...displayedCountries])
-      .enter().append("g")
-      .attr("class", "bar-group")
-      .attr("transform", d => `translate(${x0(d)}, 0)`);
-
-    countryGroups.selectAll("rect")
-      .data(country => yearData.filter(d => d.Country === country))
-      .enter().append("rect")
-      .attr("x", d => x1(d["Age Group"]))
-      .attr("y", d => y(d["Suicide Rate"]))
-      .attr("width", x1.bandwidth())
-      .attr("height", d => height - y(d["Suicide Rate"]))
-      .attr("fill", d => d3.schemeCategory10[ageGroups.indexOf(d["Age Group"]) % 10])
-      .on("mouseover", function(event, d) {
-        tooltip.transition().duration(200).style("opacity", .9);
-        tooltip.html(`Country: ${d.Country}<br>Age Group: ${d["Age Group"]}<br>Suicide Rate: ${d["Suicide Rate"]}`)
-               .style("left", (event.pageX + 5) + "px")
-               .style("top", (event.pageY - 28) + "px");
+  const legend = legendContainer.selectAll(".legend-item")
+      .data(ageGroups)
+      .enter().append("div")
+      .attr("class", "legend-item")
+      .style("display", "flex")
+      .style("align-items", "center")
+      .style("width", "20%")
+      .style("margin-bottom", "10px")
+      .on("mouseover", function(event, d) { // Highlight bubbles on legend hover
+          svg.selectAll("circle")
+              .style("opacity", 0.2);
+          svg.selectAll("circle")
+              .filter(b => b["Age Group"] === d)
+              .style("opacity", 1);
       })
       .on("mouseout", function() {
-        tooltip.transition().duration(500).style("opacity", 0);
-      });
-  }
-
-  // Create the legend for age groups
-  function createLegend() {
-    const color = d3.scaleOrdinal(d3.schemeCategory10); // Color scale for legend
-    const legend = svg.append("g")
-      .attr("class", "legend")
-      .attr("transform", `translate(${width + 30}, 10)`); // Position to the right of the chart
-
-    // Add circles for legend
-    legend.selectAll("mydots")
-       .data(ageGroups)
-       .enter()
-       .append("circle")
-       .attr("cx", 10)
-       .attr("cy", (d, i) => 10 + i * 25)
-       .attr("r", 7)
-       .style("fill", d => color(ageGroups.indexOf(d)));
-
-    // Add labels for legend
-    legend.selectAll("mylabels")
-       .data(ageGroups)
-       .enter()
-       .append("text")
-       .attr("x", 25)
-       .attr("y", (d, i) => 10 + i * 25)
-       .style("fill", d => color(ageGroups.indexOf(d)))
-       .text(d => d)
-       .attr("text-anchor", "left")
-       .style("alignment-baseline", "middle");
-  }
-
-  // Update button event to refresh with a balanced selection of 5 countries
-  d3.select("#updatebutton").on("click", function() {
-    selectBalancedCountries(); // Select new balanced countries
-
-    // Get the currently selected year from the timeline
-    const currentYear = +d3.select(".year-marker.selected").text();
-
-    // Update the bar with the current year
-    updateBar(currentYear);
-  });
-
-  // Create the timeline by adding year markers
-  const timeline = d3.select("#timeline");
-
-  years.forEach((year, index) => {
-    const marker = timeline.append("div")
-      .attr("class", `year-marker ${index % 2 === 0 ? 'up' : 'down'}`)
-      .text(year)
-      .on("click", () => {
-        updateBar(year);
-        d3.selectAll(".year-marker").classed("selected", false);
-        marker.classed("selected", true);
+          svg.selectAll("circle")
+              .style("opacity", 1);
       });
 
-    // Initially select the first year
-    if (year === years[0]) marker.classed("selected", true);
-  });
+  legend.append("div") // Color box in the legend
+      .style("width", "18px")
+      .style("height", "18px")
+      .style("background-color", d => color(d))
+      .style("margin-right", "5px");
 
-  // Initial display for the starting year (first year in dataset)
-  selectBalancedCountries();
-  updateBar(years[0]);
-
-  // Create the legend for age groups
-  createLegend();
+  legend.append("span") // Label for each age group
+      .text(d => d);
 });
