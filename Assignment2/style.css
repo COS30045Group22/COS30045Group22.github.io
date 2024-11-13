@@ -22,10 +22,6 @@ h1{
     font-size: 60px;
 }
 
-.header_all{
-    text-align: center;
-}
-
 p{
     color: #fff;
     font-size: px;
@@ -163,3 +159,28 @@ p{
 .six {
     background-color: grey;
 }
+
+/* Shared container layout */
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Shared description styling */
+.description {
+    width: 40%;
+    font-size: 18px;
+    color: white;
+    line-height: 1.6;
+    margin-left: 20px;
+}
+
+/* Visualization container styling */
+.visualization {
+    width: 55%;
+    margin-right: 20px;
+}
+
+
