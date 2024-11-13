@@ -29,6 +29,24 @@ p{
 
 }
 
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.visualization{
+    width: 80%; /* 20% smaller than .background */
+    height: 86%; /* 20% smaller than .background */
+    margin-bottom: 100px;
+    background-color: #fff;
+    border-radius: 10px; /* Optional: for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: shadow effect */
+}
+
 /* Title page */
 .one {
     width: 100%;
@@ -80,25 +98,25 @@ p{
 }
 
 .card1{
-    background-color: aqua;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(pic1.jpeg);
     color: #fff;
     text-shadow: 0 0 5px #999;
 }
 
 .card2{
-    background-color: salmon;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(pic1.jpeg);
     color: #fff;
     text-shadow: 0 0 5px #999;
 }
 
 .card3{
-    background-color: lightgreen;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(pic1.jpeg);
     color: #fff;
     text-shadow: 0 0 5px #999;
 }
 
 .card4{
-    background-color: plum;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(pic1.jpeg);
     color: #fff;
     text-shadow: 0 0 5px #999;
 }
@@ -121,7 +139,10 @@ p{
     scroll-snap-align: start;
 }
 .two {
-    background-color: cyan;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(picture/coverpage.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
 }
 
 /*Second visualisation page*/
@@ -130,7 +151,10 @@ p{
     scroll-snap-align: start;
 }
 .three {
-    background-color: salmon;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(picture/coverpage.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
 }
 
 /*Third visualisation page*/
@@ -139,7 +163,10 @@ p{
     scroll-snap-align: start;
 }
 .four {
-    background-color: lightgreen;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(picture/coverpage.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
 }
 
 /*fourth visualisation page*/
@@ -148,7 +175,10 @@ p{
     scroll-snap-align: start;
 }
 .five {
-    background-color: lightsalmon;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(picture/coverpage.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
 }
 
 /*fifth visualisation page*/
@@ -157,7 +187,10 @@ p{
     scroll-snap-align: start;
 }
 .six {
-    background-color: grey;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(picture/coverpage.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
 }
 
 /* Shared container layout */
@@ -178,9 +211,6 @@ p{
 }
 
 /* Visualization container styling */
-.visualization {
-    width: 55%;
-    margin-right: 20px;
-}
+
 
 
