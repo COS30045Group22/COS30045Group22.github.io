@@ -206,6 +206,9 @@ svg.selectAll("path")
             .attr("stroke-width", 1);
     });
 
+    // Initial rendering with "Asia" as default
+    updateChart("Asia", "all");
+
     // Event listeners for filters
     d3.select("#region-select").on("change", function() {
         const region = d3.select(this).property("value");
