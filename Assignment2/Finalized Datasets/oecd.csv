@@ -1,0 +1,451 @@
+Country,Continent,Age Group,Suicide Rate
+Austria,Europe,15-19,5.5
+Belgium,Europe,15-19,5.5
+Czech Republic,Europe,15-19,6.1
+Denmark,Europe,15-19,3.5
+Estonia,Europe,15-19,12.1
+Finland,Europe,15-19,10.8
+France,Europe,15-19,3
+Germany,Europe,15-19,4
+Greece,Europe,15-19,1.5
+Hungary,Europe,15-19,4.5
+Iceland,Europe,15-19,8.9
+Ireland,Europe,15-19,5.4
+Israel,Asia,15-19,2.3
+Italy,Europe,15-19,2.5
+Japan,Asia,15-19,11.4
+Korea,Asia,15-19,10.4
+Latvia,Europe,15-19,3.3
+Lithuania,Europe,15-19,8.5
+Luxembourg,Europe,15-19,0
+Netherlands,Europe,15-19,5.2
+Norway,Europe,15-19,10.1
+Poland,Europe,15-19,6.9
+Portugal,Europe,15-19,2.2
+Slovak Republic,Europe,15-19,4.9
+Slovenia,Europe,15-19,8.5
+Spain,Europe,15-19,2.2
+Sweden,Europe,15-19,7.8
+Switzerland,Europe,15-19,7.4
+Turkey,Asia,15-19,5
+United Kingdom,Europe,15-19,4.9
+Austria,Europe,20-24,7.6
+Belgium,Europe,20-24,10.6
+Czech Republic,Europe,20-24,10.1
+Denmark,Europe,20-24,11.2
+Estonia,Europe,20-24,17.6
+Finland,Europe,20-24,15.7
+France,Europe,20-24,5.3
+Germany,Europe,20-24,7.1
+Greece,Europe,20-24,3
+Hungary,Europe,20-24,8.7
+Iceland,Europe,20-24,7.8
+Ireland,Europe,20-24,14.5
+Israel,Asia,20-24,6.2
+Italy,Europe,20-24,5
+Japan,Asia,20-24,21
+Korea,Asia,20-24,19.6
+Latvia,Europe,20-24,13.3
+Lithuania,Europe,20-24,17.7
+Luxembourg,Europe,20-24,2.6
+Netherlands,Europe,20-24,9
+Norway,Europe,20-24,10.8
+Poland,Europe,20-24,11.8
+Portugal,Europe,20-24,4.8
+Slovak Republic,Europe,20-24,6.4
+Slovenia,Europe,20-24,9.7
+Spain,Europe,20-24,5.2
+Sweden,Europe,20-24,15.5
+Switzerland,Europe,20-24,11.1
+Turkey,Asia,20-24,6.3
+United Kingdom,Europe,20-24,8.8
+Austria,Europe,25-29,6.8
+Belgium,Europe,25-29,11.5
+Czech Republic,Europe,25-29,10.9
+Denmark,Europe,25-29,8.5
+Estonia,Europe,25-29,21.5
+Finland,Europe,25-29,18.6
+France,Europe,25-29,8
+Germany,Europe,25-29,7.3
+Greece,Europe,25-29,3.7
+Hungary,Europe,25-29,8.9
+Iceland,Europe,25-29,16.5
+Ireland,Europe,25-29,11.3
+Israel,Asia,25-29,4.7
+Italy,Europe,25-29,4.6
+Japan,Asia,25-29,19.7
+Korea,Asia,25-29,23.7
+Latvia,Europe,25-29,7.9
+Lithuania,Europe,25-29,15.7
+Luxembourg,Europe,25-29,4.2
+Netherlands,Europe,25-29,8.9
+Norway,Europe,25-29,14.2
+Poland,Europe,25-29,14
+Portugal,Europe,25-29,4.6
+Slovak Republic,Europe,25-29,5.6
+Slovenia,Europe,25-29,2.6
+Spain,Europe,25-29,5.5
+Sweden,Europe,25-29,14.8
+Switzerland,Europe,25-29,9.6
+Turkey,Asia,25-29,5.8
+United Kingdom,Europe,25-29,10.5
+Austria,Europe,30-34,9.9
+Belgium,Europe,30-34,15.3
+Czech Republic,Europe,30-34,9.9
+Denmark,Europe,30-34,6.6
+Estonia,Europe,30-34,10
+Finland,Europe,30-34,16.4
+France,Europe,30-34,10.1
+Germany,Europe,30-34,7.8
+Greece,Europe,30-34,3.7
+Hungary,Europe,30-34,8.4
+Iceland,Europe,30-34,6.8
+Ireland,Europe,30-34,9.9
+Israel,Asia,30-34,7.8
+Italy,Europe,30-34,5.5
+Japan,Asia,30-34,18.7
+Korea,Asia,30-34,25.8
+Latvia,Europe,30-34,11.1
+Lithuania,Europe,30-34,16.9
+Luxembourg,Europe,30-34,9.7
+Netherlands,Europe,30-34,10
+Norway,Europe,30-34,15.9
+Poland,Europe,30-34,12.8
+Portugal,Europe,30-34,7.2
+Slovak Republic,Europe,30-34,6
+Slovenia,Europe,30-34,13.4
+Spain,Europe,30-34,6.8
+Sweden,Europe,30-34,14.8
+Switzerland,Europe,30-34,8.4
+Turkey,Asia,30-34,5.8
+United Kingdom,Europe,30-34,11.4
+Austria,Europe,35-39,7.5
+Belgium,Europe,35-39,14.8
+Czech Republic,Europe,35-39,12.6
+Denmark,Europe,35-39,10.1
+Estonia,Europe,35-39,15.5
+Finland,Europe,35-39,17.4
+France,Europe,35-39,13.6
+Germany,Europe,35-39,9.5
+Greece,Europe,35-39,3.6
+Hungary,Europe,35-39,12.4
+Iceland,Europe,35-39,3.8
+Ireland,Europe,35-39,11.5
+Israel,Asia,35-39,4.9
+Italy,Europe,35-39,5.5
+Japan,Asia,35-39,18.3
+Korea,Asia,35-39,28.1
+Latvia,Europe,35-39,17.2
+Lithuania,Europe,35-39,17.8
+Luxembourg,Europe,35-39,6
+Netherlands,Europe,35-39,12.5
+Norway,Europe,35-39,15.1
+Poland,Europe,35-39,14.1
+Portugal,Europe,35-39,6.3
+Slovak Republic,Europe,35-39,5.9
+Slovenia,Europe,35-39,17.2
+Spain,Europe,35-39,7.3
+Sweden,Europe,35-39,11.8
+Switzerland,Europe,35-39,8.5
+Turkey,Asia,35-39,4.8
+United Kingdom,Europe,35-39,13
+Austria,Europe,40-44,8.1
+Belgium,Europe,40-44,20.9
+Czech Republic,Europe,40-44,11.7
+Denmark,Europe,40-44,9.8
+Estonia,Europe,40-44,23
+Finland,Europe,40-44,21.9
+France,Europe,40-44,16.1
+Germany,Europe,40-44,9.8
+Greece,Europe,40-44,5
+Hungary,Europe,40-44,13.7
+Iceland,Europe,40-44,20
+Ireland,Europe,40-44,13.8
+Israel,Asia,40-44,4.6
+Italy,Europe,40-44,7
+Japan,Asia,40-44,19.1
+Korea,Asia,40-44,28.2
+Latvia,Europe,40-44,20.5
+Lithuania,Europe,40-44,16.1
+Luxembourg,Europe,40-44,6.2
+Netherlands,Europe,40-44,11.5
+Norway,Europe,40-44,15.3
+Poland,Europe,40-44,15.1
+Portugal,Europe,40-44,7.3
+Slovak Republic,Europe,40-44,7.5
+Slovenia,Europe,40-44,19.3
+Spain,Europe,40-44,9.3
+Sweden,Europe,40-44,14.2
+Switzerland,Europe,40-44,8.4
+Turkey,Asia,40-44,4.7
+United Kingdom,Europe,40-44,11.5
+Austria,Europe,45-49,12.3
+Belgium,Europe,45-49,22.9
+Czech Republic,Europe,45-49,13.5
+Denmark,Europe,45-49,11.4
+Estonia,Europe,45-49,12.1
+Finland,Europe,45-49,14.6
+France,Europe,45-49,19.8
+Germany,Europe,45-49,10.2
+Greece,Europe,45-49,5.8
+Hungary,Europe,45-49,19.1
+Iceland,Europe,45-49,16.8
+Ireland,Europe,45-49,13.7
+Israel,Asia,45-49,8.2
+Italy,Europe,45-49,7.6
+Japan,Asia,45-49,19.1
+Korea,Asia,45-49,30
+Latvia,Europe,45-49,20.9
+Lithuania,Europe,45-49,25
+Luxembourg,Europe,45-49,6.5
+Netherlands,Europe,45-49,15.6
+Norway,Europe,45-49,16.7
+Poland,Europe,45-49,15.2
+Portugal,Europe,45-49,11.2
+Slovak Republic,Europe,45-49,6.4
+Slovenia,Europe,45-49,15.3
+Spain,Europe,45-49,11.1
+Sweden,Europe,45-49,13.1
+Switzerland,Europe,45-49,10.7
+Turkey,Asia,45-49,4.7
+United Kingdom,Europe,45-49,14.5
+Austria,Europe,50-54,12.1
+Belgium,Europe,50-54,26.5
+Czech Republic,Europe,50-54,16.5
+Denmark,Europe,50-54,15.7
+Estonia,Europe,50-54,11.6
+Finland,Europe,50-54,14.2
+France,Europe,50-54,21.2
+Germany,Europe,50-54,13.6
+Greece,Europe,50-54,6.1
+Hungary,Europe,50-54,20.4
+Iceland,Europe,50-54,4.6
+Ireland,Europe,50-54,12.6
+Israel,Asia,50-54,7
+Italy,Europe,50-54,8
+Japan,Asia,50-54,20.4
+Korea,Asia,50-54,29.3
+Latvia,Europe,50-54,15.6
+Lithuania,Europe,50-54,25.7
+Luxembourg,Europe,50-54,6.4
+Netherlands,Europe,50-54,16.4
+Norway,Europe,50-54,19
+Poland,Europe,50-54,15.9
+Portugal,Europe,50-54,13.1
+Slovak Republic,Europe,50-54,8.3
+Slovenia,Europe,50-54,15.9
+Spain,Europe,50-54,12.4
+Sweden,Europe,50-54,17.5
+Switzerland,Europe,50-54,14.6
+Turkey,Asia,50-54,5.4
+United Kingdom,Europe,50-54,13.2
+Austria,Europe,55-59,15.2
+Belgium,Europe,55-59,26.1
+Czech Republic,Europe,55-59,14.7
+Denmark,Europe,55-59,13.2
+Estonia,Europe,55-59,9.5
+Finland,Europe,55-59,16.3
+France,Europe,55-59,19.3
+Germany,Europe,55-59,14.6
+Greece,Europe,55-59,5.7
+Hungary,Europe,55-59,29.3
+Iceland,Europe,55-59,27
+Ireland,Europe,55-59,14.9
+Israel,Asia,55-59,10
+Italy,Europe,55-59,8.4
+Japan,Asia,55-59,20.2
+Korea,Asia,55-59,31.8
+Latvia,Europe,55-59,19
+Lithuania,Europe,55-59,26.5
+Luxembourg,Europe,55-59,4.5
+Netherlands,Europe,55-59,15.6
+Norway,Europe,55-59,17.9
+Poland,Europe,55-59,17.5
+Portugal,Europe,55-59,13.6
+Slovak Republic,Europe,55-59,12
+Slovenia,Europe,55-59,17.2
+Spain,Europe,55-59,11.8
+Sweden,Europe,55-59,21.6
+Switzerland,Europe,55-59,15.2
+Turkey,Asia,55-59,5.4
+United Kingdom,Europe,55-59,11.1
+Austria,Europe,60-64,17.1
+Belgium,Europe,60-64,22
+Czech Republic,Europe,60-64,13.4
+Denmark,Europe,60-64,14.5
+Estonia,Europe,60-64,14
+Finland,Europe,60-64,16.7
+France,Europe,60-64,17
+Germany,Europe,60-64,14.1
+Greece,Europe,60-64,7.2
+Hungary,Europe,60-64,26.3
+Iceland,Europe,60-64,19.1
+Ireland,Europe,60-64,14.8
+Israel,Asia,60-64,4
+Italy,Europe,60-64,8.4
+Japan,Asia,60-64,18.9
+Korea,Asia,60-64,29.7
+Latvia,Europe,60-64,14.9
+Lithuania,Europe,60-64,33.6
+Luxembourg,Europe,60-64,8.3
+Netherlands,Europe,60-64,14.8
+Norway,Europe,60-64,15
+Poland,Europe,60-64,18.6
+Portugal,Europe,60-64,12.6
+Slovak Republic,Europe,60-64,8.5
+Slovenia,Europe,60-64,20.8
+Spain,Europe,60-64,11.7
+Sweden,Europe,60-64,16.6
+Switzerland,Europe,60-64,17.1
+Turkey,Asia,60-64,4.6
+United Kingdom,Europe,60-64,9.7
+Austria,Europe,65-69,15.7
+Belgium,Europe,65-69,22
+Czech Republic,Europe,65-69,12.8
+Denmark,Europe,65-69,14.4
+Estonia,Europe,65-69,28
+Finland,Europe,65-69,10.7
+France,Europe,65-69,16.9
+Germany,Europe,65-69,14.1
+Greece,Europe,65-69,5.4
+Hungary,Europe,65-69,21.1
+Iceland,Europe,65-69,16.9
+Ireland,Europe,65-69,12.5
+Israel,Asia,65-69,7.5
+Italy,Europe,65-69,8.4
+Japan,Asia,65-69,16
+Korea,Asia,65-69,30.6
+Latvia,Europe,65-69,14.3
+Lithuania,Europe,65-69,25.6
+Luxembourg,Europe,65-69,13.9
+Netherlands,Europe,65-69,11.5
+Norway,Europe,65-69,9.4
+Poland,Europe,65-69,15.5
+Portugal,Europe,65-69,11.9
+Slovak Republic,Europe,65-69,9.9
+Slovenia,Europe,65-69,28.8
+Spain,Europe,65-69,9.4
+Sweden,Europe,65-69,15.5
+Switzerland,Europe,65-69,14.8
+Turkey,Asia,65-69,4.4
+United Kingdom,Europe,65-69,7.1
+Austria,Europe,70-74,21.1
+Belgium,Europe,70-74,19.8
+Czech Republic,Europe,70-74,19.6
+Denmark,Europe,70-74,15.5
+Estonia,Europe,70-74,22.4
+Finland,Europe,70-74,13.1
+France,Europe,70-74,16.2
+Germany,Europe,70-74,14.6
+Greece,Europe,70-74,4.4
+Hungary,Europe,70-74,25.5
+Iceland,Europe,70-74,6.9
+Ireland,Europe,70-74,7.3
+Israel,Asia,70-74,9.2
+Italy,Europe,70-74,9.1
+Japan,Asia,70-74,17.2
+Korea,Asia,70-74,34.2
+Latvia,Europe,70-74,13.7
+Lithuania,Europe,70-74,33.6
+Luxembourg,Europe,70-74,4.3
+Netherlands,Europe,70-74,11.8
+Norway,Europe,70-74,13.1
+Poland,Europe,70-74,11.5
+Portugal,Europe,70-74,14.7
+Slovak Republic,Europe,70-74,12
+Slovenia,Europe,70-74,30.6
+Spain,Europe,70-74,9.8
+Sweden,Europe,70-74,13.9
+Switzerland,Europe,70-74,15.7
+Turkey,Asia,70-74,4.3
+United Kingdom,Europe,70-74,6.3
+Austria,Europe,75-79,30.8
+Belgium,Europe,75-79,19.4
+Czech Republic,Europe,75-79,20.7
+Denmark,Europe,75-79,10.5
+Estonia,Europe,75-79,11
+Finland,Europe,75-79,7.6
+France,Europe,75-79,19.4
+Germany,Europe,75-79,19.7
+Greece,Europe,75-79,5
+Hungary,Europe,75-79,31.8
+Iceland,Europe,75-79,0
+Ireland,Europe,75-79,4.2
+Israel,Asia,75-79,9.4
+Italy,Europe,75-79,11.7
+Japan,Asia,75-79,18.6
+Korea,Asia,75-79,44.5
+Latvia,Europe,75-79,17.9
+Lithuania,Europe,75-79,36.3
+Luxembourg,Europe,75-79,6
+Netherlands,Europe,75-79,13.7
+Norway,Europe,75-79,13
+Poland,Europe,75-79,11.9
+Portugal,Europe,75-79,17.7
+Slovak Republic,Europe,75-79,10.8
+Slovenia,Europe,75-79,41.3
+Spain,Europe,75-79,14.4
+Sweden,Europe,75-79,14.7
+Switzerland,Europe,75-79,22.9
+Turkey,Asia,75-79,5.5
+United Kingdom,Europe,75-79,5.5
+Austria,Europe,80-84,37.6
+Belgium,Europe,80-84,24.2
+Czech Republic,Europe,80-84,22.2
+Denmark,Europe,80-84,21.1
+Estonia,Europe,80-84,20.8
+Finland,Europe,80-84,15.5
+France,Europe,80-84,25.9
+Germany,Europe,80-84,26.1
+Greece,Europe,80-84,5.9
+Hungary,Europe,80-84,39.2
+Iceland,Europe,80-84,0
+Ireland,Europe,80-84,7.6
+Israel,Asia,80-84,12.6
+Italy,Europe,80-84,10.9
+Japan,Asia,80-84,19.6
+Korea,Asia,80-84,62.1
+Latvia,Europe,80-84,32
+Lithuania,Europe,80-84,31.5
+Luxembourg,Europe,80-84,15.6
+Netherlands,Europe,80-84,15.1
+Norway,Europe,80-84,5.7
+Poland,Europe,80-84,12.1
+Portugal,Europe,80-84,25.6
+Slovak Republic,Europe,80-84,11
+Slovenia,Europe,80-84,64.5
+Spain,Europe,80-84,17.7
+Sweden,Europe,80-84,17.9
+Switzerland,Europe,80-84,25.2
+Turkey,Asia,80-84,7.6
+United Kingdom,Europe,80-84,6.3
+Austria,Europe,85+,45.5
+Belgium,Europe,85+,25.6
+Czech Republic,Europe,85+,27
+Denmark,Europe,85+,25.3
+Estonia,Europe,85+,32.7
+Finland,Europe,85+,17.6
+France,Europe,85+,34
+Germany,Europe,85+,35.2
+Greece,Europe,85+,10.7
+Hungary,Europe,85+,42.8
+Iceland,Europe,85+,0
+Ireland,Europe,85+,3
+Israel,Asia,85+,18.2
+Italy,Europe,85+,12.7
+Japan,Asia,85+,18.7
+Korea,Asia,85+,63.3
+Latvia,Europe,85+,25.1
+Lithuania,Europe,85+,33.1
+Luxembourg,Europe,85+,16
+Netherlands,Europe,85+,13.4
+Norway,Europe,85+,13.8
+Poland,Europe,85+,12.5
+Portugal,Europe,85+,29.4
+Slovak Republic,Europe,85+,13.4
+Slovenia,Europe,85+,50.9
+Spain,Europe,85+,18.3
+Sweden,Europe,85+,21.5
+Switzerland,Europe,85+,28.3
+Turkey,Asia,85+,7.7
+United Kingdom,Europe,85+,8.1
